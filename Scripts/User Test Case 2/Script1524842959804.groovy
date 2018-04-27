@@ -24,21 +24,47 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.55.188:8085/')
 
-WebUI.setText(findTestObject('User/User Main Page/input_username'), username)
+WebUI.setText(findTestObject('User/User Cart/input_username'), 'user')
 
-WebUI.setText(findTestObject('User/User Main Page/input_password'), password)
+WebUI.setText(findTestObject('User/User Cart/input_password'), 'user')
 
-WebUI.click(findTestObject('User/User Main Page/button_Login'))
+WebUI.click(findTestObject('User/User Cart/button_Login'))
 
-WebUI.verifyElementText(findTestObject('User/User Main Page/h5_Garden'), 'Garden')
+WebUI.click(findTestObject('User/User Cart/button_add to cart'))
 
-WebUI.verifyElementText(findTestObject('User/User Main Page/h5_Banana'), 'Banana')
+WebUI.click(findTestObject('User/User Cart/button_add to cart'))
 
-WebUI.verifyElementText(findTestObject('User/User Main Page/h5_Orange'), 'Orange')
+WebUI.click(findTestObject('User/User Cart/button_add to cart'))
 
-WebUI.verifyElementText(findTestObject('User/User Main Page/h5_Papaya'), 'Papaya')
+WebUI.click(findTestObject('User/User Cart/button_add to cart'))
 
-WebUI.verifyElementText(findTestObject('User/User Main Page/h5_Rambutan'), 'Rambutan')
+WebUI.click(findTestObject('User/User Cart/button_add to cart'))
+
+WebUI.click(findTestObject('User/User Cart/span_5'))
+
+WebUI.setText(findTestObject('User/User Cart/input_amount'), '2')
+
+WebUI.click(findTestObject('User/User Cart/td_150 THB'))
+
+WebUI.setText(findTestObject('User/User Cart/input_amount'), '2')
+
+WebUI.click(findTestObject('User/User Cart/div_Shopping Cart'))
+
+WebUI.setText(findTestObject('User/User Cart/input_amount'), '2')
+
+WebUI.click(findTestObject('User/User Cart/td_12 THB'))
+
+WebUI.setText(findTestObject('User/User Cart/input_amount'), '5')
+
+WebUI.click(findTestObject('User/User Cart/div_col-4 center-block'))
+
+WebUI.setText(findTestObject('User/User Cart/input_amount'), '4')
+
+WebUI.click(findTestObject('User/User Cart/p_Total price  41000 THB'))
+
+WebUI.click(findTestObject('User/User Cart/button_confirm'))
+
+WebUI.click(findTestObject('User/User Cart/div_Well done You successfully'))
 
 WebUI.closeBrowser()
 
