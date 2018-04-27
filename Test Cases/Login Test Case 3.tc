@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login Test Case 2</name>
+   <name>Login Test Case 3</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>eca52c7f-cd49-469e-9598-8116806139f8</testCaseGuid>
+   <testCaseGuid>96e273be-fab1-4b40-b660-068425f0a976</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4139e3f6-b1c2-4b96-847d-0e7489bc5686</id>
+      <id>b6583c5b-fce3-426e-9ab6-f2f773b68492</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f80e25ab-837e-435c-9ccb-28380b78950f</id>
+      <id>80365547-afe8-48ad-b430-9e9aab6539a7</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>5fadc708-f307-4f0f-8f6e-3bc7d397ddbc</id>
+      <id>13601f7d-a782-4384-93da-2a5e0fb64e9e</id>
       <masked>false</masked>
       <name>notification</name>
    </variable>
