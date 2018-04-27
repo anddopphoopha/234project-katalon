@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Login Test Case 1" time="51" tests="0" failures="3" errors="0">
+   <testsuite name="Test Suite for Login Test Case 1" tests="0" failures="3" errors="0" time="51" timestamp="2018-04-27 21:36:52" hostname="Andrew_Dpp - Andrew_Dpp-PC" id="Test Suites/Test Suite for Login Test Case 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 1\\20180427_213649"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 1\\20180427_213649\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 1\\20180427_213649\\1524839827709.png, C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 1\\20180427_213649\\1524839845811.png, C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 1\\20180427_213649\\1524839863485.png"/>
+         <property name="hostName" value="Andrew_Dpp - Andrew_Dpp-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="c70149d6c9062383d55e562417fb0972"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case 1" classname="Test Cases/Login Test Case 1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-04-27 21:36:53 - [TEST_CASE][FAILED] - Test Cases/Login Test Case 1: Test Cases/Login Test Case 1 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-04-27 21:36:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-27 21:36:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-27 21:36:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 21:37:06 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 21:37:06 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login/Login Fail 1/input_username'
+
+2018-04-27 21:37:07 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login/Login Fail 1/input_username'
+
+2018-04-27 21:37:07 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login/Login Fail 1/input_password'
+
+2018-04-27 21:37:07 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login/Login Fail 1/input_password'
+
+2018-04-27 21:37:07 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-04-27 21:37:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/User/Page_ProjectBackend/button_Login' does not exist
+
+2018-04-27 21:37:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-04-27 21:37:08 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 1\\20180427_213649\\1524839827709.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-27 21:36:53 - [TEST_CASE][FAILED] - Test Cases/Login Test Case 1: Test Cases/Login Test Case 1 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case 1" classname="Test Cases/Login Test Case 1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-04-27 21:37:08 - [TEST_CASE][FAILED] - Test Cases/Login Test Case 1: Test Cases/Login Test Case 1 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-04-27 21:37:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-27 21:37:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-27 21:37:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-27 21:37:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 21:37:25 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 21:37:25 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login/Login Fail 1/input_username'
+
+2018-04-27 21:37:25 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login/Login Fail 1/input_username'
+
+2018-04-27 21:37:25 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login/Login Fail 1/input_password'
+
+2018-04-27 21:37:25 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login/Login Fail 1/input_password'
+
+2018-04-27 21:37:25 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-04-27 21:37:25 - [MESSAGE][WARNING] - Test object with id 'Object Repository/User/Page_ProjectBackend/button_Login' does not exist
+
+2018-04-27 21:37:25 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-04-27 21:37:26 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 1\\20180427_213649\\1524839845811.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-27 21:37:08 - [TEST_CASE][FAILED] - Test Cases/Login Test Case 1: Test Cases/Login Test Case 1 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case 1" classname="Test Cases/Login Test Case 1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-04-27 21:37:26 - [TEST_CASE][FAILED] - Test Cases/Login Test Case 1: Test Cases/Login Test Case 1 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-04-27 21:37:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-27 21:37:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-27 21:37:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-27 21:37:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 21:37:42 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 21:37:42 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/Login Fail 1/input_username'
+
+2018-04-27 21:37:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Login Fail 1/input_username'
+
+2018-04-27 21:37:43 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/Login Fail 1/input_password'
+
+2018-04-27 21:37:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Login Fail 1/input_password'
+
+2018-04-27 21:37:43 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-04-27 21:37:43 - [MESSAGE][WARNING] - Test object with id 'Object Repository/User/Page_ProjectBackend/button_Login' does not exist
+
+2018-04-27 21:37:43 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-04-27 21:37:43 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 1\\20180427_213649\\1524839863485.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-27 21:37:26 - [TEST_CASE][FAILED] - Test Cases/Login Test Case 1: Test Cases/Login Test Case 1 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-27 21:36:52 - [TEST_SUITE][FAILED] - Test Suite for Login Test Case 1: Test Cases/Login Test Case 1 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-04-27 21:36:52 - [TEST_SUITE][FAILED] - Test Suite for Login Test Case 1: Test Cases/Login Test Case 1 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>
