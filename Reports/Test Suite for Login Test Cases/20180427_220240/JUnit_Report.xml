@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Login Test Cases" time="106" tests="6" failures="0" errors="0">
+   <testsuite name="Test Suite for Login Test Cases" tests="6" failures="0" errors="0" time="106" timestamp="2018-04-27 22:02:43" hostname="Andrew_Dpp - Andrew_Dpp-PC" id="Test Suites/Test Suite for Login Test Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Cases\\20180427_220240"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Cases\\20180427_220240\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - Andrew_Dpp-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="67cc8e93e70637da97ea377aeccbda77"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case 1" classname="Test Cases/Login Test Case 1" status="PASSED">
+         <system-out><![CDATA[2018-04-27 22:02:44 - [TEST_CASE][PASSED] - Test Cases/Login Test Case 1: Test Cases/Login Test Case 1
+
+2018-04-27 22:02:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-27 22:02:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-27 22:02:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:03:02 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:03:02 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login/Login Success/input_username'
+
+2018-04-27 22:03:02 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login/Login Success/input_username'
+
+2018-04-27 22:03:02 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login/Login Success/input_password'
+
+2018-04-27 22:03:03 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login/Login Success/input_password'
+
+2018-04-27 22:03:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Success/button_Login' is clicked on
+
+2018-04-27 22:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Success/button_Login' is clicked on
+
+2018-04-27 22:03:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Success/menu1' are matched.
+
+2018-04-27 22:03:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Success/menu1' are matched.
+
+2018-04-27 22:03:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Success/menu2' are matched.
+
+2018-04-27 22:03:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Success/menu2' are matched.
+
+2018-04-27 22:03:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Success/button_Logout' is clicked on
+
+2018-04-27 22:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Success/button_Logout' is clicked on
+
+2018-04-27 22:03:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-27 22:03:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case 1" classname="Test Cases/Login Test Case 1" status="PASSED">
+         <system-out><![CDATA[2018-04-27 22:03:07 - [TEST_CASE][PASSED] - Test Cases/Login Test Case 1: Test Cases/Login Test Case 1
+
+2018-04-27 22:03:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-27 22:03:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-27 22:03:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:03:18 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:03:18 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login/Login Success/input_username'
+
+2018-04-27 22:03:19 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login/Login Success/input_username'
+
+2018-04-27 22:03:19 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login/Login Success/input_password'
+
+2018-04-27 22:03:19 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login/Login Success/input_password'
+
+2018-04-27 22:03:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Success/button_Login' is clicked on
+
+2018-04-27 22:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Success/button_Login' is clicked on
+
+2018-04-27 22:03:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Success/menu1' are matched.
+
+2018-04-27 22:03:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Success/menu1' are matched.
+
+2018-04-27 22:03:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Success/menu2' are matched.
+
+2018-04-27 22:03:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Success/menu2' are matched.
+
+2018-04-27 22:03:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Success/button_Logout' is clicked on
+
+2018-04-27 22:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Success/button_Logout' is clicked on
+
+2018-04-27 22:03:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-27 22:03:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case 1" classname="Test Cases/Login Test Case 1" status="PASSED">
+         <system-out><![CDATA[2018-04-27 22:03:21 - [TEST_CASE][PASSED] - Test Cases/Login Test Case 1: Test Cases/Login Test Case 1
+
+2018-04-27 22:03:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-27 22:03:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-27 22:03:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:03:43 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:03:43 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/Login Success/input_username'
+
+2018-04-27 22:03:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Login Success/input_username'
+
+2018-04-27 22:03:43 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/Login Success/input_password'
+
+2018-04-27 22:03:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Login Success/input_password'
+
+2018-04-27 22:03:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Success/button_Login' is clicked on
+
+2018-04-27 22:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Success/button_Login' is clicked on
+
+2018-04-27 22:03:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Success/menu1' are matched.
+
+2018-04-27 22:03:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Success/menu1' are matched.
+
+2018-04-27 22:03:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Success/menu2' are matched.
+
+2018-04-27 22:03:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Success/menu2' are matched.
+
+2018-04-27 22:03:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Success/button_Logout' is clicked on
+
+2018-04-27 22:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Success/button_Logout' is clicked on
+
+2018-04-27 22:03:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-27 22:03:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case 4" classname="Test Cases/Login Test Case 4" status="PASSED">
+         <system-out><![CDATA[2018-04-27 22:03:46 - [TEST_CASE][PASSED] - Test Cases/Login Test Case 4: Test Cases/Login Test Case 4
+
+2018-04-27 22:03:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-27 22:03:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-27 22:03:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:03:59 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:03:59 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login/Login Fail 3/input_username'
+
+2018-04-27 22:03:59 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login/Login Fail 3/input_username'
+
+2018-04-27 22:03:59 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-04-27 22:03:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-04-27 22:03:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Fail 1/button_Login' is clicked on
+
+2018-04-27 22:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Fail 1/button_Login' is clicked on
+
+2018-04-27 22:04:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-04-27 22:04:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-04-27 22:04:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-27 22:04:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case 2" classname="Test Cases/Login Test Case 2" status="PASSED">
+         <system-out><![CDATA[2018-04-27 22:04:01 - [TEST_CASE][PASSED] - Test Cases/Login Test Case 2: Test Cases/Login Test Case 2
+
+2018-04-27 22:04:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-27 22:04:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-27 22:04:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:04:13 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:04:13 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login/Login Fail 1/input_username'
+
+2018-04-27 22:04:13 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login/Login Fail 1/input_username'
+
+2018-04-27 22:04:13 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login/Login Fail 1/input_password'
+
+2018-04-27 22:04:13 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login/Login Fail 1/input_password'
+
+2018-04-27 22:04:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Fail 1/button_Login' is clicked on
+
+2018-04-27 22:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Fail 1/button_Login' is clicked on
+
+2018-04-27 22:04:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 1/notification' are matched.
+
+2018-04-27 22:04:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 1/notification' are matched.
+
+2018-04-27 22:04:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-27 22:04:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case 3" classname="Test Cases/Login Test Case 3" status="PASSED">
+         <system-out><![CDATA[2018-04-27 22:04:16 - [TEST_CASE][PASSED] - Test Cases/Login Test Case 3: Test Cases/Login Test Case 3
+
+2018-04-27 22:04:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-27 22:04:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-27 22:04:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:04:28 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-27 22:04:28 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-27 22:04:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-27 22:04:28 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login/Login Fail 2/input_password'
+
+2018-04-27 22:04:28 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login/Login Fail 2/input_password'
+
+2018-04-27 22:04:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Fail 2/button_Login' is clicked on
+
+2018-04-27 22:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Fail 2/button_Login' is clicked on
+
+2018-04-27 22:04:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-04-27 22:04:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-04-27 22:04:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-27 22:04:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-27 22:02:43 - [TEST_SUITE][PASSED] - Test Suite for Login Test Cases: Test Cases/Login Test Case 3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
