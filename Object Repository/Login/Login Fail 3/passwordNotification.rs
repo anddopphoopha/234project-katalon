@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>usernameNotification</name>
+   <name>passwordNotification</name>
    <tag></tag>
-   <elementGuidId>c9aa2be7-ff4a-4ff6-bb40-81da091cef2a</elementGuidId>
+   <elementGuidId>c2104c3f-1901-45d6-8f0c-cfa8ddde072e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-login/div/form/div[1]/label[2]</value>
+         <value>/html/body/app-root/app-login/div/form/div[2]/label[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-login/div/form/div[1]/label[2]</value>
+      <value>/html/body/app-root/app-login/div/form/div[2]/label[2]</value>
    </webElementProperties>
 </WebElementEntity>

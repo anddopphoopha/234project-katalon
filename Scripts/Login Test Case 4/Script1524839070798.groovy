@@ -24,17 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.55.188:8085/')
 
-WebUI.setText(findTestObject('Login/Login Success/input_username'), username)
+WebUI.setText(findTestObject('Login/Login Fail 3/input_username'), 'hello')
 
-WebUI.setText(findTestObject('Login/Login Success/input_password'), password)
+WebUI.setText(findTestObject('Login/Login Fail 3/input_password'), '')
 
-WebUI.click(findTestObject('Login/Login Success/button_Login'))
+WebUI.click(findTestObject('Login/Login Fail 1/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Login/Login Success/menu1'), menu1)
-
-WebUI.verifyElementText(findTestObject('Login/Login Success/menu2'), menu2)
-
-WebUI.click(findTestObject('Login/Login Success/button_Logout'))
+WebUI.verifyElementText(findTestObject('Login/Login Fail 3/passwordNotification'), 'Password is required')
 
 WebUI.closeBrowser()
 

@@ -24,11 +24,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.55.188:8085/')
 
-WebUI.setText(findTestObject('Login/Login Fail 1/input_username'), '')
+WebUI.setText(findTestObject('Login/Login Fail 2/input_username'), '')
 
-WebUI.setText(findTestObject('Login/Login Fail 1/input_password'), 'user')
+WebUI.setText(findTestObject('Login/Login Fail 2/input_password'), 'user')
 
-WebUI.click(findTestObject('Login/Login Fail 1/button_Login'))
+WebUI.click(findTestObject('Login/Login Fail 2/button_Login'))
 
 WebUI.verifyElementText(findTestObject('Login/Login Fail 2/usernameNotification'), 'Username is required')
 
