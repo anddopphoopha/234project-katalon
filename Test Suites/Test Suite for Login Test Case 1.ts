@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Suite for Login Test Case 1</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-04-27T21:00:30</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>543e66b1-a38f-43cb-845c-c5034c46a0b2</testSuiteGuid>
+   <testCaseLink>
+      <guid>653045d9-d8fd-445d-ad1f-deb940106468</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login Test Case 1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ce0d8c13-3508-4178-9c1c-d945ca365efe</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data for Login Test Case 1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ce0d8c13-3508-4178-9c1c-d945ca365efe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>9b65f809-2769-44fb-aae4-0bd5964714c5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ce0d8c13-3508-4178-9c1c-d945ca365efe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>d6fc517a-9eef-4cda-898e-badf9aafa88e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ce0d8c13-3508-4178-9c1c-d945ca365efe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>menu1</value>
+         <variableId>bbd18231-8f62-4f25-8aa8-7e4a5a0c11ee</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ce0d8c13-3508-4178-9c1c-d945ca365efe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>menu2</value>
+         <variableId>902372d5-5097-43da-b90c-1178575431e3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
