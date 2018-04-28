@@ -54,7 +54,7 @@ WebUI.setText(findTestObject('Admin/input_password'), 'user')
 
 WebUI.click(findTestObject('Admin/button_Login'))
 
-WebUI.click(findTestObject('Admin/button_add to cart'))
+WebUI.click(findTestObject('Admin/add to cart2'))
 
 WebUI.click(findTestObject('Admin/span_1'))
 

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_add to cart</name>
+   <name>add to cart2</name>
    <tag></tag>
    <elementGuidId>35eb614e-a48f-417d-8732-6a9923de6a1a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-product-list/div/div[2]/div/div[2]/a/div[2]/div[2]/button[count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,17 +34,17 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> add to cart</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-product-list[1]/div[@class=&quot;dashboard-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;farmer-all-card&quot;]/div[@class=&quot;farmer-card&quot;]/a[1]/div[@class=&quot;farmer-detail&quot;]/div[@class=&quot;col text-center&quot;]/button[@class=&quot;btn btn-outline-primary&quot;]</value>
+      <value>/html/body/app-root/app-product-list/div/div[2]/div/div[2]/a/div[2]/div[2]/button</value>
    </webElementProperties>
 </WebElementEntity>
