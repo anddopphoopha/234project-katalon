@@ -4,7 +4,7 @@
    <name>Test Suite for Logout Test Case 1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-28T11:23:23</lastRun>
+   <lastRun>2018-04-28T12:28:32</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
