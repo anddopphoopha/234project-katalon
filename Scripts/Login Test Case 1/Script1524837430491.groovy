@@ -34,7 +34,5 @@ WebUI.verifyElementText(findTestObject('Login/Login Success/menu1'), menu1)
 
 WebUI.verifyElementText(findTestObject('Login/Login Success/menu2'), menu2)
 
-WebUI.click(findTestObject('Login/Login Success/button_Logout'))
-
 WebUI.closeBrowser()
 
