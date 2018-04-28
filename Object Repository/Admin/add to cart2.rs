@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-product-list/div/div[2]/div/div[3]/a/div[2]/div[2]/button[count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
+         <value>/html/body/app-root/app-product-list/div/div[2]/div/div[2]/a/div[2]/div[2]/button[count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-product-list/div/div[2]/div/div[3]/a/div[2]/div[2]/button</value>
+      <value>/html/body/app-root/app-product-list/div/div[2]/div/div[2]/a/div[2]/div[2]/button</value>
    </webElementProperties>
 </WebElementEntity>
