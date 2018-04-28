@@ -32,5 +32,7 @@ WebUI.click(findTestObject('Login/Login Fail 1/button_Login'))
 
 WebUI.verifyElementText(findTestObject('Login/Login Fail 1/notification'), 'Username/password is incorrect')
 
+WebUI.verifyEqual(WebUI.getUrl(), 'http://18.188.55.188:8085/')
+
 WebUI.closeBrowser()
 
