@@ -19,18 +19,4 @@
       <masked>false</masked>
       <name>password</name>
    </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>bbd18231-8f62-4f25-8aa8-7e4a5a0c11ee</id>
-      <masked>false</masked>
-      <name>menu1</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>902372d5-5097-43da-b90c-1178575431e3</id>
-      <masked>false</masked>
-      <name>menu2</name>
-   </variable>
 </TestCaseEntity>

@@ -36,17 +36,5 @@
          <value>password</value>
          <variableId>d6fc517a-9eef-4cda-898e-badf9aafa88e</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId>284b1fbf-5f4f-49f7-96da-e54474de1c05</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>menu1</value>
-         <variableId>bbd18231-8f62-4f25-8aa8-7e4a5a0c11ee</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>284b1fbf-5f4f-49f7-96da-e54474de1c05</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>menu2</value>
-         <variableId>902372d5-5097-43da-b90c-1178575431e3</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
