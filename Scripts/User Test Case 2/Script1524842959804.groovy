@@ -34,23 +34,23 @@ WebUI.setText(findTestObject('User/User Cart/input_password'), password)
 
 WebUI.click(findTestObject('User/User Cart/button_Login'))
 
-WebUI.click(findTestObject('User/User Cart/button_add to cart'))
+WebUI.click(findTestObject('User/User Cart/add to cart1'))
 
 WebUI.verifyElementText(findTestObject('User/User Cart/button_added'), 'already added')
 
-WebUI.click(findTestObject('User/User Cart/button_add to cart'))
+WebUI.click(findTestObject('User/User Cart/add to cart2'))
 
 WebUI.verifyElementText(findTestObject('User/User Cart/button_added'), 'already added')
 
-WebUI.click(findTestObject('User/User Cart/button_add to cart'))
+WebUI.click(findTestObject('User/User Cart/add to cart3'))
 
 WebUI.verifyElementText(findTestObject('User/User Cart/button_added'), 'already added')
 
-WebUI.click(findTestObject('User/User Cart/button_add to cart'))
+WebUI.click(findTestObject('User/User Cart/add to cart4'))
 
 WebUI.verifyElementText(findTestObject('User/User Cart/button_added'), 'already added')
 
-WebUI.click(findTestObject('User/User Cart/button_add to cart'))
+WebUI.click(findTestObject('User/User Cart/add to cart5'))
 
 WebUI.verifyElementText(findTestObject('User/User Cart/button_added'), 'already added')
 
