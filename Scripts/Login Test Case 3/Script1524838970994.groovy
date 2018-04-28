@@ -32,5 +32,7 @@ WebUI.click(findTestObject('Login/Login Fail 2/button_Login'))
 
 WebUI.verifyElementText(findTestObject('Login/Login Fail 2/usernameNotification'), 'Username is required')
 
+WebUI.verifyEqual(WebUI.getUrl(), 'http://18.188.55.188:8085/')
+
 WebUI.closeBrowser()
 
