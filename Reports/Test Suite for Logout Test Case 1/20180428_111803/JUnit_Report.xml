@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Logout Test Case 1" time="45" tests="0" failures="0" errors="1">
+   <testsuite name="Test Suite for Logout Test Case 1" tests="0" failures="0" errors="1" time="45" timestamp="2018-04-28 11:18:19" hostname="Andrew_Dpp - 10.80.100.145" id="Test Suites/Test Suite for Logout Test Case 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Logout Test Case 1\\20180428_111803"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Logout Test Case 1\\20180428_111803\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.100.145"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.80.100.145"/>
+         <property name="sessionId" value="2d9b0357636f9dba6b58691b4363c041"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Logout Test Case 1" classname="Test Cases/Logout Test Case 1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Logout Test Case 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText() is applicable for argument types: (java.lang.String, java.lang.String) values: [http://18.188.55.188:8085/, http://18.188.55.188:8085]
+Possible solutions: verifyElementText(com.kms.katalon.core.testobject.TestObject, java.lang.String), verifyElementText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2018-04-28 11:18:20 - [TEST_CASE][ERROR] - Test Cases/Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText() is applicable for argument types: (java.lang.String, java.lang.String) values: [http://18.188.55.188:8085/, http://18.188.55.188:8085]
+Possible solutions: verifyElementText(com.kms.katalon.core.testobject.TestObject, java.lang.String), verifyElementText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)
+
+2018-04-28 11:18:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-28 11:18:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-28 11:18:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-28 11:18:59 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-28 11:18:59 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Logout/input_username'
+
+2018-04-28 11:18:59 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Logout/input_username'
+
+2018-04-28 11:18:59 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Logout/input_password'
+
+2018-04-28 11:19:00 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Logout/input_password'
+
+2018-04-28 11:19:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/button_Login' is clicked on
+
+2018-04-28 11:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/button_Login' is clicked on
+
+2018-04-28 11:19:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/button_Logout' is clicked on
+
+2018-04-28 11:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/button_Logout' is clicked on
+
+2018-04-28 11:19:03 - [TEST_STEP][PASSED] - verifyElementText: Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-28 11:19:03 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/']]></system-out>
+         <system-err><![CDATA[2018-04-28 11:18:20 - [TEST_CASE][ERROR] - Test Cases/Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText() is applicable for argument types: (java.lang.String, java.lang.String) values: [http://18.188.55.188:8085/, http://18.188.55.188:8085]
+Possible solutions: verifyElementText(com.kms.katalon.core.testobject.TestObject, java.lang.String), verifyElementText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-28 11:18:19 - [TEST_SUITE][ERROR] - Test Suite for Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText() is applicable for argument types: (java.lang.String, java.lang.String) values: [http://18.188.55.188:8085/, http://18.188.55.188:8085]
+Possible solutions: verifyElementText(com.kms.katalon.core.testobject.TestObject, java.lang.String), verifyElementText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-out>
+      <system-err><![CDATA[2018-04-28 11:18:19 - [TEST_SUITE][ERROR] - Test Suite for Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText() is applicable for argument types: (java.lang.String, java.lang.String) values: [http://18.188.55.188:8085/, http://18.188.55.188:8085]
+Possible solutions: verifyElementText(com.kms.katalon.core.testobject.TestObject, java.lang.String), verifyElementText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+   </testsuite>
+</testsuites>

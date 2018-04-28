@@ -32,13 +32,7 @@ WebUI.click(findTestObject('Logout/button_Login'))
 
 WebUI.click(findTestObject('Logout/button_Logout'))
 
-WebUI.verifyElementText(findTestObject('Logout/h2_Login'), 'Login')
-
-WebUI.verifyElementText(findTestObject('Logout/label_Username'), 'Username')
-
-WebUI.verifyElementText(findTestObject('Logout/label_Password'), 'Password')
-
-WebUI.verifyElementText(findTestObject('Logout/button_Login'), 'Login')
+WebUI.verifyEqual(WebUI.getUrl(), 'http://18.188.55.188:8085/')
 
 WebUI.closeBrowser()
 
