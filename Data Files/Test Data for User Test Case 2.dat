@@ -10,45 +10,47 @@
    <driver>InternalData</driver>
    <data>user user 1 1 1 1 1 Total+price%3A+20%2C462+THB</data>
    <data>user user 3 2 2 2 2 Total+price%3A+60%2C924+THB</data>
+   <data>hello hello 1 1 1 1 1 Total+price%3A+20%2C462+THB</data>
+   <data>hello hello 3 2 2 2 2 Total+price%3A+60%2C924+THB</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>input_amount</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>input_amount2</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>input_amount3</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>input_amount4</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>6</columnIndex>
       <name>input_amount5</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>7</columnIndex>
       <name>totalprice</name>
-      <size>2</size>
+      <size>4</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

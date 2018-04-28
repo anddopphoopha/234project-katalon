@@ -56,6 +56,8 @@ WebUI.verifyElementText(findTestObject('User/User Cart/button_added'), 'already 
 
 WebUI.click(findTestObject('User/User Cart/cart_icon'))
 
+WebUI.verifyElementText(findTestObject('User/User Cart/cart_icon'), '5')
+
 WebUI.setText(findTestObject('User/User Cart/input_amount'), input_amount)
 
 WebUI.setText(findTestObject('User/User Cart/input_amount2'), input_amount2)
