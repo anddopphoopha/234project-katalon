@@ -4,6 +4,7 @@
    <name>Test Suite for Login Test Case 1 for User</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-04-28T12:23:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +15,7 @@
       <guid>11cffed6-b3b3-44d2-8f09-14a29deaad26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Test Case 1 for Admin</testCaseId>
+      <testCaseId>Test Cases/Login Test Case 1 for User</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>284b1fbf-5f4f-49f7-96da-e54474de1c05</id>
@@ -28,13 +29,13 @@
          <testDataLinkId>284b1fbf-5f4f-49f7-96da-e54474de1c05</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>9b65f809-2769-44fb-aae4-0bd5964714c5</variableId>
+         <variableId>91691e97-63fb-4712-9392-a00314b937cb</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>284b1fbf-5f4f-49f7-96da-e54474de1c05</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>d6fc517a-9eef-4cda-898e-badf9aafa88e</variableId>
+         <variableId>16fddc94-aada-4158-8021-3469c15f7ddc</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

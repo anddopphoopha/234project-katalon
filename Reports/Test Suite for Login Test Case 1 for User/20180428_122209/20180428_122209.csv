@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Login Test Case 1 for User,Chrome 65.0.3325.181,,2018-04-28 12:22:25,2018-04-28 12:23:05,40.276s,FAILED
+,,,,,,
+Test Cases/Login Test Case 1 for Admin,Chrome 65.0.3325.181,,2018-04-28 12:22:26,2018-04-28 12:23:04,38.281s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-28 12:22:27,2018-04-28 12:22:52,25.608s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-28 12:22:52,2018-04-28 12:23:00,8.176s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-28 12:23:00,2018-04-28 12:23:01,0.872s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-28 12:23:01,2018-04-28 12:23:02,0.343s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-28 12:23:02,2018-04-28 12:23:02,0.285s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-28 12:23:02,2018-04-28 12:23:03,1.286s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-28 12:23:03,2018-04-28 12:23:04,0.885s,FAILED
