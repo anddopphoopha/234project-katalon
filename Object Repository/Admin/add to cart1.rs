@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>add to cart2</name>
+   <name>add to cart1</name>
    <tag></tag>
-   <elementGuidId>35eb614e-a48f-417d-8732-6a9923de6a1a</elementGuidId>
+   <elementGuidId>ce4be46c-1349-4147-97ca-2884cffe3973</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button[count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
+         <value>/html/body/app-root/app-product-list/div/div[2]/div/div[2]/a/div[2]/div[2]/button[count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-product-list/div/div[2]/div/div[1]/a/div[2]/div[2]/button</value>
+      <value>/html/body/app-root/app-product-list/div/div[2]/div/div[2]/a/div[2]/div[2]/button</value>
    </webElementProperties>
 </WebElementEntity>
