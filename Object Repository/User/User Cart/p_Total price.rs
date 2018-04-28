@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Total price  41000 THB</name>
+   <name>p_Total price</name>
    <tag></tag>
-   <elementGuidId>906020a2-8f04-4631-b4ec-9dfcb60e7f4f</elementGuidId>
+   <elementGuidId>70212b6d-d578-41dc-a5bb-eeb6554b56ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;add-row&quot;]/div/div[2]/div/p</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,17 +20,17 @@
       <value>p</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Total price:  41,000 THB</value>
+      <value>Total price:  81,022 THB</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;offset-8 col-4&quot;]/p[1]</value>
+      <value>//*[@id=&quot;add-row&quot;]/div/div[2]/div/p</value>
    </webElementProperties>
 </WebElementEntity>

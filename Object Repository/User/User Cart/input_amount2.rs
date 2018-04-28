@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_add to cart</name>
+   <name>input_amount2</name>
    <tag></tag>
-   <elementGuidId>5870405a-d7c1-4704-890a-e8b425a3e012</elementGuidId>
+   <elementGuidId>16cf16c7-2042-4a25-9012-cb690d7aa7ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/app-root[1]/app-product-list[1]/div[@class=&quot;dashboard-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;farmer-all-card&quot;]/div[@class=&quot;farmer-card&quot;]/a[1]/div[@class=&quot;farmer-detail&quot;]/div[@class=&quot;col text-center&quot;]/button[@class=&quot;btn btn-outline-primary&quot;][count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
+         <value>//*[@id=&quot;add-row&quot;]/div/table/tbody/tr[2]/td[3]/div/input[count(. | //input[@name = 'amount' and @type = 'text']) = count(//input[@name = 'amount' and @type = 'text'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,34 +17,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-outline-primary</value>
+      <value>form-control ng-untouched ng-pristine ng-valid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>amount</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>ng-reflect-name</name>
       <type>Main</type>
-      <value> add to cart</value>
+      <value>amount</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-model</name>
+      <type>Main</type>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-product-list[1]/div[@class=&quot;dashboard-card&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;farmer-all-card&quot;]/div[@class=&quot;farmer-card&quot;]/a[1]/div[@class=&quot;farmer-detail&quot;]/div[@class=&quot;col text-center&quot;]/button[@class=&quot;btn btn-outline-primary&quot;]</value>
+      <value>//*[@id=&quot;add-row&quot;]/div/table/tbody/tr[2]/td[3]/div/input</value>
    </webElementProperties>
 </WebElementEntity>

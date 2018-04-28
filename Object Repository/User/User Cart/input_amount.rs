@@ -3,7 +3,13 @@
    <description></description>
    <name>input_amount</name>
    <tag></tag>
-   <elementGuidId>2074b928-f438-4ec6-bd9e-8a18fee0b741</elementGuidId>
+   <elementGuidId>f8e68453-d313-4934-80be-fee660ad9200</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;add-row&quot;]/div/table/tbody/tr[1]/td[3]/div/input[count(. | //input[@name = 'amount' and @type = 'text']) = count(//input[@name = 'amount' and @type = 'text'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-valid ng-dirty</value>
+      <value>form-control ng-untouched ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,13 +52,13 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-model</name>
       <type>Main</type>
-      <value>5</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/table[@class=&quot;table table-striped table-hover&quot;]/tbody[1]/tr[4]/td[3]/div[@class=&quot;col-4 center-block&quot;]/input[@class=&quot;form-control ng-untouched ng-valid ng-dirty&quot;]</value>
+      <value>//*[@id=&quot;add-row&quot;]/div/table/tbody/tr[1]/td[3]/div/input</value>
    </webElementProperties>
 </WebElementEntity>

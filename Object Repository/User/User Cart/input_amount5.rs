@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_amount</name>
+   <name>input_amount5</name>
    <tag></tag>
-   <elementGuidId>85c66d76-3b22-4f91-82ef-ad0f5fa3bfe6</elementGuidId>
+   <elementGuidId>43b1d135-e99d-4b05-8751-1ed576838b21</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;add-row&quot;]/div/table/tbody/tr[5]/td[3]/div/input[count(. | //input[@name = 'amount' and @type = 'text' and @ng-reflect-name = 'amount']) = count(//input[@name = 'amount' and @type = 'text' and @ng-reflect-name = 'amount'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-valid ng-dirty</value>
+      <value>form-control ng-untouched ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +41,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-name</name>
       <type>Main</type>
@@ -46,13 +52,13 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-model</name>
       <type>Main</type>
-      <value>2</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-row&quot;)/div[@class=&quot;col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content&quot;]/table[@class=&quot;table table-striped table-hover&quot;]/tbody[1]/tr[1]/td[3]/div[@class=&quot;col-4 center-block&quot;]/input[@class=&quot;form-control ng-untouched ng-valid ng-dirty&quot;]</value>
+      <value>//*[@id=&quot;add-row&quot;]/div/table/tbody/tr[5]/td[3]/div/input</value>
    </webElementProperties>
 </WebElementEntity>
