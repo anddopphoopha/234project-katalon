@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>added_papaya</name>
+   <tag></tag>
+   <elementGuidId>52ee2430-14c4-406c-a951-4a5645ec2b82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-product-list/div/div[2]/div/div[4]/a/div[2]/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-product-list/div/div[2]/div/div[4]/a/div[2]/div[2]/button</value>
+   </webElementProperties>
+</WebElementEntity>

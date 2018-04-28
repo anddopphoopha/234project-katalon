@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>added_orange</name>
+   <tag></tag>
+   <elementGuidId>19c8d537-d912-4502-9829-5f98d2a198c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-product-list/div/div[2]/div/div[3]/a/div[2]/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-product-list/div/div[2]/div/div[3]/a/div[2]/div[2]/button</value>
+   </webElementProperties>
+</WebElementEntity>
