@@ -30,9 +30,9 @@ WebUI.setText(findTestObject('Login/Login Success/input_password'), password)
 
 WebUI.click(findTestObject('Login/Login Success/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Login/Login Success/menu1'), menu1)
+WebUI.verifyElementText(findTestObject('Login/Login Success/menu1'), 'Products')
 
-WebUI.verifyElementText(findTestObject('Login/Login Success/menu2'), menu2)
+WebUI.verifyElementText(findTestObject('Login/Login Success/menu2'), 'Total Transaction')
 
 WebUI.verifyEqual(WebUI.getUrl(), 'http://18.188.55.188:8085/products')
 
