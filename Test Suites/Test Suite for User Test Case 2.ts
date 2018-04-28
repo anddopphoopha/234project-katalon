@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Suite for User Test Case 2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-04-28T10:06:02</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>ebca3878-cb02-4f7d-86ec-99375b56eda7</testSuiteGuid>
+   <testCaseLink>
+      <guid>e83671f1-873e-467c-902c-d351a213341f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Test Case 2</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>62ea59e0-67c4-4f5f-ac88-13d5f1f20371</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data for User Test Case 2</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>62ea59e0-67c4-4f5f-ac88-13d5f1f20371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>08db86c0-6ff1-43d3-b781-6e5f995b2573</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62ea59e0-67c4-4f5f-ac88-13d5f1f20371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>702bd339-4898-448e-b693-f1c245d6f6b7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62ea59e0-67c4-4f5f-ac88-13d5f1f20371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>input_amount</value>
+         <variableId>3ad1f13b-3df5-45b3-872a-04e1360686f5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62ea59e0-67c4-4f5f-ac88-13d5f1f20371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>input_amount2</value>
+         <variableId>1f21d7ac-1a3a-4d91-bdd5-39a2f24d8a40</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62ea59e0-67c4-4f5f-ac88-13d5f1f20371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>input_amount3</value>
+         <variableId>ce539874-ef9b-475b-84c2-262380a7c91f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62ea59e0-67c4-4f5f-ac88-13d5f1f20371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>input_amount4</value>
+         <variableId>580d27ac-4734-4371-a070-6038515471fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62ea59e0-67c4-4f5f-ac88-13d5f1f20371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>input_amount5</value>
+         <variableId>08877856-a6ed-4412-b668-fb1075a1b415</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62ea59e0-67c4-4f5f-ac88-13d5f1f20371</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>totalprice</value>
+         <variableId>77e14970-b6e7-4f41-b9eb-4aa33c2d6d25</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
