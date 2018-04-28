@@ -34,5 +34,7 @@ WebUI.verifyElementText(findTestObject('Login/Login Success/menu1'), menu1)
 
 WebUI.verifyElementText(findTestObject('Login/Login Success/menu2'), menu2)
 
+WebUI.verifyEqual(WebUI.getUrl(), 'http://18.188.55.188:8085/products')
+
 WebUI.closeBrowser()
 
