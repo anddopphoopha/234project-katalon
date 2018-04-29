@@ -136,5 +136,7 @@ println('No. of new rows ' + newRows.size())
 
 WebUI.verifyGreaterThan(newRows.size(), valueOfOldRows)
 
+WebUI.verifyEqual(newRows.size()-valueOfOldRows, 1)
+
 WebUI.closeBrowser()
 
