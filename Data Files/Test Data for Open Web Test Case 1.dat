@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Test Data for Open Web Test Case 1</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>f67392e5-9c2b-4b5c-a07f-8acca699f834</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>http%3A%2F%2F18.188.55.188%3A8085%2F</data>
+   <data>http%3A%2F%2F18.188.55.188%3A8085%2Fproducts</data>
+   <data>http%3A%2F%2F18.188.55.188%3A8085%2Fcart</data>
+   <data>http%3A%2F%2F18.188.55.188%3A8085%2Ftotal</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>link</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

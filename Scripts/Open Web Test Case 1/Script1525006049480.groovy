@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.188.55.188:8085/')
+WebUI.navigateToUrl(link)
 
 WebUI.verifyElementPresent(findTestObject('Open Web/Header1'), 0)
 
