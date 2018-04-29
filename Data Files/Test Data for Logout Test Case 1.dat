@@ -8,9 +8,9 @@
    <dataFileGUID>305987ae-9611-4e0f-b793-d06dda8d09eb</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>user user</data>
-   <data>hello hello</data>
-   <data>admin admin</data>
+   <data>user user http%3A%2F%2F18.188.55.188%3A8085%2Fproducts</data>
+   <data>hello hello http%3A%2F%2F18.188.55.188%3A8085%2Fproducts</data>
+   <data>admin admin http%3A%2F%2F18.188.55.188%3A8085%2Fproducts</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
@@ -19,6 +19,11 @@
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>link</name>
       <size>3</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
