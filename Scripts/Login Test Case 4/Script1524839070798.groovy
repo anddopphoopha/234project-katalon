@@ -19,6 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.By as By
 
 WebUI.openBrowser('')
 
@@ -26,9 +30,13 @@ WebUI.navigateToUrl('http://18.188.55.188:8085/')
 
 WebUI.setText(findTestObject('Login/Login Fail 3/input_username'), 'hello')
 
-WebUI.setText(findTestObject('Login/Login Fail 3/input_password'), '')
+WebUI.setText(findTestObject('Login/Login Fail 3/input_password'), 'u')
 
-WebUI.click(findTestObject('Login/Login Fail 1/button_Login'))
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebUI.sendKeys(findTestObject('Login/Login Fail 3/input_password'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.waitForElementPresent(findTestObject('Login/Login Fail 3/passwordNotification'), 0)
 
 WebUI.verifyElementText(findTestObject('Login/Login Fail 3/passwordNotification'), 'Password is required')
 
