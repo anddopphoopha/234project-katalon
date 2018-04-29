@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Open Web Test Case 1" time="120" tests="4" failures="0" errors="0">
+   <testsuite name="Test Suite for Open Web Test Case 1" tests="4" failures="0" errors="0" time="120" timestamp="2018-04-29 20:07:12" hostname="Andrew_Dpp - Andrew_Dpp-PC" id="Test Suites/Test Suite for Open Web Test Case 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Open Web Test Case 1\\20180429_200708"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Open Web Test Case 1\\20180429_200708\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - Andrew_Dpp-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="7881f6e70522e6cf83fa332305e33e10"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Open Web Test Case 1" classname="Test Cases/Open Web Test Case 1" status="PASSED">
+         <system-out><![CDATA[2018-04-29 20:07:13 - [TEST_CASE][PASSED] - Test Cases/Open Web Test Case 1: Test Cases/Open Web Test Case 1
+
+2018-04-29 20:07:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-29 20:07:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-29 20:07:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-29 20:07:52 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-29 20:07:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:07:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:07:52 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:07:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/Header1' are matched.
+
+2018-04-29 20:07:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/Header1' are matched.
+
+2018-04-29 20:07:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header2' is present
+
+2018-04-29 20:07:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header2' is present
+
+2018-04-29 20:07:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/Header2' are matched.
+
+2018-04-29 20:07:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/Header2' are matched.
+
+2018-04-29 20:07:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/label_Login' is present
+
+2018-04-29 20:07:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/label_Login' is present
+
+2018-04-29 20:07:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Login' are matched.
+
+2018-04-29 20:07:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Login' are matched.
+
+2018-04-29 20:07:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/label_Username' is present
+
+2018-04-29 20:07:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/label_Username' is present
+
+2018-04-29 20:07:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Username' are matched.
+
+2018-04-29 20:07:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Username' are matched.
+
+2018-04-29 20:07:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:07:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:07:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Password' are matched.
+
+2018-04-29 20:07:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Password' are matched.
+
+2018-04-29 20:07:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/button_Login' is present
+
+2018-04-29 20:07:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/button_Login' is present
+
+2018-04-29 20:07:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/button_Login' are matched.
+
+2018-04-29 20:07:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/button_Login' are matched.
+
+2018-04-29 20:07:55 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-29 20:07:55 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-29 20:07:55 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-29 20:07:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-29 20:07:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Open Web Test Case 1" classname="Test Cases/Open Web Test Case 1" status="PASSED">
+         <system-out><![CDATA[2018-04-29 20:07:55 - [TEST_CASE][PASSED] - Test Cases/Open Web Test Case 1: Test Cases/Open Web Test Case 1
+
+2018-04-29 20:07:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-29 20:07:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-29 20:07:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/products' successfully
+
+2018-04-29 20:08:09 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/products' successfully
+
+2018-04-29 20:08:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:08:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:08:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/Header1' are matched.
+
+2018-04-29 20:08:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/Header1' are matched.
+
+2018-04-29 20:08:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header2' is present
+
+2018-04-29 20:08:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header2' is present
+
+2018-04-29 20:08:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/Header2' are matched.
+
+2018-04-29 20:08:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/Header2' are matched.
+
+2018-04-29 20:08:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/label_Login' is present
+
+2018-04-29 20:08:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/label_Login' is present
+
+2018-04-29 20:08:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Login' are matched.
+
+2018-04-29 20:08:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Login' are matched.
+
+2018-04-29 20:08:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/label_Username' is present
+
+2018-04-29 20:08:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/label_Username' is present
+
+2018-04-29 20:08:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Username' are matched.
+
+2018-04-29 20:08:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Username' are matched.
+
+2018-04-29 20:08:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:08:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:08:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Password' are matched.
+
+2018-04-29 20:08:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Password' are matched.
+
+2018-04-29 20:08:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/button_Login' is present
+
+2018-04-29 20:08:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/button_Login' is present
+
+2018-04-29 20:08:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/button_Login' are matched.
+
+2018-04-29 20:08:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/button_Login' are matched.
+
+2018-04-29 20:08:10 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-29 20:08:10 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-29 20:08:10 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-29 20:08:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-29 20:08:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Open Web Test Case 1" classname="Test Cases/Open Web Test Case 1" status="PASSED">
+         <system-out><![CDATA[2018-04-29 20:08:11 - [TEST_CASE][PASSED] - Test Cases/Open Web Test Case 1: Test Cases/Open Web Test Case 1
+
+2018-04-29 20:08:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-29 20:08:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-29 20:08:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/cart' successfully
+
+2018-04-29 20:08:35 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/cart' successfully
+
+2018-04-29 20:08:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:08:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/Header1' are matched.
+
+2018-04-29 20:08:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/Header1' are matched.
+
+2018-04-29 20:08:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header2' is present
+
+2018-04-29 20:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header2' is present
+
+2018-04-29 20:08:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/Header2' are matched.
+
+2018-04-29 20:08:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/Header2' are matched.
+
+2018-04-29 20:08:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/label_Login' is present
+
+2018-04-29 20:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:36 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/label_Login' is present
+
+2018-04-29 20:08:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Login' are matched.
+
+2018-04-29 20:08:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Login' are matched.
+
+2018-04-29 20:08:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/label_Username' is present
+
+2018-04-29 20:08:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:36 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/label_Username' is present
+
+2018-04-29 20:08:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Username' are matched.
+
+2018-04-29 20:08:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Username' are matched.
+
+2018-04-29 20:08:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:08:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:36 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:08:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Password' are matched.
+
+2018-04-29 20:08:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Password' are matched.
+
+2018-04-29 20:08:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/button_Login' is present
+
+2018-04-29 20:08:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:08:36 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/button_Login' is present
+
+2018-04-29 20:08:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/button_Login' are matched.
+
+2018-04-29 20:08:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/button_Login' are matched.
+
+2018-04-29 20:08:36 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-29 20:08:37 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-29 20:08:37 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-29 20:08:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-29 20:08:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Open Web Test Case 1" classname="Test Cases/Open Web Test Case 1" status="PASSED">
+         <system-out><![CDATA[2018-04-29 20:08:38 - [TEST_CASE][PASSED] - Test Cases/Open Web Test Case 1: Test Cases/Open Web Test Case 1
+
+2018-04-29 20:08:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-29 20:08:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-29 20:08:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/total' successfully
+
+2018-04-29 20:09:10 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/total' successfully
+
+2018-04-29 20:09:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:09:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:09:10 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/Header1' are matched.
+
+2018-04-29 20:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/Header1' are matched.
+
+2018-04-29 20:09:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header2' is present
+
+2018-04-29 20:09:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:09:10 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header2' is present
+
+2018-04-29 20:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/Header2' are matched.
+
+2018-04-29 20:09:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/Header2' are matched.
+
+2018-04-29 20:09:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/label_Login' is present
+
+2018-04-29 20:09:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:09:10 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/label_Login' is present
+
+2018-04-29 20:09:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Login' are matched.
+
+2018-04-29 20:09:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Login' are matched.
+
+2018-04-29 20:09:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/label_Username' is present
+
+2018-04-29 20:09:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:09:11 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/label_Username' is present
+
+2018-04-29 20:09:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Username' are matched.
+
+2018-04-29 20:09:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Username' are matched.
+
+2018-04-29 20:09:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:09:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:09:11 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/Header1' is present
+
+2018-04-29 20:09:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/label_Password' are matched.
+
+2018-04-29 20:09:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/label_Password' are matched.
+
+2018-04-29 20:09:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Open Web/button_Login' is present
+
+2018-04-29 20:09:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-29 20:09:11 - [MESSAGE][PASSED] - Object 'Object Repository/Open Web/button_Login' is present
+
+2018-04-29 20:09:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Open Web/button_Login' are matched.
+
+2018-04-29 20:09:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Open Web/button_Login' are matched.
+
+2018-04-29 20:09:11 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-29 20:09:11 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-29 20:09:11 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-29 20:09:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-29 20:09:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-29 20:07:12 - [TEST_SUITE][PASSED] - Test Suite for Open Web Test Case 1: Test Cases/Open Web Test Case 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
