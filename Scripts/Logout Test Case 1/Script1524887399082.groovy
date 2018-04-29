@@ -30,6 +30,8 @@ WebUI.setText(findTestObject('Logout/input_password'), password)
 
 WebUI.click(findTestObject('Logout/button_Login'))
 
+WebUI.verifyEqual(WebUI.getUrl(), link)
+
 WebUI.click(findTestObject('Logout/button_Logout'))
 
 WebUI.verifyEqual(WebUI.getUrl(), 'http://18.188.55.188:8085/')
