@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open Web Test Case 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf42ea52-8f93-49df-a53a-e36fc15ca509</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a2621e8c-7fbc-4453-a83f-548bff7ea446</id>
+      <masked>false</masked>
+      <name>link</name>
+   </variable>
+</TestCaseEntity>

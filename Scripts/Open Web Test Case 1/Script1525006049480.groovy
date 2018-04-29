@@ -19,24 +19,34 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.By as By
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://18.188.55.188:8085/')
+WebUI.navigateToUrl(link)
 
-WebUI.setText(findTestObject('Login/Login Fail 3/input_password'), 'u')
+WebUI.verifyElementPresent(findTestObject('Open Web/Header1'), 0)
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.verifyElementText(findTestObject('Open Web/Header1'), 'SE 234 Project')
 
-WebUI.sendKeys(findTestObject('Login/Login Fail 3/input_password'), Keys.chord(Keys.BACK_SPACE))
+WebUI.verifyElementPresent(findTestObject('Open Web/Header2'), 0)
 
-WebUI.waitForElementPresent(findTestObject('Login/Login Fail 3/passwordNotification'), 0)
+WebUI.verifyElementText(findTestObject('Open Web/Header2'), 'This is the mock app for the SE 234 project')
 
-WebUI.verifyElementText(findTestObject('Login/Login Fail 3/passwordNotification'), 'Password is required')
+WebUI.verifyElementPresent(findTestObject('Open Web/label_Login'), 0)
+
+WebUI.verifyElementText(findTestObject('Open Web/label_Login'), 'Login')
+
+WebUI.verifyElementPresent(findTestObject('Open Web/label_Username'), 0)
+
+WebUI.verifyElementText(findTestObject('Open Web/label_Username'), 'Username')
+
+WebUI.verifyElementPresent(findTestObject('Open Web/Header1'), 0)
+
+WebUI.verifyElementText(findTestObject('Open Web/label_Password'), 'Password')
+
+WebUI.verifyElementPresent(findTestObject('Open Web/button_Login'), 0)
+
+WebUI.verifyElementText(findTestObject('Open Web/button_Login'), 'Login')
 
 WebUI.verifyEqual(WebUI.getUrl(), 'http://18.188.55.188:8085/')
 
