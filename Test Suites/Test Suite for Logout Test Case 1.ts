@@ -4,7 +4,7 @@
    <name>Test Suite for Logout Test Case 1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-28T12:28:32</lastRun>
+   <lastRun>2018-04-29T20:47:50</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,7 +20,7 @@
          <combinationType>ONE</combinationType>
          <id>4b8cdbc6-f1ec-436b-a45c-316166b162aa</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Test Data for Logout Test Case 1</testDataId>
@@ -38,9 +38,9 @@
          <variableId>6e897d4d-814e-4e10-b52c-d4f9285f45f5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4b8cdbc6-f1ec-436b-a45c-316166b162aa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>link</value>
          <variableId>efec917d-d13c-477d-9694-360066d76089</variableId>
       </variableLink>
    </testCaseLink>

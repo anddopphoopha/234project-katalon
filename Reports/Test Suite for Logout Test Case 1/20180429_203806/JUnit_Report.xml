@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Logout Test Case 1" time="68" tests="0" failures="3" errors="0">
+   <testsuite name="Test Suite for Logout Test Case 1" tests="0" failures="3" errors="0" time="68" timestamp="2018-04-29 20:38:09" hostname="Andrew_Dpp - Andrew_Dpp-PC" id="Test Suites/Test Suite for Logout Test Case 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Logout Test Case 1\\20180429_203806"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Logout Test Case 1\\20180429_203806\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - Andrew_Dpp-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="31385ba28d355bc1e1c6c68d2f4b6ae8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Logout Test Case 1" classname="Test Cases/Logout Test Case 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)"/>
+         <system-out><![CDATA[2018-04-29 20:38:10 - [TEST_CASE][FAILED] - Test Cases/Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)
+
+2018-04-29 20:38:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-29 20:38:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-29 20:38:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-29 20:38:32 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-29 20:38:32 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Logout/input_username'
+
+2018-04-29 20:38:33 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Logout/input_username'
+
+2018-04-29 20:38:33 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Logout/input_password'
+
+2018-04-29 20:38:33 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Logout/input_password'
+
+2018-04-29 20:38:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/button_Login' is clicked on
+
+2018-04-29 20:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/button_Login' is clicked on
+
+2018-04-29 20:38:34 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-29 20:38:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-29 20:38:34 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)
+
+2018-04-29 20:38:34 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-29 20:38:34 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)]]></system-out>
+         <system-err><![CDATA[2018-04-29 20:38:10 - [TEST_CASE][FAILED] - Test Cases/Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout Test Case 1" classname="Test Cases/Logout Test Case 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)"/>
+         <system-out><![CDATA[2018-04-29 20:38:34 - [TEST_CASE][FAILED] - Test Cases/Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)
+
+2018-04-29 20:38:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-29 20:38:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-29 20:38:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-29 20:38:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-29 20:38:52 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-29 20:38:52 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Logout/input_username'
+
+2018-04-29 20:38:52 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Logout/input_username'
+
+2018-04-29 20:38:52 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Logout/input_password'
+
+2018-04-29 20:38:53 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Logout/input_password'
+
+2018-04-29 20:38:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/button_Login' is clicked on
+
+2018-04-29 20:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/button_Login' is clicked on
+
+2018-04-29 20:38:53 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-29 20:38:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-29 20:38:53 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)
+
+2018-04-29 20:38:53 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-29 20:38:53 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)]]></system-out>
+         <system-err><![CDATA[2018-04-29 20:38:34 - [TEST_CASE][FAILED] - Test Cases/Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout Test Case 1" classname="Test Cases/Logout Test Case 1" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)"/>
+         <system-out><![CDATA[2018-04-29 20:38:53 - [TEST_CASE][FAILED] - Test Cases/Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)
+
+2018-04-29 20:38:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-29 20:38:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-29 20:38:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-29 20:38:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-29 20:39:16 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-29 20:39:16 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Logout/input_username'
+
+2018-04-29 20:39:17 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Logout/input_username'
+
+2018-04-29 20:39:17 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Logout/input_password'
+
+2018-04-29 20:39:17 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Logout/input_password'
+
+2018-04-29 20:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/button_Login' is clicked on
+
+2018-04-29 20:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/button_Login' is clicked on
+
+2018-04-29 20:39:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-29 20:39:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-29 20:39:17 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)
+
+2018-04-29 20:39:18 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-29 20:39:18 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)]]></system-out>
+         <system-err><![CDATA[2018-04-29 20:38:53 - [TEST_CASE][FAILED] - Test Cases/Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-29 20:38:09 - [TEST_SUITE][FAILED] - Test Suite for Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)]]></system-out>
+      <system-err><![CDATA[2018-04-29 20:38:09 - [TEST_SUITE][FAILED] - Test Suite for Logout Test Case 1: Test Cases/Logout Test Case 1 FAILED because (of) Unable to verify equal between actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' (Root cause: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/products' are not equal)]]></system-err>
+   </testsuite>
+</testsuites>
