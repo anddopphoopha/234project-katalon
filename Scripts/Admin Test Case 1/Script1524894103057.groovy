@@ -40,11 +40,15 @@ WebUI.click(findTestObject('Admin/div_Products'))
 
 WebUI.click(findTestObject('Admin/a_Total Transaction'))
 
-WebElement Table = driver.findElement(By.xpath('//*[@id="add-row"]/div/table/tbody'))
+WebUI.waitForAngularLoad(0, FailureHandling.STOP_ON_FAILURE)
 
-List<WebElement> oldRows = Table.findElements(By.tagName('tr'))
+WebElement TransactionTable = driver.findElement(By.xpath('//*[@id="add-row"]/div/table/tbody'))
+
+List<WebElement> oldRows = TransactionTable.findElements(By.tagName('tr'))
 
 def valueOfOldRows = oldRows.size()
+
+println(valueOfOldRows)
 
 WebUI.click(findTestObject('Admin/button_Logout'))
 
@@ -54,11 +58,37 @@ WebUI.setText(findTestObject('Admin/input_password'), 'user')
 
 WebUI.click(findTestObject('Admin/button_Login'))
 
+WebUI.click(findTestObject('Admin/add to cart1'))
+
 WebUI.click(findTestObject('Admin/add to cart2'))
 
-WebUI.click(findTestObject('Admin/span_1'))
+WebUI.click(findTestObject('Admin/add to cart3'))
+
+WebUI.click(findTestObject('Admin/add to cart4'))
+
+WebUI.click(findTestObject('Admin/add to cart5'))
+
+WebUI.click(findTestObject('Admin/cart_icon'))
 
 WebElement xpathOfElement = driver.findElement(By.xpath('//*[@id="add-row"]/div/div[2]/div/p'))
+
+WebElement CartTable = driver.findElement(By.xpath('//*[@id="add-row"]/div/table/tbody'))
+
+def tableSize = CartTable.findElements(By.tagName('tr')).size()
+
+def List<String> products = new ArrayList<>()
+
+for(def i: 1..tableSize){
+	String temp = driver.findElement(By.xpath('//*[@id="add-row"]/div/table/tbody/tr[' + i + ']/td[1]')).getText()
+	products.add(temp)
+	println(temp)
+}
+
+def productsConcat = Arrays.toString(products)
+
+productsConcat = productsConcat.replaceAll('\\[|\\]','')
+
+println(productsConcat)
 
 def totalPrice = xpathOfElement.getText().replaceAll('Total price: ', '')
 
@@ -70,7 +100,7 @@ WebUI.acceptAlert()
 
 WebUI.click(findTestObject('Admin/button_Logout'))
 
-WebUI.waitForAngularLoad(0)
+WebUI.waitForPageLoad(1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Admin/input_username'), 'admin')
 
@@ -86,13 +116,19 @@ Table = driver.findElement(By.xpath('//*[@id="add-row"]/div/table/tbody'))
 
 List<WebElement> newRows = Table.findElements(By.tagName('tr'))
 
-def newRowValue = driver.findElement(By.xpath('//*[@id="add-row"]/div/table/tbody/tr[' + newRows.size() - 1 + ']/td[3]')).getText()
-
 println(newRows.size())
+
+def newRowProducts = driver.findElement(By.xpath((('//*[@id="add-row"]/div/table/tbody/tr[' + newRows.size()) - 1) + ']/td[2]')).getText()
+
+println(newRowProducts)
+
+def newRowValue = driver.findElement(By.xpath((('//*[@id="add-row"]/div/table/tbody/tr[' + newRows.size()) - 1) + ']/td[3]')).getText()
 
 println(newRowValue)
 
 WebUI.verifyEqual(totalPrice, newRowValue)
+
+WebUI.verifyEqual(productsConcat, newRowProducts)
 
 println('No. of old rows ' + valueOfOldRows)
 
