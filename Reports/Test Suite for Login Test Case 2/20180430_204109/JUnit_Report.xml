@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Login Test Case 2" time="20" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite for Login Test Case 2" tests="1" failures="0" errors="0" time="20" timestamp="2018-04-30 20:41:13" hostname="Andrew_Dpp - Andrew_Dpp-PC" id="Test Suites/Test Suite for Login Test Case 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 2\\20180430_204109"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 2\\20180430_204109\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - Andrew_Dpp-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="d64987a81cf903d89c7c4212d079a1da"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case 2" classname="Test Cases/Login Test Case 2" status="PASSED">
+         <system-out><![CDATA[2018-04-30 20:41:14 - [TEST_CASE][PASSED] - Test Cases/Login Test Case 2: Test Cases/Login Test Case 2
+
+2018-04-30 20:41:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 20:41:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 20:41:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 20:41:30 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 20:41:30 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login/Login Fail 1/input_username'
+
+2018-04-30 20:41:31 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login/Login Fail 1/input_username'
+
+2018-04-30 20:41:31 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login/Login Fail 1/input_password'
+
+2018-04-30 20:41:31 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login/Login Fail 1/input_password'
+
+2018-04-30 20:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Fail 1/button_Login' is clicked on
+
+2018-04-30 20:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Fail 1/button_Login' is clicked on
+
+2018-04-30 20:41:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 1/notification' are matched.
+
+2018-04-30 20:41:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 1/notification' are matched.
+
+2018-04-30 20:41:33 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-30 20:41:33 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-30 20:41:33 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-30 20:41:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-30 20:41:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 20:41:13 - [TEST_SUITE][PASSED] - Test Suite for Login Test Case 2: Test Cases/Login Test Case 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
