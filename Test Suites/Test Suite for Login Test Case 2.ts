@@ -31,5 +31,11 @@
          <value>username</value>
          <variableId>c407bc31-df54-45b5-bca4-90d6f131f96f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>2ebe5ad2-7da1-45df-ab1c-7b751c529149</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b7ca2ddb-3116-4fc4-ba2c-654047adc3f9</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
