@@ -60,6 +60,7 @@ prices.add(150)
 prices.add(280)
 prices.add(12)
 prices.add(20)
+
 List<WebElement> totalPrices = new ArrayList()
 
 for(def i: 1..productList.size()){

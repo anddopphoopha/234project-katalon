@@ -4,7 +4,7 @@
    <name>Test Suite for User Test Case 2</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-30T14:05:11</lastRun>
+   <lastRun>2018-04-30T19:40:46</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Test Data for User Test Case 2</testDataId>
       </testDataLink>
@@ -36,42 +36,6 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>702bd339-4898-448e-b693-f1c245d6f6b7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_amount1</value>
-         <variableId>3ad1f13b-3df5-45b3-872a-04e1360686f5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_amount2</value>
-         <variableId>1f21d7ac-1a3a-4d91-bdd5-39a2f24d8a40</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_amount3</value>
-         <variableId>ce539874-ef9b-475b-84c2-262380a7c91f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_amount4</value>
-         <variableId>580d27ac-4734-4371-a070-6038515471fe</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_amount5</value>
-         <variableId>08877856-a6ed-4412-b668-fb1075a1b415</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>totalprice</value>
-         <variableId>77e14970-b6e7-4f41-b9eb-4aa33c2d6d25</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

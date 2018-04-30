@@ -4,7 +4,7 @@
    <name>Test Suite for Open Web Test Case 1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-30T11:10:17</lastRun>
+   <lastRun>2018-04-30T18:12:46</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

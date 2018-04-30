@@ -67,11 +67,5 @@
          <value>input_amount5</value>
          <variableId>7ac5af55-bde3-41a2-90ce-782d7ea328dd</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId>5563eb77-840a-4987-8e58-8928fbbb1091</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>totalprice</value>
-         <variableId>8b7fadf6-4c5b-474c-82a2-f3ed1024fc58</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
