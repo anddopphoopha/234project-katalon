@@ -68,7 +68,6 @@ for(def i: 1..productList.size()){
 		WebUI.click(findTestObject('User/User Cart/add to cart' + j))
 		
 		}
-	WebUI.click(findTestObject('User/User Cart/cart_icon'))
 	
 	for(def k: 0..i-1){
 		WebUI.setText(findTestObject('User/User Cart/input_amount' + (k+1)), variables.get(k))

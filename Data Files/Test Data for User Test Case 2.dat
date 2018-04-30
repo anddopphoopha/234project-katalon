@@ -8,48 +8,42 @@
    <dataFileGUID>68c29854-5327-4ab8-b4a0-dcacd05f0642</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>user user 1 1 1 1 1 Total+price%3A+20%2C462+THB</data>
-   <data>user user 3 2 2 2 2 Total+price%3A+60%2C924+THB</data>
-   <data>hello hello 1 1 1 1 1 Total+price%3A+20%2C462+THB</data>
-   <data>hello hello 3 2 2 2 2 Total+price%3A+60%2C924+THB</data>
+   <data>user user 1 1 1 1 1</data>
+   <data>user user 3 2 2 2 2</data>
+   <data>hello hello 1 1 1 1 1</data>
+   <data>hello hello 3 2 2 2 2</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>username</name>
-      <size>4</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>1</columnIndex>
       <name>password</name>
       <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
-      <columnIndex>2</columnIndex>
+      <columnIndex>1</columnIndex>
       <name>input_amount1</name>
       <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
-      <columnIndex>3</columnIndex>
+      <columnIndex>2</columnIndex>
       <name>input_amount2</name>
       <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
-      <columnIndex>4</columnIndex>
+      <columnIndex>3</columnIndex>
       <name>input_amount3</name>
       <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
-      <columnIndex>5</columnIndex>
+      <columnIndex>4</columnIndex>
       <name>input_amount4</name>
       <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
-      <columnIndex>6</columnIndex>
+      <columnIndex>5</columnIndex>
       <name>input_amount5</name>
       <size>4</size>
    </internalDataColumns>
    <internalDataColumns>
-      <columnIndex>7</columnIndex>
-      <name>totalprice</name>
+      <columnIndex>6</columnIndex>
       <size>4</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
