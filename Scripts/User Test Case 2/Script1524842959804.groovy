@@ -52,16 +52,18 @@ List<VariableElement> variables = new ArrayList<>()
 
 for(def i: 1..productList.size()){
 	for(def j: 1..i){
-	
 		WebUI.click(findTestObject('User/User Cart/add to cart' + j))
 
 		WebUI.verifyElementText(findTestObject('User/User Cart/added_' + j), 'already added')
 		
 		}
+	WebUI.click(findTestObject('User/User Cart/cart_icon'))
 	
 	WebUI.verifyElementText(findTestObject('User/User Cart/cart_icon'), Integer.toString(i))
 	
-
+	WebUI.click(findTestObject('User/User Cart/button_confirm'))
+	
+	WebUI.acceptAlert()
 }
 
 WebUI.closeBrowser()

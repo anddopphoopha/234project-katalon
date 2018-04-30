@@ -54,4 +54,11 @@
       <masked>false</masked>
       <name>input_amount5</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b7fadf6-4c5b-474c-82a2-f3ed1024fc58</id>
+      <masked>false</masked>
+      <name>totalprice</name>
+   </variable>
 </TestCaseEntity>
