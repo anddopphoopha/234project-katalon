@@ -76,7 +76,6 @@ for(def i: 1..productList.size()){
 	}
 	
 	for(def g: 0..i-1){
-		println(variables.get(g))
 		totalPrice += (Integer.valueOf(variables.get(g)) * Integer.valueOf(prices.get(g)))
 	}
 	
