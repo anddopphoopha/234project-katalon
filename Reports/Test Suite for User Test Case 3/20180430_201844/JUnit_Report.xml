@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for User Test Case 3" time="54" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite for User Test Case 3" tests="1" failures="0" errors="0" time="54" timestamp="2018-04-30 20:18:46" hostname="Andrew_Dpp - Andrew_Dpp-PC" id="Test Suites/Test Suite for User Test Case 3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for User Test Case 3\\20180430_201844"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for User Test Case 3\\20180430_201844\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - Andrew_Dpp-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="ac11452299340c42810ef2f9d19b3fdc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/User Test Case 3" classname="Test Cases/User Test Case 3" status="PASSED">
+         <system-out><![CDATA[2018-04-30 20:18:47 - [TEST_CASE][PASSED] - Test Cases/User Test Case 3: Test Cases/User Test Case 3
+
+2018-04-30 20:18:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 20:18:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 20:18:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 20:19:04 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 20:19:04 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/User/User Cart/input_username'
+
+2018-04-30 20:19:04 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/User/User Cart/input_username'
+
+2018-04-30 20:19:04 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/User/User Cart/input_password'
+
+2018-04-30 20:19:05 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/User/User Cart/input_password'
+
+2018-04-30 20:19:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_Login' is clicked on
+
+2018-04-30 20:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_Login' is clicked on
+
+2018-04-30 20:19:05 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 20:19:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/User/User Cart/add to cart1' is present
+
+2018-04-30 20:19:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-30 20:19:07 - [MESSAGE][PASSED] - Object 'Object Repository/User/User Cart/add to cart1' is present
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - productList = products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - println(productList.size()): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - variables = new java.util.ArrayList(): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - variables.add(input_amount1): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - variables.add(input_amount2): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - variables.add(input_amount3): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - variables.add(input_amount4): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - variables.add(input_amount5): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - prices = new java.util.ArrayList(): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - prices.add(20000): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - prices.add(150): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - prices.add(280): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - prices.add(12): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - prices.add(20): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - totalPrices = new java.util.ArrayList(): null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - For (def i : (1..productList.size())): Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - totalPrice = 0: null
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 20:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 20:19:09 - [TEST_STEP][PASSED] - Statement - For (def k : (0..(i - 1))): Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:09 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:10 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:10 - [TEST_STEP][PASSED] - Statement - For (def g : (0..(i - 1))): null
+
+2018-04-30 20:19:10 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:10 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:10 - [TEST_STEP][PASSED] - Statement - tempTotalPrice = totalPrice = java.lang.String.format("%,d", totalPrice): null
+
+2018-04-30 20:19:10 - [TEST_STEP][PASSED] - Statement - println(tempTotalPrice): null
+
+2018-04-30 20:19:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 20:19:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 20:19:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 20:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 20:19:11 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-30 20:19:11 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-30 20:19:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:11 - [TEST_STEP][PASSED] - Statement - totalPrice = 0: null
+
+2018-04-30 20:19:11 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 20:19:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 20:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 20:19:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 20:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 20:19:14 - [TEST_STEP][PASSED] - Statement - For (def k : (0..(i - 1))): Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 20:19:14 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:15 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:15 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 20:19:16 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 20:19:16 - [TEST_STEP][PASSED] - Statement - For (def g : (0..(i - 1))): null
+
+2018-04-30 20:19:16 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:16 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:16 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:16 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:16 - [TEST_STEP][PASSED] - Statement - tempTotalPrice = totalPrice = java.lang.String.format("%,d", totalPrice): null
+
+2018-04-30 20:19:16 - [TEST_STEP][PASSED] - Statement - println(tempTotalPrice): null
+
+2018-04-30 20:19:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 20:19:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 20:19:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 20:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 20:19:17 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-30 20:19:17 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-30 20:19:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:18 - [TEST_STEP][PASSED] - Statement - totalPrice = 0: null
+
+2018-04-30 20:19:18 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 20:19:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 20:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 20:19:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 20:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 20:19:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 20:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 20:19:19 - [TEST_STEP][PASSED] - Statement - For (def k : (0..(i - 1))): Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 20:19:19 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:20 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:20 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 20:19:20 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 20:19:20 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 20:19:21 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 20:19:21 - [TEST_STEP][PASSED] - Statement - For (def g : (0..(i - 1))): null
+
+2018-04-30 20:19:21 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:21 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:21 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:21 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:21 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:21 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:22 - [TEST_STEP][PASSED] - Statement - tempTotalPrice = totalPrice = java.lang.String.format("%,d", totalPrice): null
+
+2018-04-30 20:19:22 - [TEST_STEP][PASSED] - Statement - println(tempTotalPrice): null
+
+2018-04-30 20:19:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 20:19:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 20:19:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 20:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 20:19:23 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-30 20:19:23 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-30 20:19:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:24 - [TEST_STEP][PASSED] - Statement - totalPrice = 0: null
+
+2018-04-30 20:19:24 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Object: 'Object Repository/User/User Cart/add to cart4' is clicked on
+
+2018-04-30 20:19:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 20:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 20:19:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 20:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 20:19:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart4' is clicked on
+
+2018-04-30 20:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart4' is clicked on
+
+2018-04-30 20:19:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 20:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 20:19:26 - [TEST_STEP][PASSED] - Statement - For (def k : (0..(i - 1))): Text '1' is set on object 'Object Repository/User/User Cart/input_amount4'
+
+2018-04-30 20:19:26 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:27 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:27 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 20:19:27 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 20:19:27 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 20:19:28 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 20:19:28 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount4'
+
+2018-04-30 20:19:29 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount4'
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - For (def g : (0..(i - 1))): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - tempTotalPrice = totalPrice = java.lang.String.format("%,d", totalPrice): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - Statement - println(tempTotalPrice): null
+
+2018-04-30 20:19:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 20:19:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 20:19:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 20:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 20:19:30 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-30 20:19:30 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-30 20:19:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:31 - [TEST_STEP][PASSED] - Statement - totalPrice = 0: null
+
+2018-04-30 20:19:31 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Object: 'Object Repository/User/User Cart/add to cart5' is clicked on
+
+2018-04-30 20:19:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 20:19:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 20:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 20:19:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 20:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 20:19:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart4' is clicked on
+
+2018-04-30 20:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart4' is clicked on
+
+2018-04-30 20:19:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart5' is clicked on
+
+2018-04-30 20:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart5' is clicked on
+
+2018-04-30 20:19:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 20:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 20:19:34 - [TEST_STEP][PASSED] - Statement - For (def k : (0..(i - 1))): Text '1' is set on object 'Object Repository/User/User Cart/input_amount5'
+
+2018-04-30 20:19:34 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:34 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 20:19:34 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 20:19:35 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 20:19:35 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 20:19:35 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 20:19:35 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount4'
+
+2018-04-30 20:19:37 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount4'
+
+2018-04-30 20:19:37 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount5'
+
+2018-04-30 20:19:38 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount5'
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - For (def g : (0..(i - 1))): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - println(variables.get(g)): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - totalPrice += java.lang.Integer.valueOf(variables.get(g)) * java.lang.Integer.valueOf(prices.get(g)): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - tempTotalPrice = totalPrice = java.lang.String.format("%,d", totalPrice): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - Statement - println(tempTotalPrice): null
+
+2018-04-30 20:19:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 20:19:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 20:19:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 20:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 20:19:39 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-30 20:19:39 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-30 20:19:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/div_Well done You successfully' are matched.
+
+2018-04-30 20:19:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-30 20:19:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 20:18:46 - [TEST_SUITE][PASSED] - Test Suite for User Test Case 3: Test Cases/User Test Case 3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

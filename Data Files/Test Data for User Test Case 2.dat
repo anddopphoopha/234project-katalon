@@ -5,46 +5,20 @@
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>68c29854-5327-4ab8-b4a0-dcacd05f0642</dataFileGUID>
+   <dataFileGUID>0a8138ae-1bf7-49ab-84a7-f9da508c9805</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>user user 1 1 1 1 1</data>
-   <data>user user 3 2 2 2 2</data>
-   <data>hello hello 1 1 1 1 1</data>
-   <data>hello hello 3 2 2 2 2</data>
+   <data>user user</data>
+   <data>hello hello</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>password</name>
-      <size>4</size>
+      <name>username</name>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
-      <name>input_amount1</name>
-      <size>4</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>2</columnIndex>
-      <name>input_amount2</name>
-      <size>4</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>3</columnIndex>
-      <name>input_amount3</name>
-      <size>4</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>4</columnIndex>
-      <name>input_amount4</name>
-      <size>4</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>5</columnIndex>
-      <name>input_amount5</name>
-      <size>4</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>6</columnIndex>
-      <size>4</size>
+      <name>password</name>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

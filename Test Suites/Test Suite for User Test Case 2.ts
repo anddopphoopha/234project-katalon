@@ -4,25 +4,21 @@
    <name>Test Suite for User Test Case 2</name>
    <tag></tag>
    <isRerun>false</isRerun>
-<<<<<<< User
-   <lastRun>2018-04-30T14:05:11</lastRun>
-=======
-   <lastRun>2018-04-30T19:40:46</lastRun>
->>>>>>> dc2e899 edit User Test Case 3
+   <lastRun>2018-04-30T20:23:59</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>51493971-6013-4bb3-8cff-20e826b5b62b</testSuiteGuid>
+   <testSuiteGuid>11734561-56b3-4a57-a689-5569a262b3ee</testSuiteGuid>
    <testCaseLink>
-      <guid>a8905612-4056-45ba-8a94-e3e1b538b3e3</guid>
+      <guid>b804fa7f-4cf1-4732-be0a-2875c33a745b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/User Test Case 2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</id>
+         <id>295bf383-388c-4039-9a66-3552f69c013e</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -30,52 +26,16 @@
          <testDataId>Data Files/Test Data for User Test Case 2</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
+         <testDataLinkId>295bf383-388c-4039-9a66-3552f69c013e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>08db86c0-6ff1-43d3-b781-6e5f995b2573</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
+         <testDataLinkId>295bf383-388c-4039-9a66-3552f69c013e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>702bd339-4898-448e-b693-f1c245d6f6b7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_amount1</value>
-         <variableId>3ad1f13b-3df5-45b3-872a-04e1360686f5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_amount2</value>
-         <variableId>1f21d7ac-1a3a-4d91-bdd5-39a2f24d8a40</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_amount3</value>
-         <variableId>ce539874-ef9b-475b-84c2-262380a7c91f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_amount4</value>
-         <variableId>580d27ac-4734-4371-a070-6038515471fe</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_amount5</value>
-         <variableId>08877856-a6ed-4412-b668-fb1075a1b415</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4d9c408a-8cb5-4355-97a3-b7a40797fa5a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>totalprice</value>
-         <variableId>77e14970-b6e7-4f41-b9eb-4aa33c2d6d25</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

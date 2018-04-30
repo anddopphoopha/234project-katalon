@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 20:24:03,2018-04-30 20:25:32,1m - 29.054s,FAILED
+,,,,,,
+Test Cases/User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 20:24:04,2018-04-30 20:24:57,53.005s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 20:24:06,2018-04-30 20:24:10,4.807s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 20:24:10,2018-04-30 20:24:21,10.796s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 20:24:21,2018-04-30 20:24:22,0.490s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 20:24:22,2018-04-30 20:24:22,0.430s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 20:24:22,2018-04-30 20:24:22,0.304s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 20:24:22,2018-04-30 20:24:22,0.019s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-30 20:24:22,2018-04-30 20:24:24,1.635s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 65.0.3325.181,,2018-04-30 20:24:24,2018-04-30 20:24:24,0.099s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 65.0.3325.181,,2018-04-30 20:24:24,2018-04-30 20:24:24,0.238s,PASSED
+Statement - println(productList.size()),Chrome 65.0.3325.181,,2018-04-30 20:24:24,2018-04-30 20:24:24,0.010s,PASSED
+Statement - variables = new java.util.ArrayList(),Chrome 65.0.3325.181,,2018-04-30 20:24:24,2018-04-30 20:24:24,0.002s,PASSED
+Statement - For (def i : (1..productList.size())),Chrome 65.0.3325.181,,2018-04-30 20:24:24,2018-04-30 20:24:57,32.541s,FAILED
+,,,,,,
+Test Cases/User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 20:24:57,2018-04-30 20:25:32,34.565s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 20:24:57,2018-04-30 20:25:00,3.155s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 20:25:00,2018-04-30 20:25:09,9.215s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 20:25:09,2018-04-30 20:25:10,0.392s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 20:25:10,2018-04-30 20:25:10,0.263s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 20:25:10,2018-04-30 20:25:10,0.180s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 20:25:10,2018-04-30 20:25:10,0.001s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-30 20:25:10,2018-04-30 20:25:12,1.672s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 65.0.3325.181,,2018-04-30 20:25:12,2018-04-30 20:25:12,0.263s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 65.0.3325.181,,2018-04-30 20:25:12,2018-04-30 20:25:12,0.108s,PASSED
+Statement - println(productList.size()),Chrome 65.0.3325.181,,2018-04-30 20:25:12,2018-04-30 20:25:12,0.012s,PASSED
+Statement - variables = new java.util.ArrayList(),Chrome 65.0.3325.181,,2018-04-30 20:25:12,2018-04-30 20:25:12,0.001s,PASSED
+Statement - For (def i : (1..productList.size())),Chrome 65.0.3325.181,,2018-04-30 20:25:12,2018-04-30 20:25:32,19.268s,FAILED
