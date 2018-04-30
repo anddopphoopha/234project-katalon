@@ -1,7 +1,12 @@
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.By as By
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import javax.lang.model.element.VariableElement
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -24,6 +29,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.55.188:8085/')
 
+WebDriver driver = DriverFactory.getWebDriver()
+
 WebUI.setText(findTestObject('User/User Main Page/input_username'), username)
 
 WebUI.setText(findTestObject('User/User Main Page/input_password'), password)
@@ -39,6 +46,12 @@ WebUI.verifyElementText(findTestObject('User/User Main Page/h5_Orange'), 'Orange
 WebUI.verifyElementText(findTestObject('User/User Main Page/h5_Papaya'), 'Papaya')
 
 WebUI.verifyElementText(findTestObject('User/User Main Page/h5_Rambutan'), 'Rambutan')
+
+WebElement products = driver.findElement(By.xpath('/html/body/app-root/app-product-list/div/div[2]/div'))
+
+List<WebElement> productList = products.findElements(By.className('farmer-card'))
+
+WebUI.verifyEqual(productList.size(), 5)
 
 WebUI.closeBrowser()
 

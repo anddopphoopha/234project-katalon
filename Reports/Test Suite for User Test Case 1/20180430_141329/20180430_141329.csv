@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for User Test Case 1,Chrome 65.0.3325.181,,2018-04-30 14:13:45,2018-04-30 14:14:27,41.328s,PASSED
+,,,,,,
+Test Cases/User Test Case 1,Chrome 65.0.3325.181,,2018-04-30 14:13:46,2018-04-30 14:14:27,40.609s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 14:13:47,2018-04-30 14:14:13,25.980s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 14:14:13,2018-04-30 14:14:22,8.990s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 14:14:22,2018-04-30 14:14:22,0.016s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 14:14:22,2018-04-30 14:14:22,0.616s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 14:14:22,2018-04-30 14:14:23,0.346s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 14:14:23,2018-04-30 14:14:23,0.250s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-30 14:14:23,2018-04-30 14:14:25,1.826s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-30 14:14:25,2018-04-30 14:14:25,0.088s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-30 14:14:25,2018-04-30 14:14:25,0.107s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-30 14:14:25,2018-04-30 14:14:25,0.091s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-30 14:14:25,2018-04-30 14:14:25,0.095s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 65.0.3325.181,,2018-04-30 14:14:25,2018-04-30 14:14:25,0.303s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 65.0.3325.181,,2018-04-30 14:14:25,2018-04-30 14:14:26,0.168s,PASSED
+verifyEqual,Chrome 65.0.3325.181,,2018-04-30 14:14:26,2018-04-30 14:14:26,0.091s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-04-30 14:14:26,2018-04-30 14:14:27,0.820s,PASSED

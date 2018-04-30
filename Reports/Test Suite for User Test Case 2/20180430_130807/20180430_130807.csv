@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 13:08:26,2018-04-30 13:09:09,42.951s,ERROR
+,,,,,,
+Test Cases/User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 13:08:27,2018-04-30 13:09:08,41.113s,ERROR
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 13:08:28,2018-04-30 13:08:55,26.894s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 13:08:55,2018-04-30 13:09:05,9.646s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 13:09:05,2018-04-30 13:09:06,1.502s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 13:09:06,2018-04-30 13:09:07,0.647s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 13:09:07,2018-04-30 13:09:07,0.675s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 13:09:07,2018-04-30 13:09:08,0.019s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]""))",Chrome 65.0.3325.181,,2018-04-30 13:09:08,2018-04-30 13:09:08,0.343s,PASSED

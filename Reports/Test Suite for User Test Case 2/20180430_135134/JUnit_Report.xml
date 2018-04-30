@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for User Test Case 2" time="64" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite for User Test Case 2" tests="1" failures="0" errors="0" time="64" timestamp="2018-04-30 13:51:51" hostname="Andrew_Dpp - 10.80.103.44" id="Test Suites/Test Suite for User Test Case 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for User Test Case 2\\20180430_135134"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for User Test Case 2\\20180430_135134\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.103.44"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.80.103.44"/>
+         <property name="sessionId" value="d5da2fb4168c1346c63356d366b1c32f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/User Test Case 2" classname="Test Cases/User Test Case 2" status="PASSED">
+         <system-out><![CDATA[2018-04-30 13:51:51 - [TEST_CASE][PASSED] - Test Cases/User Test Case 2: Test Cases/User Test Case 2
+
+2018-04-30 13:51:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 13:52:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 13:52:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 13:52:26 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 13:52:26 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/User/User Cart/input_username'
+
+2018-04-30 13:52:26 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/User/User Cart/input_username'
+
+2018-04-30 13:52:26 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/User/User Cart/input_password'
+
+2018-04-30 13:52:26 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/User/User Cart/input_password'
+
+2018-04-30 13:52:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_Login' is clicked on
+
+2018-04-30 13:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_Login' is clicked on
+
+2018-04-30 13:52:27 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 13:52:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/User/User Cart/add to cart1' is present
+
+2018-04-30 13:52:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-30 13:52:28 - [MESSAGE][PASSED] - Object 'Object Repository/User/User Cart/add to cart1' is present
+
+2018-04-30 13:52:28 - [TEST_STEP][PASSED] - Statement - products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-04-30 13:52:28 - [TEST_STEP][PASSED] - Statement - productList = products.findElements(org.openqa.selenium.By.className("farmer-card")): null
+
+2018-04-30 13:52:28 - [TEST_STEP][PASSED] - Statement - println(productList.size()): null
+
+2018-04-30 13:52:28 - [TEST_STEP][PASSED] - Statement - variables = new java.util.ArrayList(): null
+
+2018-04-30 13:52:28 - [TEST_STEP][PASSED] - Statement - variables.add(input_amount1): null
+
+2018-04-30 13:52:28 - [TEST_STEP][PASSED] - Statement - variables.add(input_amount2): null
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - variables.add(input_amount3): null
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - variables.add(input_amount4): null
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - variables.add(input_amount5): null
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - totalPrices = new java.util.ArrayList(): null
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - totalPrices.add("Total price: 20,000 THB"): null
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - totalPrices.add("Total price: 20,150 THB"): null
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - totalPrices.add("Total price: 20,430 THB"): null
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - totalPrices.add("Total price: 20,442 THB"): null
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - totalPrices.add("Total price: 20,462 THB"): null
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - For (def i : (1..productList.size())): Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:52:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - Statement - For (def k : (0..(i - 1))): Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:29 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:30 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 13:52:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 13:52:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 13:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 13:52:30 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-30 13:52:30 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-30 13:52:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:31 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Actual text and expected text of test object 'Object Repository/User/User Cart/added_2' are matched.
+
+2018-04-30 13:52:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:52:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 13:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 13:52:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_2' are matched.
+
+2018-04-30 13:52:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_2' are matched.
+
+2018-04-30 13:52:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:52:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:52:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:52:33 - [TEST_STEP][PASSED] - Statement - For (def k : (0..(i - 1))): Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 13:52:33 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:33 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:33 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 13:52:33 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 13:52:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 13:52:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 13:52:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 13:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 13:52:34 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-30 13:52:34 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-30 13:52:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:35 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Actual text and expected text of test object 'Object Repository/User/User Cart/added_3' are matched.
+
+2018-04-30 13:52:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:52:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 13:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 13:52:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_2' are matched.
+
+2018-04-30 13:52:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_2' are matched.
+
+2018-04-30 13:52:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 13:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 13:52:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_3' are matched.
+
+2018-04-30 13:52:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_3' are matched.
+
+2018-04-30 13:52:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:52:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:52:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:52:37 - [TEST_STEP][PASSED] - Statement - For (def k : (0..(i - 1))): Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 13:52:37 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:38 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:38 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 13:52:38 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 13:52:39 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 13:52:39 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 13:52:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 13:52:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 13:52:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 13:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 13:52:40 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-30 13:52:40 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-30 13:52:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:40 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Actual text and expected text of test object 'Object Repository/User/User Cart/added_4' are matched.
+
+2018-04-30 13:52:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:52:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 13:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 13:52:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_2' are matched.
+
+2018-04-30 13:52:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_2' are matched.
+
+2018-04-30 13:52:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 13:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 13:52:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_3' are matched.
+
+2018-04-30 13:52:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_3' are matched.
+
+2018-04-30 13:52:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart4' is clicked on
+
+2018-04-30 13:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart4' is clicked on
+
+2018-04-30 13:52:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_4' are matched.
+
+2018-04-30 13:52:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_4' are matched.
+
+2018-04-30 13:52:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:52:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:52:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:52:43 - [TEST_STEP][PASSED] - Statement - For (def k : (0..(i - 1))): Text '1' is set on object 'Object Repository/User/User Cart/input_amount4'
+
+2018-04-30 13:52:43 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:43 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:44 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 13:52:44 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 13:52:44 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 13:52:44 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 13:52:44 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount4'
+
+2018-04-30 13:52:45 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount4'
+
+2018-04-30 13:52:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 13:52:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 13:52:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 13:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 13:52:46 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-30 13:52:46 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-30 13:52:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:46 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Actual text and expected text of test object 'Object Repository/User/User Cart/added_5' are matched.
+
+2018-04-30 13:52:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:52:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:52:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 13:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart2' is clicked on
+
+2018-04-30 13:52:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_2' are matched.
+
+2018-04-30 13:52:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_2' are matched.
+
+2018-04-30 13:52:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 13:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart3' is clicked on
+
+2018-04-30 13:52:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_3' are matched.
+
+2018-04-30 13:52:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_3' are matched.
+
+2018-04-30 13:52:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart4' is clicked on
+
+2018-04-30 13:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart4' is clicked on
+
+2018-04-30 13:52:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_4' are matched.
+
+2018-04-30 13:52:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_4' are matched.
+
+2018-04-30 13:52:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart5' is clicked on
+
+2018-04-30 13:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart5' is clicked on
+
+2018-04-30 13:52:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_5' are matched.
+
+2018-04-30 13:52:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_5' are matched.
+
+2018-04-30 13:52:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:52:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:52:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:52:50 - [TEST_STEP][PASSED] - Statement - For (def k : (0..(i - 1))): Text '1' is set on object 'Object Repository/User/User Cart/input_amount5'
+
+2018-04-30 13:52:50 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:51 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:52:51 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 13:52:51 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount2'
+
+2018-04-30 13:52:51 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 13:52:51 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount3'
+
+2018-04-30 13:52:51 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount4'
+
+2018-04-30 13:52:52 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount4'
+
+2018-04-30 13:52:52 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/User/User Cart/input_amount5'
+
+2018-04-30 13:52:53 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/User/User Cart/input_amount5'
+
+2018-04-30 13:52:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 13:52:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/p_Total price' are matched.
+
+2018-04-30 13:52:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 13:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_confirm' is clicked on
+
+2018-04-30 13:52:54 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-30 13:52:54 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-30 13:52:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/div_Well done You successfully' is clicked on
+
+2018-04-30 13:52:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-30 13:52:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 13:51:51 - [TEST_SUITE][PASSED] - Test Suite for User Test Case 2: Test Cases/User Test Case 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

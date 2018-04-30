@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for User Test Case 2" time="41" tests="0" failures="0" errors="1">
+   <testsuite name="Test Suite for User Test Case 2" tests="0" failures="0" errors="1" time="41" timestamp="2018-04-30 13:23:16" hostname="Andrew_Dpp - 10.80.103.44" id="Test Suites/Test Suite for User Test Case 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for User Test Case 2\\20180430_132259"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for User Test Case 2\\20180430_132259\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.103.44"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.80.103.44"/>
+         <property name="sessionId" value="52b2ac99fda57f8e182dea42481b087e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/User Test Case 2" classname="Test Cases/User Test Case 2" status="ERROR">
+         <error type="ERROR" message="Test Cases/User Test Case 2 FAILED because (of) Variable 'input_amount' is not defined for test case."/>
+         <system-out><![CDATA[2018-04-30 13:23:17 - [TEST_CASE][ERROR] - Test Cases/User Test Case 2: Test Cases/User Test Case 2 FAILED because (of) Variable 'input_amount' is not defined for test case.
+
+2018-04-30 13:23:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 13:23:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 13:23:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 13:23:52 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 13:23:52 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/User/User Cart/input_username'
+
+2018-04-30 13:23:52 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/User/User Cart/input_username'
+
+2018-04-30 13:23:52 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/User/User Cart/input_password'
+
+2018-04-30 13:23:53 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/User/User Cart/input_password'
+
+2018-04-30 13:23:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/button_Login' is clicked on
+
+2018-04-30 13:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/button_Login' is clicked on
+
+2018-04-30 13:23:53 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 13:23:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/User/User Cart/add to cart1' is present
+
+2018-04-30 13:23:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-30 13:23:55 - [MESSAGE][PASSED] - Object 'Object Repository/User/User Cart/add to cart1' is present
+
+2018-04-30 13:23:55 - [TEST_STEP][PASSED] - Statement - products = driver.findElement(org.openqa.selenium.By.xpath("/html/body/app-root/app-product-list/div/div[2]/div")): null
+
+2018-04-30 13:23:55 - [TEST_STEP][PASSED] - Statement - productList = products.findElements(org.openqa.selenium.By.tagName("div")): null
+
+2018-04-30 13:23:55 - [TEST_STEP][PASSED] - Statement - For (def i : (1..productList.size())): Finding Test Object with id 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:23:55 - [TEST_STEP][PASSED] - Statement - For (def j : (1..i)): Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:23:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/add to cart1' is clicked on
+
+2018-04-30 13:23:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:23:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/added_1' are matched.
+
+2018-04-30 13:23:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/User/User Cart/cart_icon' is clicked on
+
+2018-04-30 13:23:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:23:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User/User Cart/cart_icon' are matched.
+
+2018-04-30 13:23:56 - [TEST_STEP][PASSED] - Statement - For (def k : (1..i)): Finding Test Object with id 'Object Repository/User/User Cart/input_amount1'
+
+2018-04-30 13:23:56 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/User/User Cart/input_amount1']]></system-out>
+         <system-err><![CDATA[2018-04-30 13:23:17 - [TEST_CASE][ERROR] - Test Cases/User Test Case 2: Test Cases/User Test Case 2 FAILED because (of) Variable 'input_amount' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 13:23:16 - [TEST_SUITE][ERROR] - Test Suite for User Test Case 2: Test Cases/User Test Case 2 FAILED because (of) Variable 'input_amount' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-04-30 13:23:16 - [TEST_SUITE][ERROR] - Test Suite for User Test Case 2: Test Cases/User Test Case 2 FAILED because (of) Variable 'input_amount' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

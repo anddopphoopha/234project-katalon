@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>added_5</name>
+   <tag></tag>
+   <elementGuidId>e4bdff5d-0bb2-4570-ba73-73a1a0e26065</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-product-list/div/div[2]/div/div[5]/a/div[2]/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-product-list/div/div[2]/div/div[5]/a/div[2]/div[2]/button</value>
+   </webElementProperties>
+</WebElementEntity>

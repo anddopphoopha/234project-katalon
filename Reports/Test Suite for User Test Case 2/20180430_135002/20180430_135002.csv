@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 13:50:19,2018-04-30 13:51:32,1m - 13.368s,FAILED
+,,,,,,
+Test Cases/User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 13:50:20,2018-04-30 13:51:31,1m - 11.767s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 13:50:21,2018-04-30 13:50:46,25.089s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 13:50:46,2018-04-30 13:50:54,8.241s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 13:50:54,2018-04-30 13:50:54,0.382s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 13:50:54,2018-04-30 13:50:55,0.249s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 13:50:55,2018-04-30 13:50:55,0.181s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 13:50:55,2018-04-30 13:50:55,0.020s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-30 13:50:55,2018-04-30 13:50:56,1.632s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 65.0.3325.181,,2018-04-30 13:50:56,2018-04-30 13:50:56,0.103s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 65.0.3325.181,,2018-04-30 13:50:56,2018-04-30 13:50:57,0.065s,PASSED
+Statement - println(productList.size()),Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.006s,PASSED
+Statement - variables = new java.util.ArrayList(),Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.001s,PASSED
+Statement - variables.add(input_amount1),Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.004s,PASSED
+Statement - variables.add(input_amount2),Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.001s,PASSED
+Statement - variables.add(input_amount3),Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.002s,PASSED
+Statement - variables.add(input_amount4),Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.002s,PASSED
+Statement - variables.add(input_amount5),Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.001s,PASSED
+Statement - totalPrices = new java.util.ArrayList(),Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.001s,PASSED
+"Statement - totalPrices.add(""Total price: 20,000 THB"")",Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.001s,PASSED
+"Statement - totalPrices.add(""Total price: 20,150 THB"")",Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.000s,PASSED
+"Statement - totalPrices.add(""Total price: 20,430 THB"")",Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.003s,PASSED
+"Statement - totalPrices.add(""Total price: 20,442 THB"")",Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.001s,PASSED
+"Statement - totalPrices.add(""Total price: 20,462 THB"")",Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:50:57,0.003s,PASSED
+Statement - For (def i : (1..productList.size())),Chrome 65.0.3325.181,,2018-04-30 13:50:57,2018-04-30 13:51:31,34.890s,FAILED

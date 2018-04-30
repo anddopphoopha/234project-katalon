@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for User Test Case 3" time="0" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite for User Test Case 3" tests="1" failures="0" errors="0" time="0" timestamp="2018-04-30 14:45:15" hostname="Andrew_Dpp - 10.80.103.44" id="Test Suites/Test Suite for User Test Case 3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for User Test Case 3\\20180430_144459"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for User Test Case 3\\20180430_144459\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.103.44"/>
+         <property name="hostAddress" value="10.80.103.44"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+      </properties>
+      <testcase name="Test Cases/User Test Case 3" classname="Test Cases/User Test Case 3" status="PASSED">
+         <system-out><![CDATA[2018-04-30 14:45:16 - [TEST_CASE][PASSED] - Test Cases/User Test Case 3: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 14:45:15 - [TEST_SUITE][INCOMPLETE] - Test Suite for User Test Case 3: null]]></system-out>
+      <system-err><![CDATA[2018-04-30 14:45:15 - [TEST_SUITE][INCOMPLETE] - Test Suite for User Test Case 3: null]]></system-err>
+   </testsuite>
+</testsuites>

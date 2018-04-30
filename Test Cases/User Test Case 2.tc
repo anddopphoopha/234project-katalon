@@ -24,7 +24,7 @@
       <description></description>
       <id>3ad1f13b-3df5-45b3-872a-04e1360686f5</id>
       <masked>false</masked>
-      <name>input_amount</name>
+      <name>input_amount1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

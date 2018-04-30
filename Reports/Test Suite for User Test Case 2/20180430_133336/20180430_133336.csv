@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 13:33:47,2018-04-30 13:34:31,43.231s,FAILED
+,,,,,,
+Test Cases/User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 13:33:48,2018-04-30 13:34:30,41.672s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 13:33:49,2018-04-30 13:34:16,26.352s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 13:34:16,2018-04-30 13:34:24,7.706s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 13:34:24,2018-04-30 13:34:24,0.382s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 13:34:24,2018-04-30 13:34:24,0.267s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 13:34:24,2018-04-30 13:34:24,0.295s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 13:34:24,2018-04-30 13:34:25,0.022s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-30 13:34:25,2018-04-30 13:34:26,1.228s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 65.0.3325.181,,2018-04-30 13:34:26,2018-04-30 13:34:26,0.113s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.tagName(""div""))",Chrome 65.0.3325.181,,2018-04-30 13:34:26,2018-04-30 13:34:26,0.066s,PASSED
+Statement - variables = new java.util.ArrayList(),Chrome 65.0.3325.181,,2018-04-30 13:34:26,2018-04-30 13:34:26,0.004s,PASSED
+Statement - variables.add(input_amount1),Chrome 65.0.3325.181,,2018-04-30 13:34:26,2018-04-30 13:34:26,0.002s,PASSED
+Statement - variables.add(input_amount2),Chrome 65.0.3325.181,,2018-04-30 13:34:26,2018-04-30 13:34:26,0.003s,PASSED
+Statement - variables.add(input_amount3),Chrome 65.0.3325.181,,2018-04-30 13:34:26,2018-04-30 13:34:26,0.001s,PASSED
+Statement - variables.add(input_amount4),Chrome 65.0.3325.181,,2018-04-30 13:34:26,2018-04-30 13:34:26,0.002s,PASSED
+Statement - variables.add(input_amount5),Chrome 65.0.3325.181,,2018-04-30 13:34:26,2018-04-30 13:34:26,0.003s,PASSED
+Statement - For (def i : (1..productList.size())),Chrome 65.0.3325.181,,2018-04-30 13:34:26,2018-04-30 13:34:30,3.754s,FAILED
