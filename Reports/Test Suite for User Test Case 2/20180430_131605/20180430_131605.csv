@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 13:16:21,2018-04-30 13:17:02,41.055s,ERROR
+,,,,,,
+Test Cases/User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 13:16:22,2018-04-30 13:17:02,39.286s,ERROR
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 13:16:23,2018-04-30 13:16:49,26.147s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 13:16:49,2018-04-30 13:16:58,8.058s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 13:16:58,2018-04-30 13:16:58,0.450s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 13:16:58,2018-04-30 13:16:58,0.285s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 13:16:58,2018-04-30 13:16:59,0.376s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 13:16:59,2018-04-30 13:16:59,0.024s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-30 13:16:59,2018-04-30 13:17:00,1.394s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 65.0.3325.181,,2018-04-30 13:17:00,2018-04-30 13:17:00,0.110s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.tagName(""div""))",Chrome 65.0.3325.181,,2018-04-30 13:17:00,2018-04-30 13:17:00,0.064s,PASSED
+Statement - For (def i : (1..productList.size())),Chrome 65.0.3325.181,,2018-04-30 13:17:00,2018-04-30 13:17:01,1.168s,PASSED

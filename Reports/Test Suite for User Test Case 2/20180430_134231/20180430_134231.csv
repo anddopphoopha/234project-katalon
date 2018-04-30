@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 13:42:48,2018-04-30 13:44:07,1m - 19.521s,PASSED
+,,,,,,
+Test Cases/User Test Case 2,Chrome 65.0.3325.181,,2018-04-30 13:42:48,2018-04-30 13:44:07,1m - 18.738s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 13:42:49,2018-04-30 13:43:15,25.463s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 13:43:15,2018-04-30 13:43:24,9.656s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 13:43:24,2018-04-30 13:43:25,0.342s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 13:43:25,2018-04-30 13:43:25,0.231s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 13:43:25,2018-04-30 13:43:30,5.205s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 13:43:30,2018-04-30 13:43:30,0.015s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-30 13:43:30,2018-04-30 13:43:32,1.731s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 65.0.3325.181,,2018-04-30 13:43:32,2018-04-30 13:43:32,0.093s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 65.0.3325.181,,2018-04-30 13:43:32,2018-04-30 13:43:32,0.093s,PASSED
+Statement - println(productList.size()),Chrome 65.0.3325.181,,2018-04-30 13:43:32,2018-04-30 13:43:32,0.009s,PASSED
+Statement - variables = new java.util.ArrayList(),Chrome 65.0.3325.181,,2018-04-30 13:43:32,2018-04-30 13:43:32,0.002s,PASSED
+Statement - variables.add(input_amount1),Chrome 65.0.3325.181,,2018-04-30 13:43:32,2018-04-30 13:43:32,0.002s,PASSED
+Statement - variables.add(input_amount2),Chrome 65.0.3325.181,,2018-04-30 13:43:32,2018-04-30 13:43:32,0.001s,PASSED
+Statement - variables.add(input_amount3),Chrome 65.0.3325.181,,2018-04-30 13:43:32,2018-04-30 13:43:32,0.004s,PASSED
+Statement - variables.add(input_amount4),Chrome 65.0.3325.181,,2018-04-30 13:43:32,2018-04-30 13:43:32,0.002s,PASSED
+Statement - variables.add(input_amount5),Chrome 65.0.3325.181,,2018-04-30 13:43:32,2018-04-30 13:43:32,0.003s,PASSED
+Statement - For (def i : (1..productList.size())),Chrome 65.0.3325.181,,2018-04-30 13:43:32,2018-04-30 13:44:06,33.862s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-04-30 13:44:06,2018-04-30 13:44:07,0.995s,PASSED

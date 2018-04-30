@@ -4,7 +4,7 @@
    <name>Test Suite for User Test Case 1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-27T22:26:20</lastRun>
+   <lastRun>2018-04-30T14:13:29</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>1b85c710-ef3d-40fa-85af-10edea329245</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Test Data for User Test Case 1</testDataId>
       </testDataLink>

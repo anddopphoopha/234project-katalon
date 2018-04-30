@@ -6,6 +6,9 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import javax.lang.model.element.VariableElement
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -34,60 +37,30 @@ WebUI.setText(findTestObject('User/User Cart/input_password'), password)
 
 WebUI.click(findTestObject('User/User Cart/button_Login'))
 
-WebUI.click(findTestObject('User/User Cart/add to cart1'))
-
-WebUI.verifyElementText(findTestObject('User/User Cart/added_garden'), 'already added')
-
-WebUI.click(findTestObject('User/User Cart/add to cart2'))
-
-WebUI.verifyElementText(findTestObject('User/User Cart/added_banana'), 'already added')
-
-WebUI.click(findTestObject('User/User Cart/add to cart3'))
-
-WebUI.verifyElementText(findTestObject('User/User Cart/added_orange'), 'already added')
-
-WebUI.click(findTestObject('User/User Cart/add to cart4'))
-
-WebUI.verifyElementText(findTestObject('User/User Cart/added_papaya'), 'already added')
-
-WebUI.click(findTestObject('User/User Cart/add to cart5'))
-
-WebUI.verifyElementText(findTestObject('User/User Cart/added_rambutan'), 'already added')
-
-WebUI.click(findTestObject('User/User Cart/cart_icon'))
-
-WebUI.verifyElementText(findTestObject('User/User Cart/cart_icon'), '5')
-
-WebUI.setText(findTestObject('User/User Cart/input_amount'), input_amount)
-
-WebUI.setText(findTestObject('User/User Cart/input_amount2'), input_amount2)
-
-WebUI.setText(findTestObject('User/User Cart/input_amount3'), input_amount3)
-
-WebUI.setText(findTestObject('User/User Cart/input_amount4'), input_amount4)
-
-WebUI.setText(findTestObject('User/User Cart/input_amount5'), input_amount5)
-
-WebUI.waitForElementPresent(findTestObject('User/User Cart/p_Total price'), 0)
-
-WebUI.verifyElementText(findTestObject('User/User Cart/p_Total price'), totalprice)
-
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement Table = driver.findElement(By.xpath('//*[@id="add-row"]/div/table/tbody'))
+WebUI.waitForElementPresent(findTestObject('User/User Cart/add to cart1'), 0)
 
-List<WebElement> Rows = Table.findElements(By.tagName('tr'))
+WebElement products = driver.findElement(By.xpath('/html/body/app-root/app-product-list/div/div[2]/div'))
 
-println('No. of rows ' + Rows.size())
+List<WebElement> productList = products.findElements(By.className('farmer-card'))
 
-'Compare the value'
-WebUI.verifyEqual(5, Rows.size)
+println(productList.size())
 
-WebUI.click(findTestObject('User/User Cart/button_confirm'))
+List<VariableElement> variables = new ArrayList<>()
 
-WebUI.acceptAlert()
 
-WebUI.click(findTestObject('User/User Cart/div_Well done You successfully'))
+for(def i: 1..productList.size()){
+	for(def j: 1..i){
+		WebUI.click(findTestObject('User/User Cart/add to cart' + j))
+
+		WebUI.verifyElementText(findTestObject('User/User Cart/added_' + j), 'already added')
+		
+	}
+	
+	WebUI.verifyElementText(findTestObject('User/User Cart/cart_icon'), Integer.toString(i))
+	
+}
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for User Test Case 3,,,2018-04-30 14:46:19,2018-04-30 14:46:20,0.704s,INCOMPLETE
+,,,,,,
+Test Cases/User Test Case 3,,,2018-04-30 14:46:20,2018-04-30 14:46:20,0.070s,PASSED
