@@ -21,12 +21,24 @@
          <value></value>
          <variableId>c407bc31-df54-45b5-bca4-90d6f131f96f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b7ca2ddb-3116-4fc4-ba2c-654047adc3f9</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>bdedc70c-4d5e-4d97-baca-4608691753d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Test Case 3</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d1adf43a-f9d9-417d-a72a-f768f1211228</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2e2f2601-100a-4c5a-b182-1234e68edbe2</guid>

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Login Test Case 3,Chrome 65.0.3325.181,,2018-04-30 21:52:11,2018-04-30 21:55:59,3m - 47.454s,FAILED
+,,,,,,
+Test Cases/Login Test Case 3,Chrome 65.0.3325.181,,2018-04-30 21:52:12,2018-04-30 21:53:29,1m - 16.957s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 21:52:13,2018-04-30 21:52:17,4.324s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 21:52:17,2018-04-30 21:52:26,8.357s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 21:52:26,2018-04-30 21:52:26,0.441s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 21:52:26,2018-04-30 21:52:26,0.029s,PASSED
+sendKeys,Chrome 65.0.3325.181,,2018-04-30 21:52:26,2018-04-30 21:52:26,0.196s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-30 21:52:26,2018-04-30 21:52:57,31.007s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-30 21:52:57,2018-04-30 21:53:29,31.672s,FAILED
+,,,,,,
+Test Cases/Login Test Case 3,Chrome 65.0.3325.181,,2018-04-30 21:53:29,2018-04-30 21:54:44,1m - 15.450s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 21:53:29,2018-04-30 21:53:32,2.985s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 21:53:32,2018-04-30 21:53:42,9.494s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 21:53:42,2018-04-30 21:53:42,0.253s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 21:53:42,2018-04-30 21:53:42,0.001s,PASSED
+sendKeys,Chrome 65.0.3325.181,,2018-04-30 21:53:42,2018-04-30 21:53:42,0.092s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-30 21:53:42,2018-04-30 21:54:13,30.856s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-30 21:54:13,2018-04-30 21:54:44,31.671s,FAILED
+,,,,,,
+Test Cases/Login Test Case 3,Chrome 65.0.3325.181,,2018-04-30 21:54:44,2018-04-30 21:55:58,1m - 13.605s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 21:54:44,2018-04-30 21:54:48,3.031s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 21:54:48,2018-04-30 21:54:55,7.800s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 21:54:55,2018-04-30 21:54:56,0.234s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-30 21:54:56,2018-04-30 21:54:56,0.001s,PASSED
+sendKeys,Chrome 65.0.3325.181,,2018-04-30 21:54:56,2018-04-30 21:54:56,0.095s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-30 21:54:56,2018-04-30 21:55:27,30.880s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-30 21:55:27,2018-04-30 21:55:58,31.532s,FAILED

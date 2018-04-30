@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Login Test Case 3" time="202" tests="2" failures="1" errors="0">
+   <testsuite name="Test Suite for Login Test Case 3" tests="2" failures="1" errors="0" time="202" timestamp="2018-04-30 21:57:29" hostname="Andrew_Dpp - Andrew_Dpp-PC" id="Test Suites/Test Suite for Login Test Case 3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 3\\20180430_215726"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 3\\20180430_215726\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 3\\20180430_215726\\1525100450731.png, C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 3\\20180430_215726\\1525100451121.png"/>
+         <property name="hostName" value="Andrew_Dpp - Andrew_Dpp-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="3782d3aa6d2d3e059e68379e25b0029d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case 3" classname="Test Cases/Login Test Case 3" status="PASSED">
+         <system-out><![CDATA[2018-04-30 21:57:30 - [TEST_CASE][PASSED] - Test Cases/Login Test Case 3: Test Cases/Login Test Case 3
+
+2018-04-30 21:57:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 21:57:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 21:57:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 21:57:45 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 21:57:45 - [TEST_STEP][PASSED] - setText: Text 'a' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:57:46 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:57:46 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 21:57:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:57:46 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:57:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 2/usernameNotification' is not present after 0 second(s)
+
+2018-04-30 21:57:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-30 21:58:17 - [MESSAGE][WARNING] - Object 'Object Repository/Login/Login Fail 2/usernameNotification' is not present after 0 second(s)
+
+2018-04-30 21:58:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-04-30 21:58:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-04-30 21:58:44 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-30 21:58:44 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-30 21:58:44 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-30 21:58:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-30 21:58:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case 3" classname="Test Cases/Login Test Case 3" status="PASSED">
+         <system-out><![CDATA[2018-04-30 21:58:45 - [TEST_CASE][PASSED] - Test Cases/Login Test Case 3: Test Cases/Login Test Case 3
+
+2018-04-30 21:58:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 21:58:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 21:58:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 21:58:58 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 21:58:58 - [TEST_STEP][PASSED] - setText: Text 'h' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:58:58 - [MESSAGE][PASSED] - Text 'h' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:58:58 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 21:58:58 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:58:58 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:58:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 2/usernameNotification' is not present after 0 second(s)
+
+2018-04-30 21:58:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-30 21:59:29 - [MESSAGE][WARNING] - Object 'Object Repository/Login/Login Fail 2/usernameNotification' is not present after 0 second(s)
+
+2018-04-30 21:59:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-04-30 21:59:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-04-30 21:59:35 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-30 21:59:35 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-30 21:59:35 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-30 21:59:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-30 21:59:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case 3" classname="Test Cases/Login Test Case 3" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 2/usernameNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[1]/label[2]' not found)"/>
+         <system-out><![CDATA[2018-04-30 21:59:36 - [TEST_CASE][FAILED] - Test Cases/Login Test Case 3: Test Cases/Login Test Case 3 FAILED because (of) Verify element text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 2/usernameNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[1]/label[2]' not found)
+
+2018-04-30 21:59:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 21:59:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 21:59:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 21:59:48 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 21:59:48 - [TEST_STEP][PASSED] - setText: Text 'u' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:59:48 - [MESSAGE][PASSED] - Text 'u' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:59:48 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 21:59:48 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:59:48 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 21:59:48 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 2/usernameNotification' is not present after 0 second(s)
+
+2018-04-30 21:59:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-30 22:00:19 - [MESSAGE][WARNING] - Object 'Object Repository/Login/Login Fail 2/usernameNotification' is not present after 0 second(s)
+
+2018-04-30 22:00:19 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 2/usernameNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[1]/label[2]' not found)
+
+2018-04-30 22:00:51 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 2/usernameNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[1]/label[2]' not found
+[[ATTACHMENT|C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 3\\20180430_215726\\1525100450731.png]]
+
+2018-04-30 22:00:51 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 2/usernameNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[1]/label[2]' not found)
+[[ATTACHMENT|C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 3\\20180430_215726\\1525100451121.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-30 21:59:36 - [TEST_CASE][FAILED] - Test Cases/Login Test Case 3: Test Cases/Login Test Case 3 FAILED because (of) Verify element text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 2/usernameNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[1]/label[2]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 21:57:29 - [TEST_SUITE][FAILED] - Test Suite for Login Test Case 3: Test Cases/Login Test Case 3 FAILED because (of) Verify element text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 2/usernameNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[1]/label[2]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-30 21:57:29 - [TEST_SUITE][FAILED] - Test Suite for Login Test Case 3: Test Cases/Login Test Case 3 FAILED because (of) Verify element text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 2/usernameNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[1]/label[2]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
