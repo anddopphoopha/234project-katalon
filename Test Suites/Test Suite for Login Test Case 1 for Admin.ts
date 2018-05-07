@@ -15,7 +15,7 @@
       <guid>4c5bfd21-465c-41b4-94ab-d83927291e28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Test Case 1 for Admin</testCaseId>
+      <testCaseId>Test Cases/Login Test Case for Admin</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9f7c3ed8-1ac9-4b7f-8e11-238bc8b1c1d9</id>
