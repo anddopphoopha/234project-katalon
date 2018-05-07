@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite for User Test Case 3</name>
+   <name>Test Suite for User Test Case to Check Selected Products</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2018-05-07T17:55:27</lastRun>

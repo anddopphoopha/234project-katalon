@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite for Open Web Test Case 1</name>
+   <name>Test Suite for Login Test Case for Empty Password</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-30T11:10:17</lastRun>
+   <lastRun>2018-04-30T22:18:44</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>ca2e1379-0c20-4e73-974a-af3c998f9b04</testSuiteGuid>
+   <testSuiteGuid>f36b6349-43d0-47e3-bcc4-d97706c4ac4d</testSuiteGuid>
    <testCaseLink>
-      <guid>c931db52-5545-412a-9d2f-2e58d0d8a65a</guid>
+      <guid>d9b123a9-1779-4ea8-a792-e53c288f9b08</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Open Web Test Case</testCaseId>
+      <testCaseId>Test Cases/Login Test Case for Empty Password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>4a3f4963-4f6c-4de5-ad4b-c1fc9259e22b</id>
+         <id>a957a21b-73f4-44f8-bdff-6e6c5405d7e2</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Test Data for Open Web Test Case 1</testDataId>
+         <testDataId>Data Files/Test Data for Login Test Case 4</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>4a3f4963-4f6c-4de5-ad4b-c1fc9259e22b</testDataLinkId>
+         <testDataLinkId>a957a21b-73f4-44f8-bdff-6e6c5405d7e2</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>link</value>
-         <variableId>a2621e8c-7fbc-4453-a83f-548bff7ea446</variableId>
+         <value>password</value>
+         <variableId>4ac6baed-3c57-4f90-a510-4f88dad05e18</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

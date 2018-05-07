@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite for Login Test Case 1 for User</name>
+   <name>Test Suite for User Test Case to Check Adding to Cart</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-28T12:23:55</lastRun>
+   <lastRun>2018-05-07T17:52:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>f7f44c19-e08c-4ade-baaa-1008eaecfc9a</testSuiteGuid>
+   <testSuiteGuid>11734561-56b3-4a57-a689-5569a262b3ee</testSuiteGuid>
    <testCaseLink>
-      <guid>11cffed6-b3b3-44d2-8f09-14a29deaad26</guid>
+      <guid>b804fa7f-4cf1-4732-be0a-2875c33a745b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Test Case for User</testCaseId>
+      <testCaseId>Test Cases/User Test Case to Check Adding to Cart</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>284b1fbf-5f4f-49f7-96da-e54474de1c05</id>
+         <id>295bf383-388c-4039-9a66-3552f69c013e</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-1</value>
+            <iterationType>ALL</iterationType>
+            <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Test Data for Login Test Case 1 for User</testDataId>
+         <testDataId>Data Files/Test Data for User Test Case 2</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>284b1fbf-5f4f-49f7-96da-e54474de1c05</testDataLinkId>
+         <testDataLinkId>295bf383-388c-4039-9a66-3552f69c013e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>91691e97-63fb-4712-9392-a00314b937cb</variableId>
+         <variableId>08db86c0-6ff1-43d3-b781-6e5f995b2573</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>284b1fbf-5f4f-49f7-96da-e54474de1c05</testDataLinkId>
+         <testDataLinkId>295bf383-388c-4039-9a66-3552f69c013e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>16fddc94-aada-4158-8021-3469c15f7ddc</variableId>
+         <variableId>702bd339-4898-448e-b693-f1c245d6f6b7</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

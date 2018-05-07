@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite for Logout Test Case 1</name>
+   <name>Test Suite for Logout Test Case</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2018-04-29T20:47:50</lastRun>

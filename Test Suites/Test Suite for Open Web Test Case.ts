@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite for Login Test Case 3</name>
+   <name>Test Suite for Open Web Test Case</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-30T22:02:32</lastRun>
+   <lastRun>2018-04-30T11:10:17</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>45da38f5-ea7e-42b5-913a-474c0f312855</testSuiteGuid>
+   <testSuiteGuid>ca2e1379-0c20-4e73-974a-af3c998f9b04</testSuiteGuid>
    <testCaseLink>
-      <guid>5cdcc307-51c6-46f6-ba22-d6541151fac8</guid>
+      <guid>c931db52-5545-412a-9d2f-2e58d0d8a65a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Test Case for Empty Username</testCaseId>
+      <testCaseId>Test Cases/Open Web Test Case</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>62c8c41d-3a0f-4ca2-9bd6-77e875820889</id>
+         <id>4a3f4963-4f6c-4de5-ad4b-c1fc9259e22b</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>3-3</value>
+            <iterationType>ALL</iterationType>
+            <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Test Data for Login Test Case 3</testDataId>
+         <testDataId>Data Files/Test Data for Open Web Test Case 1</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>62c8c41d-3a0f-4ca2-9bd6-77e875820889</testDataLinkId>
+         <testDataLinkId>4a3f4963-4f6c-4de5-ad4b-c1fc9259e22b</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>d1adf43a-f9d9-417d-a72a-f768f1211228</variableId>
+         <value>link</value>
+         <variableId>a2621e8c-7fbc-4453-a83f-548bff7ea446</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

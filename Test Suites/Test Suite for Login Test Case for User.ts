@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite for Login Test Case 1 for Admin</name>
+   <name>Test Suite for Login Test Case for User</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-28T12:18:03</lastRun>
+   <lastRun>2018-04-28T12:23:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>543e66b1-a38f-43cb-845c-c5034c46a0b2</testSuiteGuid>
+   <testSuiteGuid>f7f44c19-e08c-4ade-baaa-1008eaecfc9a</testSuiteGuid>
    <testCaseLink>
-      <guid>4c5bfd21-465c-41b4-94ab-d83927291e28</guid>
+      <guid>11cffed6-b3b3-44d2-8f09-14a29deaad26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Test Case for Admin</testCaseId>
+      <testCaseId>Test Cases/Login Test Case for User</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>9f7c3ed8-1ac9-4b7f-8e11-238bc8b1c1d9</id>
+         <id>284b1fbf-5f4f-49f7-96da-e54474de1c05</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
-         <testDataId>Data Files/Test Data for Login Test Case 1 for Admin</testDataId>
+         <testDataId>Data Files/Test Data for Login Test Case 1 for User</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>9f7c3ed8-1ac9-4b7f-8e11-238bc8b1c1d9</testDataLinkId>
+         <testDataLinkId>284b1fbf-5f4f-49f7-96da-e54474de1c05</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>9b65f809-2769-44fb-aae4-0bd5964714c5</variableId>
+         <variableId>91691e97-63fb-4712-9392-a00314b937cb</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9f7c3ed8-1ac9-4b7f-8e11-238bc8b1c1d9</testDataLinkId>
+         <testDataLinkId>284b1fbf-5f4f-49f7-96da-e54474de1c05</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>d6fc517a-9eef-4cda-898e-badf9aafa88e</variableId>
+         <variableId>16fddc94-aada-4158-8021-3469c15f7ddc</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
