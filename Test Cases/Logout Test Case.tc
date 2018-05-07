@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Logout Test Case 1</name>
+   <name>Logout Test Case</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2ccd27f3-6591-46a1-8b8b-4b6ce6290845</testCaseGuid>
