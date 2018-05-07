@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Open Web Test Case 1</name>
+   <name>Open Web Test Case</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>bf42ea52-8f93-49df-a53a-e36fc15ca509</testCaseGuid>
