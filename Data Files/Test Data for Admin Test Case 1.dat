@@ -8,8 +8,8 @@
    <dataFileGUID>3b1d7d55-b8f4-496a-baf7-c01d9d7ffc20</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>admin admin hello hello</data>
-   <data>admin admin user user</data>
+   <data>admin admin hello hello 1 1 1 1 1</data>
+   <data>admin admin user user 1 2 3 3 4</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>admin_username</name>
@@ -28,6 +28,31 @@
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>user_password</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>input_amount1</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>input_amount2</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>input_amount3</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>input_amount4</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>input_amount5</name>
       <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

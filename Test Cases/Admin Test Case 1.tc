@@ -33,4 +33,39 @@
       <masked>false</masked>
       <name>user_password</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a142716a-e46b-41a3-9cf8-f23b8fd3753d</id>
+      <masked>false</masked>
+      <name>input_amount1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bdcd56f9-442b-4cdc-8cfe-2b480c1ceed9</id>
+      <masked>false</masked>
+      <name>input_amount2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e6a1d840-17f2-461f-8dad-efa521a7b8ec</id>
+      <masked>false</masked>
+      <name>input_amount3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3742394f-7743-42a5-a286-005794d32f4d</id>
+      <masked>false</masked>
+      <name>input_amount4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>979bcd42-b031-4f57-b1e4-f28bfce1f6b5</id>
+      <masked>false</masked>
+      <name>input_amount5</name>
+   </variable>
 </TestCaseEntity>

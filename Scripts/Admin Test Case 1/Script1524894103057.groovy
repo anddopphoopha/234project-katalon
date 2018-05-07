@@ -36,7 +36,7 @@ WebUI.setText(findTestObject('Admin/input_password'), admin_password)
 
 WebUI.click(findTestObject('Admin/button_Login'))
 
-//WebUI.click(findTestObject('Admin/div_Products'))
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Admin/a_Total Transaction'))
 
@@ -66,8 +66,6 @@ for (def i : (1..oldRows.size())) {
     tempString += driver.findElement(By.xpath(('//*[@id="add-row"]/div/table/tbody/tr[' + i) + ']/td[3]')).getText()
 
     oldTransactionList.add(tempString)
-
-    println(tempString)
 }
 
 WebUI.click(findTestObject('Admin/button_Logout'))
@@ -80,11 +78,29 @@ WebUI.setText(findTestObject('Admin/input_password'), user_password)
 
 WebUI.click(findTestObject('Admin/button_Login'))
 
+WebUI.click(findTestObject('Admin/add to cart1'))
+
 WebUI.click(findTestObject('Admin/add to cart2'))
 
-WebUI.click(findTestObject('Admin/span_1'))
+WebUI.click(findTestObject('Admin/add to cart3'))
+
+WebUI.click(findTestObject('Admin/add to cart4'))
+
+WebUI.click(findTestObject('Admin/add to cart5'))
+
+WebUI.click(findTestObject('Admin/cart'))
 
 WebUI.delay(5)
+
+WebUI.setText(findTestObject('Admin/input_amount1'), input_amount1)
+
+WebUI.setText(findTestObject('Admin/input_amount2'), input_amount2)
+
+WebUI.setText(findTestObject('Admin/input_amount3'), input_amount3)
+
+WebUI.setText(findTestObject('Admin/input_amount4'), input_amount4)
+
+WebUI.setText(findTestObject('Admin/input_amount5'), input_amount5)
 
 WebElement xpathOfElement = driver.findElement(By.xpath('//*[@id="add-row"]/div/div[2]/div/p'))
 
@@ -93,13 +109,14 @@ WebElement UserTable = driver.findElement(By.xpath('//*[@id="add-row"]/div/table
 List<WebElement> userRows = UserTable.findElements(By.tagName('tr'))
 
 def userProducts = ''
+
 for (def i : (1..userRows.size())) {
     userProducts += driver.findElement(By.xpath(('//*[@id="add-row"]/div/table/tbody/tr[' + i) + ']/td[1]')).getText()
 }
 
 def userTotalPrice = xpathOfElement.getText().replaceAll('Total price: ', '')
 
-def valueOfUserTotalPrice = Integer.parseInt(userTotalPrice.replaceAll(' THB', ''))
+def valueOfUserTotalPrice = Integer.parseInt(userTotalPrice.replaceAll(' THB', '').replaceAll(',', ''))
 
 WebUI.click(findTestObject('Admin/button_confirm'))
 
@@ -130,21 +147,21 @@ ArrayList<String> newTransactionList = new ArrayList<String>()
 for (def i : (1..newRows.size() - 1)) {
     def tempString = ''
 
-    tempString += driver.findElement(By.xpath(('//*[@id="add-row"]/div/table/tbody/tr[' + i + ']/td[1]'))).getText()
+    tempString += driver.findElement(By.xpath(('//*[@id="add-row"]/div/table/tbody/tr[' + i) + ']/td[1]')).getText()
 
-    tempString += driver.findElement(By.xpath(('//*[@id="add-row"]/div/table/tbody/tr[' + i + ']/td[2]'))).getText()
+    tempString += driver.findElement(By.xpath(('//*[@id="add-row"]/div/table/tbody/tr[' + i) + ']/td[2]')).getText()
 
-    tempString += driver.findElement(By.xpath(('//*[@id="add-row"]/div/table/tbody/tr[' + i + ']/td[3]'))).getText()
+    tempString += driver.findElement(By.xpath(('//*[@id="add-row"]/div/table/tbody/tr[' + i) + ']/td[3]')).getText()
 
     newTransactionList.add(tempString)
 
     println(tempString)
 }
 
-def newRowValue = driver.findElement(By.xpath((('//*[@id="add-row"]/div/table/tbody/tr[' + newRows.size()) - 1) + ']/td[3]')).getText()
+def newRowValue = driver.findElement(By.xpath(('//*[@id="add-row"]/div/table/tbody/tr[' + newRows.size()) + ']/td[3]')).getText()
 
-def newTranscation = driver.findElement(By.xpath((('//*[@id="add-row"]/div/table/tbody/tr[' + newRows.size()) - 1) + 
-        ']/td[2]')).getText().replaceAll(',', '')
+def newTranscation = driver.findElement(By.xpath(('//*[@id="add-row"]/div/table/tbody/tr[' + newRows.size()) + ']/td[2]')).getText().replaceAll(
+    ', ', '')
 
 def newAdminTotalPrice = driver.findElement(By.xpath('//*[@id="add-row"]/div/div[2]/div/p')).getText()
 
@@ -177,3 +194,4 @@ println('No. of new rows ' + newRows.size())
 WebUI.verifyGreaterThan(newRows.size(), valueOfOldRows)
 
 WebUI.closeBrowser()
+

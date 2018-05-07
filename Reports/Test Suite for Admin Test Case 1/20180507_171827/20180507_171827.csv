@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Admin Test Case 1,,,2018-05-07 17:18:44,2018-05-07 17:18:45,0.829s,INCOMPLETE
+,,,,,,
+Test Cases/Admin Test Case 1,,,2018-05-07 17:18:44,2018-05-07 17:18:45,0.140s,PASSED
