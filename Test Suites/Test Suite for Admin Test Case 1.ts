@@ -15,7 +15,7 @@
       <guid>625ebba9-7db3-4401-b25b-32d3005c7f03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Test Case 1</testCaseId>
+      <testCaseId>Test Cases/Admin Test Case to Check Total Transactions</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>dc4110a4-ce82-4421-8a28-d35c2fb41d5d</id>
