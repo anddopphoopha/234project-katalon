@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Test Data for Open Web Test Case 1</name>
+   <name>Test Data for User Test Case to Check Available Products</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>f67392e5-9c2b-4b5c-a07f-8acca699f834</dataFileGUID>
+   <dataFileGUID>0a8138ae-1bf7-49ab-84a7-f9da508c9805</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>http%3A%2F%2F18.188.55.188%3A8085%2F</data>
-   <data>http%3A%2F%2F18.188.55.188%3A8085%2Fproducts</data>
-   <data>http%3A%2F%2F18.188.55.188%3A8085%2Fcart</data>
-   <data>http%3A%2F%2F18.188.55.188%3A8085%2Ftotal</data>
+   <data>user user</data>
+   <data>hello hello</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>link</name>
-      <size>4</size>
+      <name>username</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

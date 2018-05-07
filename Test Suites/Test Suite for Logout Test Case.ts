@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value>1-1</value>
          </iterationEntity>
-         <testDataId>Data Files/Test Data for Logout Test Case 1</testDataId>
+         <testDataId>Data Files/Test Data for Logout Test Case</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>4b8cdbc6-f1ec-436b-a45c-316166b162aa</testDataLinkId>

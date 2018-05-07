@@ -1,47 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Test Data for User Test Case 3</name>
+   <name>Test Data for Admin Test Case to Check Total Transcations</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>888fabd5-acb9-4da8-b9b4-6722a4561ba4</dataFileGUID>
+   <dataFileGUID>3b1d7d55-b8f4-496a-baf7-c01d9d7ffc20</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>hello hello 1 1 1 1 1</data>
-   <data>user user 2 2 2 2 2</data>
+   <data>admin admin hello hello 1 1 1 1 1</data>
+   <data>admin admin user user 1 2 3 3 4</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>username</name>
+      <name>admin_username</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
-      <name>password</name>
+      <name>admin_password</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
-      <name>input_amount1</name>
+      <name>user_username</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
-      <name>input_amount2</name>
+      <name>user_password</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
-      <name>input_amount3</name>
+      <name>input_amount1</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
-      <name>input_amount4</name>
+      <name>input_amount2</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>6</columnIndex>
+      <name>input_amount3</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>input_amount4</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
       <name>input_amount5</name>
       <size>2</size>
    </internalDataColumns>

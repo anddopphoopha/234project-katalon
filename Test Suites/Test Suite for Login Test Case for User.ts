@@ -23,7 +23,7 @@
             <iterationType>RANGE</iterationType>
             <value>1-1</value>
          </iterationEntity>
-         <testDataId>Data Files/Test Data for Login Test Case 1 for User</testDataId>
+         <testDataId>Data Files/Test Data for Login Test Case for User</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>284b1fbf-5f4f-49f7-96da-e54474de1c05</testDataLinkId>

@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Test Data for User Test Case 2</testDataId>
+         <testDataId>Data Files/Test Data for User Test Case to Check Adding to Cart</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>295bf383-388c-4039-9a66-3552f69c013e</testDataLinkId>
