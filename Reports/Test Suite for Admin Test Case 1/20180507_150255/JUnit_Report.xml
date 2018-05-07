@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Admin Test Case 1" time="144" tests="0" failures="1" errors="0">
+   <testsuite name="Test Suite for Admin Test Case 1" tests="0" failures="1" errors="0" time="144" timestamp="2018-05-07 15:03:12" hostname="Andrew_Dpp - 10.80.101.119" id="Test Suites/Test Suite for Admin Test Case 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_150255"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_150255\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_150255\\1525680335994.png"/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.101.119"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.101.119"/>
+         <property name="sessionId" value="d12109e8a945296d3127de7f1a3fb52b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Test Case 1" classname="Test Cases/Admin Test Case 1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Admin/div_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/div_Products' located by 'By.xpath: //div[@id = 'navbarSupportedContent' and (text() = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ' or . = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ')]' not found)"/>
+         <system-out><![CDATA[2018-05-07 15:03:13 - [TEST_CASE][FAILED] - Test Cases/Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to click on object 'Object Repository/Admin/div_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/div_Products' located by 'By.xpath: //div[@id = 'navbarSupportedContent' and (text() = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ' or . = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ')]' not found)
+
+2018-05-07 15:03:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-07 15:03:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-07 15:03:40 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-07 15:03:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-07 15:03:50 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-07 15:03:50 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 15:03:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 15:03:51 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 15:03:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 15:03:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 15:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 15:03:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/div_Products' is clicked on
+
+2018-05-07 15:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/div_Products' is clicked on
+
+2018-05-07 15:03:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/a_Total Transaction' is clicked on
+
+2018-05-07 15:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/a_Total Transaction' is clicked on
+
+2018-05-07 15:03:53 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody")): null
+
+2018-05-07 15:03:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-07 15:03:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-07 15:03:59 - [TEST_STEP][PASSED] - Statement - oldAdminTotalPrice = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/div[2]/div/p")).getText(): null
+
+2018-05-07 15:03:59 - [TEST_STEP][PASSED] - Statement - oldAdminTotalPrice = oldAdminTotalPrice.replaceAll(" THB", "").replaceAll("Total price: ", "").replaceAll(",", ""): null
+
+2018-05-07 15:03:59 - [TEST_STEP][PASSED] - Statement - oldAdminTotalPrice = java.lang.Integer.parseInt(oldAdminTotalPrice): null
+
+2018-05-07 15:03:59 - [TEST_STEP][PASSED] - Statement - oldRows = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-05-07 15:03:59 - [TEST_STEP][PASSED] - Statement - valueOfOldRows = oldRows.size(): null
+
+2018-05-07 15:03:59 - [TEST_STEP][PASSED] - Statement - oldTransactionList = new java.util.ArrayList(): null
+
+2018-05-07 15:03:59 - [TEST_STEP][PASSED] - Statement - For (def i : (1..oldRows.size())): null
+
+2018-05-07 15:03:59 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:03:59 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:00 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:00 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:00 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:01 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:02 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:03 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:03 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:03 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:03 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:03 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:03 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:04 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:05 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:05 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:05 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:05 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:05 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:05 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:05 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:05 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:06 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:07 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:08 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:09 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:10 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:11 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:12 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:13 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:13 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:13 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:13 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:13 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:13 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:13 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:13 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:13 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:13 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:14 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:15 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:16 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:16 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:16 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:16 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:16 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:16 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:16 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:16 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:16 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:17 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:18 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:18 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:18 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:18 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:18 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:18 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:18 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:18 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:18 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:19 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:20 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:20 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:20 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:20 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:20 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:20 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:20 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:20 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:21 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:21 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:21 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:21 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:21 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:21 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:21 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:21 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:22 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:22 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:22 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:22 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:22 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:22 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:22 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:23 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:23 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:23 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:23 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:23 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:23 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:23 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:23 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:23 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:23 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:24 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:24 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:24 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:24 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:24 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:24 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:24 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:24 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:25 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:25 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:25 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:25 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:25 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:25 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:25 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:25 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:25 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:25 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:27 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:27 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:27 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:29 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:29 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:29 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:30 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:31 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:31 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:31 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:31 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:31 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:31 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:31 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:31 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:31 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:32 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:32 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:32 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:32 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:32 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:32 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:32 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:32 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:33 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:33 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:33 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:33 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:33 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:33 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:33 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:34 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:35 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:35 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:36 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:37 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:37 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:37 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:37 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:37 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:37 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:37 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:37 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:38 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:38 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:38 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:38 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:38 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:38 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:39 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:39 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:39 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:39 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:39 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:39 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:39 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:40 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:40 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:40 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:40 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:40 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:40 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:40 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:40 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:41 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:41 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:41 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:41 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:41 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:41 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:41 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:42 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:42 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:42 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:42 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:42 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:42 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:42 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:42 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:43 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:43 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:43 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:43 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:43 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:44 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:44 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:44 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:44 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:44 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:44 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:44 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:45 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:45 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:45 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:45 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:45 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:45 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:45 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:45 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:45 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:46 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:46 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:46 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:46 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:46 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:46 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:47 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:47 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:47 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:47 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:47 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:47 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:47 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:47 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:48 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:48 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:48 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:48 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:48 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:48 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:48 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:48 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:49 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:49 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:49 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:49 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:49 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:49 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:49 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:49 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:50 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:50 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:50 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:50 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:50 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:50 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:50 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:50 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:50 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:51 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:51 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:51 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:51 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:51 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:51 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:51 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:51 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:52 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:52 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:52 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:53 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:53 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:53 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:53 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:53 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:53 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:53 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:54 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:54 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:54 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:54 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:54 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:54 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:54 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:55 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:55 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:55 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:55 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:55 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:55 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:55 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:55 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:56 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:56 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:56 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:56 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:56 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:56 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:56 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:56 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:56 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 15:04:57 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/th")).getText(): null
+
+2018-05-07 15:04:57 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 15:04:57 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 15:04:57 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 15:04:57 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 15:04:57 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 15:04:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 15:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 15:04:58 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 15:04:58 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 15:04:59 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 15:05:00 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 15:05:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 15:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 15:05:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/add to cart2' is clicked on
+
+2018-05-07 15:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/add to cart2' is clicked on
+
+2018-05-07 15:05:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/span_1' is clicked on
+
+2018-05-07 15:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/span_1' is clicked on
+
+2018-05-07 15:05:02 - [TEST_STEP][PASSED] - Statement - xpathOfElement = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/div[2]/div/p")): null
+
+2018-05-07 15:05:02 - [TEST_STEP][PASSED] - Statement - userTotalPrice = xpathOfElement.getText().replaceAll("Total price: ", ""): null
+
+2018-05-07 15:05:02 - [TEST_STEP][PASSED] - Statement - valueOfUserTotalPrice = java.lang.Integer.parseInt(userTotalPrice.replaceAll(" THB", "")): null
+
+2018-05-07 15:05:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_confirm' is clicked on
+
+2018-05-07 15:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_confirm' is clicked on
+
+2018-05-07 15:05:03 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-07 15:05:03 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-07 15:05:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 15:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 15:05:03 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-05-07 15:05:03 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-05-07 15:05:03 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 15:05:03 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 15:05:03 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 15:05:04 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 15:05:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 15:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 15:05:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Admin/div_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/div_Products' located by 'By.xpath: //div[@id = 'navbarSupportedContent' and (text() = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ' or . = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ')]' not found)
+
+2018-05-07 15:05:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin/div_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/div_Products' located by 'By.xpath: //div[@id = 'navbarSupportedContent' and (text() = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ' or . = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ')]' not found)
+[[ATTACHMENT|C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_150255\\1525680335994.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-07 15:03:13 - [TEST_CASE][FAILED] - Test Cases/Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to click on object 'Object Repository/Admin/div_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/div_Products' located by 'By.xpath: //div[@id = 'navbarSupportedContent' and (text() = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ' or . = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-07 15:03:12 - [TEST_SUITE][FAILED] - Test Suite for Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to click on object 'Object Repository/Admin/div_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/div_Products' located by 'By.xpath: //div[@id = 'navbarSupportedContent' and (text() = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ' or . = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-07 15:03:12 - [TEST_SUITE][FAILED] - Test Suite for Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to click on object 'Object Repository/Admin/div_Products' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/div_Products' located by 'By.xpath: //div[@id = 'navbarSupportedContent' and (text() = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ' or . = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
