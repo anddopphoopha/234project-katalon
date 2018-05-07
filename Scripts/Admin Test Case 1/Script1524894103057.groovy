@@ -42,6 +42,14 @@ WebUI.click(findTestObject('Admin/a_Total Transaction'))
 
 WebElement Table = driver.findElement(By.xpath('//*[@id="add-row"]/div/table/tbody'))
 
+WebUI.delay(5)
+
+def oldAdminTotalPrice = driver.findElement(By.xpath('//*[@id="add-row"]/div/div[2]/div/p')).getText()
+
+oldAdminTotalPrice = oldAdminTotalPrice.replaceAll(' THB', '').replaceAll('Total price: ', '').replaceAll(',', '')
+
+oldAdminTotalPrice = Integer.parseInt(oldAdminTotalPrice)
+
 List<WebElement> oldRows = Table.findElements(By.tagName('tr'))
 
 def valueOfOldRows = oldRows.size()
@@ -60,9 +68,9 @@ WebUI.click(findTestObject('Admin/span_1'))
 
 WebElement xpathOfElement = driver.findElement(By.xpath('//*[@id="add-row"]/div/div[2]/div/p'))
 
-def totalPrice = xpathOfElement.getText().replaceAll('Total price: ', '')
+def userTotalPrice = xpathOfElement.getText().replaceAll('Total price: ', '')
 
-println(totalPrice)
+def valueOfUserTotalPrice = Integer.parseInt(userTotalPrice.replaceAll(' THB', ''))
 
 WebUI.click(findTestObject('Admin/button_confirm'))
 
@@ -84,15 +92,31 @@ WebUI.click(findTestObject('Admin/a_Total Transaction'))
 
 Table = driver.findElement(By.xpath('//*[@id="add-row"]/div/table/tbody'))
 
+WebUI.delay(5)
+
 List<WebElement> newRows = Table.findElements(By.tagName('tr'))
 
 def newRowValue = driver.findElement(By.xpath('//*[@id="add-row"]/div/table/tbody/tr[' + newRows.size() - 1 + ']/td[3]')).getText()
 
-println(newRows.size())
+def newAdminTotalPrice = driver.findElement(By.xpath('//*[@id="add-row"]/div/div[2]/div/p')).getText()
+ 
+newAdminTotalPrice = newAdminTotalPrice.replaceAll(' THB', '').replaceAll('Total price: ', '').replaceAll(',', '')
+ 
+newAdminTotalPrice = Integer.parseInt(newAdminTotalPrice)
 
-println(newRowValue)
+println('Total Price of All Transaction before: ' + oldAdminTotalPrice)
 
-WebUI.verifyEqual(totalPrice, newRowValue)
+println('Total Price that User Bought: ' + userTotalPrice)
+
+println('Total Price of all Transaction after: ' + newAdminTotalPrice)
+
+println('Size of Rows after: ' + newRows.size())
+
+println('Total Price of Last Transaction: ' + newRowValue)
+
+WebUI.verifyEqual(userTotalPrice, newRowValue)
+
+WebUI.verifyEqual(valueOfUserTotalPrice + oldAdminTotalPrice, newAdminTotalPrice)
 
 println('No. of old rows ' + valueOfOldRows)
 

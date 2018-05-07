@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Admin Test Case 1" time="89" tests="0" failures="1" errors="0">
+   <testsuite name="Test Suite for Admin Test Case 1" tests="0" failures="1" errors="0" time="89" timestamp="2018-05-07 13:28:53" hostname="Andrew_Dpp - 10.80.101.119" id="Test Suites/Test Suite for Admin Test Case 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_132836"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_132836\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_132836\\1525674621088.png"/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.101.119"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.101.119"/>
+         <property name="sessionId" value="fc4d6b3e7e146d6b995d600c5949df6d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Test Case 1" classname="Test Cases/Admin Test Case 1" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'admin' of object 'Object Repository/Admin/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)"/>
+         <system-out><![CDATA[2018-05-07 13:28:54 - [TEST_CASE][FAILED] - Test Cases/Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Admin/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+
+2018-05-07 13:28:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-07 13:29:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-07 13:29:23 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-07 13:29:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-07 13:29:35 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-07 13:29:35 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 13:29:37 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 13:29:37 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 13:29:37 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 13:29:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 13:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 13:29:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/div_Products' is clicked on
+
+2018-05-07 13:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/div_Products' is clicked on
+
+2018-05-07 13:29:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/a_Total Transaction' is clicked on
+
+2018-05-07 13:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/a_Total Transaction' is clicked on
+
+2018-05-07 13:29:40 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody")): null
+
+2018-05-07 13:29:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-07 13:29:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-07 13:29:45 - [TEST_STEP][PASSED] - Statement - oldAdminTotalPrice = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/div[2]/div/p")).getText(): null
+
+2018-05-07 13:29:46 - [TEST_STEP][PASSED] - Statement - oldAdminTotalPrice = oldAdminTotalPrice.replaceAll(" THB", "").replaceAll("Total price: ", "").replaceAll(",", ""): null
+
+2018-05-07 13:29:46 - [TEST_STEP][PASSED] - Statement - oldAdminTotalPrice = java.lang.Integer.parseInt(oldAdminTotalPrice): null
+
+2018-05-07 13:29:46 - [TEST_STEP][PASSED] - Statement - oldRows = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-05-07 13:29:46 - [TEST_STEP][PASSED] - Statement - valueOfOldRows = oldRows.size(): null
+
+2018-05-07 13:29:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 13:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 13:29:46 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 13:29:46 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 13:29:46 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 13:29:47 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 13:29:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 13:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 13:29:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/add to cart2' is clicked on
+
+2018-05-07 13:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/add to cart2' is clicked on
+
+2018-05-07 13:29:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/span_1' is clicked on
+
+2018-05-07 13:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/span_1' is clicked on
+
+2018-05-07 13:29:48 - [TEST_STEP][PASSED] - Statement - xpathOfElement = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/div[2]/div/p")): null
+
+2018-05-07 13:29:48 - [TEST_STEP][PASSED] - Statement - userTotalPrice = xpathOfElement.getText().replaceAll("Total price: ", ""): null
+
+2018-05-07 13:29:48 - [TEST_STEP][PASSED] - Statement - valueOfUserTotalPrice = java.lang.Integer.parseInt(userTotalPrice.replaceAll(" THB", "")): null
+
+2018-05-07 13:29:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_confirm' is clicked on
+
+2018-05-07 13:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_confirm' is clicked on
+
+2018-05-07 13:29:48 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-07 13:29:48 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-07 13:29:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 13:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 13:29:49 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-05-07 13:29:49 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-05-07 13:29:49 - [TEST_STEP][FAILED] - setText: Unable to set text 'admin' of object 'Object Repository/Admin/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+
+2018-05-07 13:30:21 - [MESSAGE][FAILED] - Unable to set text 'admin' of object 'Object Repository/Admin/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+[[ATTACHMENT|C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_132836\\1525674621088.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-07 13:28:54 - [TEST_CASE][FAILED] - Test Cases/Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Admin/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-07 13:28:53 - [TEST_SUITE][FAILED] - Test Suite for Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Admin/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-07 13:28:53 - [TEST_SUITE][FAILED] - Test Suite for Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Admin/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-err>
+   </testsuite>
+</testsuites>
