@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_1</name>
+   <name>cart</name>
    <tag></tag>
    <elementGuidId>708ebd34-6ad3-4656-a02e-c8564c1efddc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
