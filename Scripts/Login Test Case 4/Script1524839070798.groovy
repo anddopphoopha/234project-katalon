@@ -28,7 +28,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.55.188:8085/')
 
-WebUI.setText(findTestObject('Login/Login Fail 3/input_password'), 'u')
+WebUI.setText(findTestObject('Login/Login Fail 3/input_password'), password)
 
 WebDriver driver = DriverFactory.getWebDriver()
 

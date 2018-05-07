@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.55.188:8085/')
 
-WebUI.setText(findTestObject('Login/Login Fail 1/input_username'), 'hello')
+WebUI.setText(findTestObject('Login/Login Fail 1/input_username'), username)
 
-WebUI.setText(findTestObject('Login/Login Fail 1/input_password'), 'user')
+WebUI.setText(findTestObject('Login/Login Fail 1/input_password'), password)
 
 WebUI.click(findTestObject('Login/Login Fail 1/button_Login'))
 

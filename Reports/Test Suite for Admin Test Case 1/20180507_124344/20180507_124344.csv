@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Admin Test Case 1,Chrome 66.0.3359.139,,2018-05-07 12:44:01,2018-05-07 12:44:49,48.162s,PASSED
+,,,,,,
+Test Cases/Admin Test Case 1,Chrome 66.0.3359.139,,2018-05-07 12:44:02,2018-05-07 12:44:49,47.133s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-07 12:44:03,2018-05-07 12:44:30,26.569s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-07 12:44:30,2018-05-07 12:44:30,0.017s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-07 12:44:30,2018-05-07 12:44:38,8.387s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 12:44:38,2018-05-07 12:44:39,0.728s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 12:44:39,2018-05-07 12:44:39,0.396s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:39,2018-05-07 12:44:39,0.271s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:39,2018-05-07 12:44:41,1.309s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:41,2018-05-07 12:44:41,0.236s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/table/tbody""))",Chrome 66.0.3359.139,,2018-05-07 12:44:41,2018-05-07 12:44:41,0.333s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-07 12:44:41,2018-05-07 12:44:41,0.097s,PASSED
+"Statement - adminTotalPrice = driver.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/div[2]/div/p"")).getText()",Chrome 66.0.3359.139,,2018-05-07 12:44:41,2018-05-07 12:44:42,0.475s,PASSED
+"Statement - adminTotalPrice = adminTotalPrice.replaceAll("" THB"", """").replaceAll(""Total price: "", """").replaceAll("","", """")",Chrome 66.0.3359.139,,2018-05-07 12:44:42,2018-05-07 12:44:42,0.006s,PASSED
+Statement - adminTotalPrice = java.lang.Integer.parseInt(adminTotalPrice),Chrome 66.0.3359.139,,2018-05-07 12:44:42,2018-05-07 12:44:42,0.007s,PASSED
+Statement - println(adminTotalPrice),Chrome 66.0.3359.139,,2018-05-07 12:44:42,2018-05-07 12:44:42,0.008s,PASSED
+"Statement - oldRows = Table.findElements(org.openqa.selenium.By.tagName(""tr""))",Chrome 66.0.3359.139,,2018-05-07 12:44:42,2018-05-07 12:44:42,0.191s,PASSED
+Statement - valueOfOldRows = oldRows.size(),Chrome 66.0.3359.139,,2018-05-07 12:44:42,2018-05-07 12:44:42,0.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:42,2018-05-07 12:44:42,0.384s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 12:44:42,2018-05-07 12:44:43,0.693s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 12:44:43,2018-05-07 12:44:44,0.344s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:44,2018-05-07 12:44:44,0.212s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:44,2018-05-07 12:44:45,0.883s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:45,2018-05-07 12:44:45,0.299s,PASSED
+"Statement - xpathOfElement = driver.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/div[2]/div/p""))",Chrome 66.0.3359.139,,2018-05-07 12:44:45,2018-05-07 12:44:45,0.034s,PASSED
+Statement - println(xpathOfElement.getText()),Chrome 66.0.3359.139,,2018-05-07 12:44:45,2018-05-07 12:44:45,0.055s,PASSED
+"Statement - userTotalPrice = xpathOfElement.getText().replaceAll(""Total price: "", """")",Chrome 66.0.3359.139,,2018-05-07 12:44:45,2018-05-07 12:44:45,0.027s,PASSED
+"Statement - valueOfUserTotalPrice = userTotalPrice.replaceAll("" THB"", """")",Chrome 66.0.3359.139,,2018-05-07 12:44:45,2018-05-07 12:44:45,0.000s,PASSED
+Statement - println(userTotalPrice),Chrome 66.0.3359.139,,2018-05-07 12:44:45,2018-05-07 12:44:45,0.001s,PASSED
+Statement - println(valueOfUserTotalPrice),Chrome 66.0.3359.139,,2018-05-07 12:44:45,2018-05-07 12:44:45,0.001s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:45,2018-05-07 12:44:45,0.194s,PASSED
+acceptAlert,Chrome 66.0.3359.139,,2018-05-07 12:44:45,2018-05-07 12:44:45,0.078s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:45,2018-05-07 12:44:46,0.294s,PASSED
+waitForAngularLoad,Chrome 66.0.3359.139,,2018-05-07 12:44:46,2018-05-07 12:44:46,0.151s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 12:44:46,2018-05-07 12:44:46,0.262s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 12:44:46,2018-05-07 12:44:47,0.543s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:47,2018-05-07 12:44:47,0.313s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:47,2018-05-07 12:44:47,0.181s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:44:47,2018-05-07 12:44:48,0.569s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/table/tbody""))",Chrome 66.0.3359.139,,2018-05-07 12:44:48,2018-05-07 12:44:48,0.053s,PASSED
+"Statement - newRows = Table.findElements(org.openqa.selenium.By.tagName(""tr""))",Chrome 66.0.3359.139,,2018-05-07 12:44:48,2018-05-07 12:44:48,0.059s,PASSED
+"Statement - newRowValue = driver.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/table/tbody/tr["" + newRows.size() - 1 + ""]/td[3]"")).getText()",Chrome 66.0.3359.139,,2018-05-07 12:44:48,2018-05-07 12:44:48,0.093s,PASSED
+Statement - println(newRows.size()),Chrome 66.0.3359.139,,2018-05-07 12:44:48,2018-05-07 12:44:48,0.001s,PASSED
+Statement - println(newRowValue),Chrome 66.0.3359.139,,2018-05-07 12:44:48,2018-05-07 12:44:48,0.001s,PASSED
+verifyEqual,Chrome 66.0.3359.139,,2018-05-07 12:44:48,2018-05-07 12:44:48,0.040s,PASSED
+"Statement - println(""No. of old rows "" + valueOfOldRows)",Chrome 66.0.3359.139,,2018-05-07 12:44:48,2018-05-07 12:44:48,0.001s,PASSED
+"Statement - println(""No. of new rows "" + newRows.size())",Chrome 66.0.3359.139,,2018-05-07 12:44:48,2018-05-07 12:44:48,0.001s,PASSED
+verifyGreaterThan,Chrome 66.0.3359.139,,2018-05-07 12:44:48,2018-05-07 12:44:48,0.014s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-07 12:44:48,2018-05-07 12:44:49,0.909s,PASSED

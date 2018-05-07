@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Admin Test Case 1,Chrome 66.0.3359.139,,2018-05-07 12:48:03,2018-05-07 12:48:45,42.596s,ERROR
+,,,,,,
+Test Cases/Admin Test Case 1,Chrome 66.0.3359.139,,2018-05-07 12:48:04,2018-05-07 12:48:44,40.508s,ERROR
+openBrowser,Chrome 66.0.3359.139,,2018-05-07 12:48:05,2018-05-07 12:48:32,26.941s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-07 12:48:32,2018-05-07 12:48:32,0.047s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-07 12:48:32,2018-05-07 12:48:41,8.443s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 12:48:41,2018-05-07 12:48:41,0.499s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 12:48:41,2018-05-07 12:48:42,0.489s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:48:42,2018-05-07 12:48:42,0.349s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:48:42,2018-05-07 12:48:43,1.323s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 12:48:43,2018-05-07 12:48:43,0.238s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/table/tbody""))",Chrome 66.0.3359.139,,2018-05-07 12:48:43,2018-05-07 12:48:44,0.274s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-07 12:48:44,2018-05-07 12:48:44,0.091s,PASSED
+"Statement - adminTotalPrice = driver.findElement(org.openqa.selenium.By.xpath(""//*[@id=""add-row""]/div/div[2]/div/p"")).getText()",Chrome 66.0.3359.139,,2018-05-07 12:48:44,2018-05-07 12:48:44,0.166s,PASSED
+"Statement - adminTotalPrice = adminTotalPrice.replaceAll("" THB"", """").replaceAll(""Total price: "", """").replaceAll("","", """")",Chrome 66.0.3359.139,,2018-05-07 12:48:44,2018-05-07 12:48:44,0.006s,PASSED
+Statement - adminTotalPrice = java.lang.Integer.parseInt(adminTotalPrice),Chrome 66.0.3359.139,,2018-05-07 12:48:44,2018-05-07 12:48:44,0.006s,PASSED

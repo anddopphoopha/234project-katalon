@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Login Test Case 3" time="80" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite for Login Test Case 3" tests="1" failures="0" errors="0" time="80" timestamp="2018-04-30 22:02:35" hostname="Andrew_Dpp - Andrew_Dpp-PC" id="Test Suites/Test Suite for Login Test Case 3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 3\\20180430_220232"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case 3\\20180430_220232\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - Andrew_Dpp-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="cd583a3722dd5b14b25093eb6a0cf376"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case 3" classname="Test Cases/Login Test Case 3" status="PASSED">
+         <system-out><![CDATA[2018-04-30 22:02:36 - [TEST_CASE][PASSED] - Test Cases/Login Test Case 3: Test Cases/Login Test Case 3
+
+2018-04-30 22:02:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-30 22:02:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-30 22:02:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 22:02:51 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-04-30 22:02:51 - [TEST_STEP][PASSED] - setText: Text 'u' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 22:02:52 - [MESSAGE][PASSED] - Text 'u' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 22:02:52 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-04-30 22:02:52 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 22:02:53 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-04-30 22:02:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 2/usernameNotification' is not present after 0 second(s)
+
+2018-04-30 22:02:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-30 22:03:25 - [MESSAGE][WARNING] - Object 'Object Repository/Login/Login Fail 2/usernameNotification' is not present after 0 second(s)
+
+2018-04-30 22:03:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-04-30 22:03:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-04-30 22:03:54 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-30 22:03:54 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-04-30 22:03:54 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-04-30 22:03:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-30 22:03:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-30 22:02:35 - [TEST_SUITE][PASSED] - Test Suite for Login Test Case 3: Test Cases/Login Test Case 3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
