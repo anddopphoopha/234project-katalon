@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>User Test Case 3</name>
+   <name>User Test Case to Check Selected Products</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a2b60ad5-011e-4edb-833d-39c080d1830b</testCaseGuid>
