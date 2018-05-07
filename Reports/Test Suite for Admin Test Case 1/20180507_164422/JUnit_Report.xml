@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Admin Test Case 1" time="65" tests="0" failures="1" errors="0">
+   <testsuite name="Test Suite for Admin Test Case 1" tests="0" failures="1" errors="0" time="65" timestamp="2018-05-07 16:44:39" hostname="Andrew_Dpp - 10.80.101.119" id="Test Suites/Test Suite for Admin Test Case 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_164422"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_164422\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_164422\\1525686343769.png"/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.101.119"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.101.119"/>
+         <property name="sessionId" value="e8613856c359ed5732b885eaf8a1bc20"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Test Case 1" classname="Test Cases/Admin Test Case 1" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'admin' of object 'Object Repository/Admin/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANDREW_DPP-PC', ip: '10.80.101.119', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANDREW~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: e8613856c359ed5732b885eaf8a1bc20)"/>
+         <system-out><![CDATA[2018-05-07 16:44:40 - [TEST_CASE][FAILED] - Test Cases/Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Admin/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANDREW_DPP-PC', ip: '10.80.101.119', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANDREW~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: e8613856c359ed5732b885eaf8a1bc20)
+
+2018-05-07 16:44:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-07 16:45:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-07 16:45:08 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-07 16:45:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-07 16:45:18 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-07 16:45:18 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 16:45:18 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 16:45:18 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 16:45:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 16:45:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 16:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 16:45:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/a_Total Transaction' is clicked on
+
+2018-05-07 16:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/a_Total Transaction' is clicked on
+
+2018-05-07 16:45:20 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody")): null
+
+2018-05-07 16:45:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-07 16:45:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - oldAdminTotalPrice = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/div[2]/div/p")).getText(): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - oldAdminTotalPrice = oldAdminTotalPrice.replaceAll(" THB", "").replaceAll("Total price: ", "").replaceAll(",", ""): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - oldAdminTotalPrice = java.lang.Integer.parseInt(oldAdminTotalPrice): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - oldRows = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - valueOfOldRows = oldRows.size(): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - oldTransactionList = new java.util.ArrayList(): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - For (def i : (1..oldRows.size())): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:26 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:27 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:28 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - tempString = "": null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")).getText(): null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[2]")).getText(): null
+
+2018-05-07 16:45:29 - [TEST_STEP][PASSED] - Statement - tempString += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[3]")).getText(): null
+
+2018-05-07 16:45:30 - [TEST_STEP][PASSED] - Statement - oldTransactionList.add(tempString): null
+
+2018-05-07 16:45:30 - [TEST_STEP][PASSED] - Statement - println(tempString): null
+
+2018-05-07 16:45:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 16:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 16:45:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-07 16:45:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-07 16:45:35 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 16:45:36 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 16:45:36 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 16:45:36 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Admin/input_password'
+
+2018-05-07 16:45:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 16:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Login' is clicked on
+
+2018-05-07 16:45:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/add to cart2' is clicked on
+
+2018-05-07 16:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/add to cart2' is clicked on
+
+2018-05-07 16:45:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/span_1' is clicked on
+
+2018-05-07 16:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/span_1' is clicked on
+
+2018-05-07 16:45:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-07 16:45:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-07 16:45:42 - [TEST_STEP][PASSED] - Statement - xpathOfElement = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/div[2]/div/p")): null
+
+2018-05-07 16:45:42 - [TEST_STEP][PASSED] - Statement - UserTable = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody")): null
+
+2018-05-07 16:45:42 - [TEST_STEP][PASSED] - Statement - userRows = UserTable.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-05-07 16:45:42 - [TEST_STEP][PASSED] - Statement - userProducts = "": null
+
+2018-05-07 16:45:42 - [TEST_STEP][PASSED] - Statement - For (def i : (1..userRows.size())): null
+
+2018-05-07 16:45:42 - [TEST_STEP][PASSED] - Statement - userProducts += driver.findElement(org.openqa.selenium.By.xpath("//*[@id="add-row"]/div/table/tbody/tr[" + i + "]/td[1]")): null
+
+2018-05-07 16:45:42 - [TEST_STEP][PASSED] - Statement - userTotalPrice = xpathOfElement.getText().replaceAll("Total price: ", ""): null
+
+2018-05-07 16:45:42 - [TEST_STEP][PASSED] - Statement - valueOfUserTotalPrice = java.lang.Integer.parseInt(userTotalPrice.replaceAll(" THB", "")): null
+
+2018-05-07 16:45:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_confirm' is clicked on
+
+2018-05-07 16:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_confirm' is clicked on
+
+2018-05-07 16:45:43 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-07 16:45:43 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-07 16:45:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 16:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/button_Logout' is clicked on
+
+2018-05-07 16:45:43 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-05-07 16:45:43 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-05-07 16:45:43 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 16:45:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin/input_username'
+
+2018-05-07 16:45:43 - [TEST_STEP][FAILED] - setText: Unable to set text 'admin' of object 'Object Repository/Admin/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANDREW_DPP-PC', ip: '10.80.101.119', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANDREW~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: e8613856c359ed5732b885eaf8a1bc20)
+
+2018-05-07 16:45:44 - [MESSAGE][FAILED] - Unable to set text 'admin' of object 'Object Repository/Admin/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANDREW_DPP-PC', ip: '10.80.101.119', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANDREW~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: e8613856c359ed5732b885eaf8a1bc20)
+[[ATTACHMENT|C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Admin Test Case 1\\20180507_164422\\1525686343769.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-07 16:44:40 - [TEST_CASE][FAILED] - Test Cases/Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Admin/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANDREW_DPP-PC', ip: '10.80.101.119', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANDREW~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: e8613856c359ed5732b885eaf8a1bc20)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-07 16:44:39 - [TEST_SUITE][FAILED] - Test Suite for Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Admin/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANDREW_DPP-PC', ip: '10.80.101.119', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANDREW~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: e8613856c359ed5732b885eaf8a1bc20)]]></system-out>
+      <system-err><![CDATA[2018-05-07 16:44:39 - [TEST_SUITE][FAILED] - Test Suite for Admin Test Case 1: Test Cases/Admin Test Case 1 FAILED because (of) Unable to set text 'admin' of object 'Object Repository/Admin/input_password' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANDREW_DPP-PC', ip: '10.80.101.119', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ANDREW~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: e8613856c359ed5732b885eaf8a1bc20)]]></system-err>
+   </testsuite>
+</testsuites>

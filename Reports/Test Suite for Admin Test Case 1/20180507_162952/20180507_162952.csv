@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Admin Test Case 1,Chrome 66.0.3359.139,,2018-05-07 16:29:55,2018-05-07 16:30:56,1m - 0.352s,FAILED
+,,,,,,
+Test Cases/Admin Test Case 1,Chrome 66.0.3359.139,,2018-05-07 16:29:56,2018-05-07 16:30:55,58.960s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-07 16:29:58,2018-05-07 16:30:25,27.694s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-07 16:30:25,2018-05-07 16:30:25,0.020s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-07 16:30:25,2018-05-07 16:30:47,21.562s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 16:30:47,2018-05-07 16:30:55,8.113s,FAILED
