@@ -28,7 +28,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.55.188:8085/')
 
-WebUI.setText(findTestObject('Login/Login Fail 3/input_password'), password)
+WebUI.setText(findTestObject('Login/Empty Password/input_password'), password)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -37,18 +37,18 @@ def inputLength = password.toString().length()
 println(inputLength)
 
 while(inputLength > 0){
-	WebUI.sendKeys(findTestObject('Login/Login Fail 3/input_password'), Keys.chord(Keys.BACK_SPACE))
+	WebUI.sendKeys(findTestObject('Login/Empty Password/input_password'), Keys.chord(Keys.BACK_SPACE))
 	inputLength--
 }
 
-WebUI.setText(findTestObject('Login/Login Fail 3/input_username'), username)
+WebUI.setText(findTestObject('Login/Empty Password/input_username'), username)
 
-WebUI.waitForElementPresent(findTestObject('Login/Login Fail 3/passwordNotification'), 0)
+WebUI.waitForElementPresent(findTestObject('Login/Empty Password/passwordNotification'), 0)
 
-WebUI.waitForElementAttributeValue(findTestObject('Login/Login Fail 3/passwordNotification')
+WebUI.waitForElementAttributeValue(findTestObject('Login/Empty Password/passwordNotification')
 	, 'class' , 'text-danger', 0)
 
-WebUI.verifyElementText(findTestObject('Login/Login Fail 3/passwordNotification'), 'Password is required')
+WebUI.verifyElementText(findTestObject('Login/Empty Password/passwordNotification'), 'Password is required')
 
 WebUI.verifyEqual(WebUI.getUrl(), 'http://18.188.55.188:8085/')
 
