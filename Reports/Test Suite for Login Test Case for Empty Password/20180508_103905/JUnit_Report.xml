@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Login Test Case for Empty Password" time="307" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite for Login Test Case for Empty Password" tests="3" failures="0" errors="0" time="307" timestamp="2018-05-08 10:39:36" hostname="Andrew_Dpp - 10.80.101.146" id="Test Suites/Test Suite for Login Test Case for Empty Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Empty Password\\20180508_103905"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Empty Password\\20180508_103905\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.101.146"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.101.146"/>
+         <property name="sessionId" value="0a046a48aae98560961be1443c8b6733"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case for Empty Password" classname="Test Cases/Login Test Case for Empty Password" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:39:38 - [TEST_CASE][PASSED] - Test Cases/Login Test Case for Empty Password: Test Cases/Login Test Case for Empty Password
+
+2018-05-08 10:39:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 10:40:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 10:40:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:41:03 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:41:03 - [TEST_STEP][PASSED] - setText: Text 'a' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:41:06 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:41:06 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-08 10:41:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:41:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:41:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 3/passwordNotification' is present
+
+2018-05-08 10:41:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 10:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login Fail 3/passwordNotification' is present
+
+2018-05-08 10:41:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-05-08 10:41:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-05-08 10:41:32 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 10:41:33 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-05-08 10:41:33 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 10:41:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:41:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case for Empty Password" classname="Test Cases/Login Test Case for Empty Password" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:41:38 - [TEST_CASE][PASSED] - Test Cases/Login Test Case for Empty Password: Test Cases/Login Test Case for Empty Password
+
+2018-05-08 10:41:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 10:42:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 10:42:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:42:36 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:42:36 - [TEST_STEP][PASSED] - setText: Text 'h' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:42:39 - [MESSAGE][PASSED] - Text 'h' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:42:39 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-08 10:42:39 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:42:41 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:42:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 3/passwordNotification' is present
+
+2018-05-08 10:42:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 10:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login Fail 3/passwordNotification' is present
+
+2018-05-08 10:42:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-05-08 10:42:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-05-08 10:42:51 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 10:42:51 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-05-08 10:42:51 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 10:42:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:43:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case for Empty Password" classname="Test Cases/Login Test Case for Empty Password" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:43:19 - [TEST_CASE][PASSED] - Test Cases/Login Test Case for Empty Password: Test Cases/Login Test Case for Empty Password
+
+2018-05-08 10:43:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 10:43:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 10:43:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:44:13 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:44:13 - [TEST_STEP][PASSED] - setText: Text 'u' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:44:16 - [MESSAGE][PASSED] - Text 'u' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:44:16 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-08 10:44:16 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:44:17 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:44:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 3/passwordNotification' is present
+
+2018-05-08 10:44:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 10:44:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login Fail 3/passwordNotification' is present
+
+2018-05-08 10:44:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-05-08 10:44:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-05-08 10:44:32 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 10:44:36 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-05-08 10:44:36 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 10:44:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:44:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 10:39:36 - [TEST_SUITE][PASSED] - Test Suite for Login Test Case for Empty Password: Test Cases/Login Test Case for Empty Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

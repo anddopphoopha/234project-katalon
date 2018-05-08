@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 10:39:36,2018-05-08 10:44:43,5m - 7.336s,PASSED
+,,,,,,
+Test Cases/Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 10:39:38,2018-05-08 10:41:38,2m - 0.287s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 10:39:39,2018-05-08 10:40:33,53.697s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 10:40:33,2018-05-08 10:41:03,29.772s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 10:41:03,2018-05-08 10:41:06,2.994s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 10:41:06,2018-05-08 10:41:06,0.015s,PASSED
+sendKeys,Chrome 66.0.3359.139,,2018-05-08 10:41:06,2018-05-08 10:41:08,1.706s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 10:41:08,2018-05-08 10:41:31,23.075s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 10:41:31,2018-05-08 10:41:32,1.344s,PASSED
+verifyEqual,Chrome 66.0.3359.139,,2018-05-08 10:41:32,2018-05-08 10:41:33,0.711s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 10:41:33,2018-05-08 10:41:38,5.465s,PASSED
+,,,,,,
+Test Cases/Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 10:41:38,2018-05-08 10:43:19,1m - 41.101s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 10:41:38,2018-05-08 10:42:13,34.418s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 10:42:13,2018-05-08 10:42:36,23.187s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 10:42:36,2018-05-08 10:42:39,3.642s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 10:42:39,2018-05-08 10:42:39,0.001s,PASSED
+sendKeys,Chrome 66.0.3359.139,,2018-05-08 10:42:39,2018-05-08 10:42:41,1.464s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 10:42:41,2018-05-08 10:42:48,7.451s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 10:42:48,2018-05-08 10:42:51,2.411s,PASSED
+verifyEqual,Chrome 66.0.3359.139,,2018-05-08 10:42:51,2018-05-08 10:42:51,0.609s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 10:42:51,2018-05-08 10:43:19,27.848s,PASSED
+,,,,,,
+Test Cases/Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 10:43:19,2018-05-08 10:44:43,1m - 23.709s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 10:43:19,2018-05-08 10:43:51,31.452s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 10:43:51,2018-05-08 10:44:13,22.463s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 10:44:13,2018-05-08 10:44:16,2.597s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 10:44:16,2018-05-08 10:44:16,0.001s,PASSED
+sendKeys,Chrome 66.0.3359.139,,2018-05-08 10:44:16,2018-05-08 10:44:17,1.273s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 10:44:17,2018-05-08 10:44:31,14.076s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 10:44:31,2018-05-08 10:44:32,1.079s,PASSED
+verifyEqual,Chrome 66.0.3359.139,,2018-05-08 10:44:32,2018-05-08 10:44:36,3.869s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 10:44:36,2018-05-08 10:44:43,6.714s,PASSED

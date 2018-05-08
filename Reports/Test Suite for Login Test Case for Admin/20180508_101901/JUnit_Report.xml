@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Login Test Case for Admin" time="124" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite for Login Test Case for Admin" tests="1" failures="0" errors="0" time="124" timestamp="2018-05-08 10:19:22" hostname="Andrew_Dpp - 10.80.101.146" id="Test Suites/Test Suite for Login Test Case for Admin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Admin\\20180508_101901"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Admin\\20180508_101901\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.101.146"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.101.146"/>
+         <property name="sessionId" value="ac096f252f77e3bcaea1af1114be6ace"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case for Admin" classname="Test Cases/Login Test Case for Admin" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:19:24 - [TEST_CASE][PASSED] - Test Cases/Login Test Case for Admin: Test Cases/Login Test Case for Admin
+
+2018-05-08 10:19:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 10:20:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 10:20:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:20:41 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:20:41 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/Login Success/input_username'
+
+2018-05-08 10:20:50 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Login Success/input_username'
+
+2018-05-08 10:20:50 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/Login Success/input_password'
+
+2018-05-08 10:21:04 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/Login Success/input_password'
+
+2018-05-08 10:21:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Login Success/button_Login' is clicked on
+
+2018-05-08 10:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login Success/button_Login' is clicked on
+
+2018-05-08 10:21:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Success/menu1' are matched.
+
+2018-05-08 10:21:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Success/menu1' are matched.
+
+2018-05-08 10:21:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Success/menu2' are matched.
+
+2018-05-08 10:21:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Success/menu2' are matched.
+
+2018-05-08 10:21:14 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/products' and expected object 'http://18.188.55.188:8085/products' are equal
+
+2018-05-08 10:21:24 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/products'
+
+2018-05-08 10:21:24 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/products' and expected object 'http://18.188.55.188:8085/products' are equal
+
+2018-05-08 10:21:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:21:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 10:19:22 - [TEST_SUITE][PASSED] - Test Suite for Login Test Case for Admin: Test Cases/Login Test Case for Admin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 11:22:47,2018-05-08 11:24:04,1m - 16.511s,PASSED
+,,,,,,
+Test Cases/Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 11:22:48,2018-05-08 11:23:26,38.293s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 11:22:49,2018-05-08 11:23:16,26.948s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 11:23:16,2018-05-08 11:23:24,7.434s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 11:23:24,2018-05-08 11:23:24,0.457s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 11:23:24,2018-05-08 11:23:24,0.014s,PASSED
+Statement - inputLength = password.toString().length(),Chrome 66.0.3359.139,,2018-05-08 11:23:24,2018-05-08 11:23:24,0.005s,PASSED
+Statement - println(inputLength),Chrome 66.0.3359.139,,2018-05-08 11:23:24,2018-05-08 11:23:24,0.006s,PASSED
+Statement - While (inputLength > 0),Chrome 66.0.3359.139,,2018-05-08 11:23:24,2018-05-08 11:23:25,0.407s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 11:23:25,2018-05-08 11:23:25,0.259s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 11:23:25,2018-05-08 11:23:25,0.188s,PASSED
+waitForElementAttributeValue,Chrome 66.0.3359.139,,2018-05-08 11:23:25,2018-05-08 11:23:25,0.302s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 11:23:25,2018-05-08 11:23:26,0.288s,PASSED
+verifyEqual,Chrome 66.0.3359.139,,2018-05-08 11:23:26,2018-05-08 11:23:26,0.082s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 11:23:26,2018-05-08 11:23:26,0.854s,PASSED
+,,,,,,
+Test Cases/Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 11:23:26,2018-05-08 11:24:04,37.224s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 11:23:27,2018-05-08 11:23:50,23.389s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 11:23:50,2018-05-08 11:24:01,11.179s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 11:24:01,2018-05-08 11:24:02,0.729s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 11:24:02,2018-05-08 11:24:02,0.000s,PASSED
+Statement - inputLength = password.toString().length(),Chrome 66.0.3359.139,,2018-05-08 11:24:02,2018-05-08 11:24:02,0.004s,PASSED
+Statement - println(inputLength),Chrome 66.0.3359.139,,2018-05-08 11:24:02,2018-05-08 11:24:02,0.002s,PASSED
+Statement - While (inputLength > 0),Chrome 66.0.3359.139,,2018-05-08 11:24:02,2018-05-08 11:24:02,0.495s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 11:24:02,2018-05-08 11:24:03,0.395s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 11:24:03,2018-05-08 11:24:03,0.061s,PASSED
+waitForElementAttributeValue,Chrome 66.0.3359.139,,2018-05-08 11:24:03,2018-05-08 11:24:03,0.069s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 11:24:03,2018-05-08 11:24:03,0.074s,PASSED
+verifyEqual,Chrome 66.0.3359.139,,2018-05-08 11:24:03,2018-05-08 11:24:03,0.015s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 11:24:03,2018-05-08 11:24:04,0.780s,PASSED

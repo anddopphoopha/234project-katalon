@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 11:19:56,2018-05-08 11:22:36,2m - 39.896s,FAILED
+,,,,,,
+Test Cases/Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 11:19:57,2018-05-08 11:21:30,1m - 33.093s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 11:19:58,2018-05-08 11:20:23,25.394s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 11:20:23,2018-05-08 11:20:52,28.179s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 11:20:52,2018-05-08 11:20:52,0.676s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 11:20:52,2018-05-08 11:20:52,0.016s,PASSED
+Statement - inputLength = password.toString().length(),Chrome 66.0.3359.139,,2018-05-08 11:20:52,2018-05-08 11:20:52,0.002s,PASSED
+Statement - println(inputLength),Chrome 66.0.3359.139,,2018-05-08 11:20:52,2018-05-08 11:20:52,0.006s,PASSED
+Statement - While (inputLength > 0),Chrome 66.0.3359.139,,2018-05-08 11:20:52,2018-05-08 11:20:53,0.660s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 11:20:53,2018-05-08 11:21:30,37.256s,FAILED
+,,,,,,
+Test Cases/Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 11:21:30,2018-05-08 11:22:36,1m - 5.468s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 11:21:30,2018-05-08 11:21:54,24.024s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 11:21:54,2018-05-08 11:22:04,9.365s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 11:22:04,2018-05-08 11:22:04,0.554s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 11:22:04,2018-05-08 11:22:04,0.001s,PASSED
+Statement - inputLength = password.toString().length(),Chrome 66.0.3359.139,,2018-05-08 11:22:04,2018-05-08 11:22:04,0.000s,PASSED
+Statement - println(inputLength),Chrome 66.0.3359.139,,2018-05-08 11:22:04,2018-05-08 11:22:04,0.001s,PASSED
+Statement - While (inputLength > 0),Chrome 66.0.3359.139,,2018-05-08 11:22:04,2018-05-08 11:22:06,1.613s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 11:22:06,2018-05-08 11:22:36,29.856s,FAILED

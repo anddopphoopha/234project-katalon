@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Login Test Case for Empty Password" time="464" tests="2" failures="1" errors="0">
+   <testsuite name="Test Suite for Login Test Case for Empty Password" tests="2" failures="1" errors="0" time="464" timestamp="2018-05-08 10:22:05" hostname="Andrew_Dpp - 10.80.101.146" id="Test Suites/Test Suite for Login Test Case for Empty Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Empty Password\\20180508_102143"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Empty Password\\20180508_102143\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Empty Password\\20180508_102143\\1525749945226.png, C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Empty Password\\20180508_102143\\1525749946291.png"/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.101.146"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.101.146"/>
+         <property name="sessionId" value="bbeba3cfe6eda0ba7bacd1c466f5bb1f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case for Empty Password" classname="Test Cases/Login Test Case for Empty Password" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 3/passwordNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[2]/label[2]' not found)"/>
+         <system-out><![CDATA[2018-05-08 10:22:08 - [TEST_CASE][FAILED] - Test Cases/Login Test Case for Empty Password: Test Cases/Login Test Case for Empty Password FAILED because (of) Verify element text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 3/passwordNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[2]/label[2]' not found)
+
+2018-05-08 10:22:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 10:23:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 10:23:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:23:38 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:23:38 - [TEST_STEP][PASSED] - setText: Text 'a' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:23:42 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:23:42 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-08 10:23:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:23:45 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:23:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 3/passwordNotification' is not present after 0 second(s)
+
+2018-05-08 10:23:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 10:24:45 - [MESSAGE][WARNING] - Object 'Object Repository/Login/Login Fail 3/passwordNotification' is not present after 0 second(s)
+
+2018-05-08 10:24:45 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 3/passwordNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[2]/label[2]' not found)
+
+2018-05-08 10:25:46 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 3/passwordNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[2]/label[2]' not found
+[[ATTACHMENT|C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Empty Password\\20180508_102143\\1525749945226.png]]
+
+2018-05-08 10:25:47 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 3/passwordNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[2]/label[2]' not found)
+[[ATTACHMENT|C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Empty Password\\20180508_102143\\1525749946291.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-08 10:22:08 - [TEST_CASE][FAILED] - Test Cases/Login Test Case for Empty Password: Test Cases/Login Test Case for Empty Password FAILED because (of) Verify element text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 3/passwordNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[2]/label[2]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case for Empty Password" classname="Test Cases/Login Test Case for Empty Password" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:25:47 - [TEST_CASE][PASSED] - Test Cases/Login Test Case for Empty Password: Test Cases/Login Test Case for Empty Password
+
+2018-05-08 10:25:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 10:25:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 10:26:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 10:26:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:26:59 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:26:59 - [TEST_STEP][PASSED] - setText: Text 'h' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:27:02 - [MESSAGE][PASSED] - Text 'h' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:27:02 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-08 10:27:02 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:27:02 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:27:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 3/passwordNotification' is present
+
+2018-05-08 10:27:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 10:27:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login Fail 3/passwordNotification' is present
+
+2018-05-08 10:27:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-05-08 10:27:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-05-08 10:27:16 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 10:27:16 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-05-08 10:27:16 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 10:27:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:27:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case for Empty Password" classname="Test Cases/Login Test Case for Empty Password" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:27:18 - [TEST_CASE][PASSED] - Test Cases/Login Test Case for Empty Password: Test Cases/Login Test Case for Empty Password
+
+2018-05-08 10:27:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 10:27:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 10:27:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:28:21 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 10:28:21 - [TEST_STEP][PASSED] - setText: Text 'u' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:28:24 - [MESSAGE][PASSED] - Text 'u' is set on object 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:28:24 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-08 10:28:24 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:28:25 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 3/input_password'
+
+2018-05-08 10:28:25 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 3/passwordNotification' is not present after 0 second(s)
+
+2018-05-08 10:28:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 10:29:27 - [MESSAGE][WARNING] - Object 'Object Repository/Login/Login Fail 3/passwordNotification' is not present after 0 second(s)
+
+2018-05-08 10:29:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-05-08 10:29:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' are matched.
+
+2018-05-08 10:29:47 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 10:29:47 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-05-08 10:29:47 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 10:29:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:29:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 10:22:05 - [TEST_SUITE][FAILED] - Test Suite for Login Test Case for Empty Password: Test Cases/Login Test Case for Empty Password FAILED because (of) Verify element text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 3/passwordNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[2]/label[2]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-08 10:22:05 - [TEST_SUITE][FAILED] - Test Suite for Login Test Case for Empty Password: Test Cases/Login Test Case for Empty Password FAILED because (of) Verify element text of test object 'Object Repository/Login/Login Fail 3/passwordNotification' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Login Fail 3/passwordNotification' located by 'By.xpath: /html/body/app-root/app-login/div/form/div[2]/label[2]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

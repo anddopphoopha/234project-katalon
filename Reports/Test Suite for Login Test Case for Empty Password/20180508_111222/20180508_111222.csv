@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 11:12:35,2018-05-08 11:14:12,1m - 36.724s,FAILED
+,,,,,,
+Test Cases/Login Test Case for Empty Password,Chrome 66.0.3359.139,,2018-05-08 11:12:36,2018-05-08 11:14:11,1m - 35.017s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 11:12:37,2018-05-08 11:13:03,26.048s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 11:13:03,2018-05-08 11:13:15,11.165s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 11:13:15,2018-05-08 11:13:15,0.437s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 11:13:15,2018-05-08 11:13:15,0.014s,PASSED
+Statement - inputLength = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/Login Fail 3/input_password)).length(),Chrome 66.0.3359.139,,2018-05-08 11:13:15,2018-05-08 11:13:15,0.223s,PASSED
+Statement - println(inputLength),Chrome 66.0.3359.139,,2018-05-08 11:13:15,2018-05-08 11:13:15,0.006s,PASSED
+Statement - While (inputLength > 0),Chrome 66.0.3359.139,,2018-05-08 11:13:15,2018-05-08 11:13:15,0.001s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 11:13:15,2018-05-08 11:13:16,0.542s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 11:13:16,2018-05-08 11:13:47,31.407s,PASSED
+waitForElementAttributeValue,Chrome 66.0.3359.139,,2018-05-08 11:13:47,2018-05-08 11:14:11,24.131s,FAILED
