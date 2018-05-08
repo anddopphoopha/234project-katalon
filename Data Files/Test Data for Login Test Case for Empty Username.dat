@@ -8,13 +8,17 @@
    <dataFileGUID>3c3af32a-1044-4533-87d7-4bf3e1ded737</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>a</data>
-   <data>h</data>
-   <data>u</data>
+   <data>user user</data>
+   <data>hello hello</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>3</size>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
