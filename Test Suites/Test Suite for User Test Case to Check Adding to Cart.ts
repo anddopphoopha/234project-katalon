@@ -4,7 +4,7 @@
    <name>Test Suite for User Test Case to Check Adding to Cart</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-07T17:52:28</lastRun>
+   <lastRun>2018-05-08T12:11:05</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

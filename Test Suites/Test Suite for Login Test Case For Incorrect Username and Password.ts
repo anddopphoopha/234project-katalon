@@ -4,7 +4,7 @@
    <name>Test Suite for Login Test Case For Incorrect Username and Password</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-30T20:46:32</lastRun>
+   <lastRun>2018-05-08T12:00:00</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,7 +20,7 @@
          <combinationType>ONE</combinationType>
          <id>2ebe5ad2-7da1-45df-ab1c-7b751c529149</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Test Data for Login Test Case for Incorrect Username and Password</testDataId>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for Login Test Case For Incorrect Username and Password,Chrome 66.0.3359.139,,2018-05-08 11:57:32,2018-05-08 11:59:06,1m - 33.576s,PASSED
+,,,,,,
+Test Cases/Login Test Case for Incorrect Username and Password,Chrome 66.0.3359.139,,2018-05-08 11:57:33,2018-05-08 11:59:06,1m - 32.721s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 11:57:34,2018-05-08 11:58:01,26.479s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 11:58:01,2018-05-08 11:59:00,59.659s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 11:59:00,2018-05-08 11:59:02,1.703s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 11:59:02,2018-05-08 11:59:03,1.311s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 11:59:03,2018-05-08 11:59:04,0.728s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 11:59:04,2018-05-08 11:59:05,0.967s,PASSED
+verifyEqual,Chrome 66.0.3359.139,,2018-05-08 11:59:05,2018-05-08 11:59:05,0.125s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 11:59:05,2018-05-08 11:59:06,0.753s,PASSED

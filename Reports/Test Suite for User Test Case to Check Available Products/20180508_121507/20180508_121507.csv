@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for User Test Case to Check Available Products,Chrome 66.0.3359.139,,2018-05-08 12:15:24,2018-05-08 12:16:49,1m - 25.479s,PASSED
+,,,,,,
+Test Cases/User Test Case to Check Available Products,Chrome 66.0.3359.139,,2018-05-08 12:15:24,2018-05-08 12:16:09,44.977s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 12:15:25,2018-05-08 12:15:51,25.845s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 12:15:51,2018-05-08 12:16:05,14.047s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 12:16:05,2018-05-08 12:16:05,0.023s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 12:16:05,2018-05-08 12:16:06,0.526s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 12:16:06,2018-05-08 12:16:06,0.298s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 12:16:06,2018-05-08 12:16:06,0.261s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 12:16:06,2018-05-08 12:16:08,1.238s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 12:16:08,2018-05-08 12:16:08,0.118s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 12:16:08,2018-05-08 12:16:08,0.138s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 12:16:08,2018-05-08 12:16:08,0.126s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 12:16:08,2018-05-08 12:16:08,0.157s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-08 12:16:08,2018-05-08 12:16:08,0.206s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 66.0.3359.139,,2018-05-08 12:16:08,2018-05-08 12:16:09,0.116s,PASSED
+verifyEqual,Chrome 66.0.3359.139,,2018-05-08 12:16:09,2018-05-08 12:16:09,0.098s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 12:16:09,2018-05-08 12:16:09,0.784s,PASSED
+,,,,,,
+Test Cases/User Test Case to Check Available Products,Chrome 66.0.3359.139,,2018-05-08 12:16:09,2018-05-08 12:16:49,39.521s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 12:16:10,2018-05-08 12:16:33,23.354s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 12:16:33,2018-05-08 12:16:45,12.357s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 12:16:45,2018-05-08 12:16:45,0.000s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 12:16:45,2018-05-08 12:16:46,0.333s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 12:16:46,2018-05-08 12:16:46,0.283s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 12:16:46,2018-05-08 12:16:46,0.214s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 12:16:46,2018-05-08 12:16:48,1.658s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 12:16:48,2018-05-08 12:16:48,0.125s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 12:16:48,2018-05-08 12:16:48,0.146s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 12:16:48,2018-05-08 12:16:48,0.094s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-08 12:16:48,2018-05-08 12:16:48,0.093s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-08 12:16:48,2018-05-08 12:16:48,0.044s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 66.0.3359.139,,2018-05-08 12:16:48,2018-05-08 12:16:48,0.036s,PASSED
+verifyEqual,Chrome 66.0.3359.139,,2018-05-08 12:16:48,2018-05-08 12:16:48,0.013s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 12:16:48,2018-05-08 12:16:49,0.699s,PASSED

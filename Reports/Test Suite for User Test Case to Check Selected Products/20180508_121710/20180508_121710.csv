@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for User Test Case to Check Selected Products,Chrome 66.0.3359.139,,2018-05-08 12:17:27,2018-05-08 12:19:37,2m - 9.739s,PASSED
+,,,,,,
+Test Cases/User Test Case to Check Selected Products,Chrome 66.0.3359.139,,2018-05-08 12:17:28,2018-05-08 12:18:34,1m - 5.763s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 12:17:29,2018-05-08 12:17:55,25.827s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 12:17:55,2018-05-08 12:18:07,12.138s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 12:18:07,2018-05-08 12:18:07,0.654s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 12:18:07,2018-05-08 12:18:08,0.314s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 12:18:08,2018-05-08 12:18:08,0.242s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 12:18:08,2018-05-08 12:18:08,0.023s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 12:18:08,2018-05-08 12:18:09,1.252s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-08 12:18:09,2018-05-08 12:18:09,0.112s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 66.0.3359.139,,2018-05-08 12:18:09,2018-05-08 12:18:10,0.201s,PASSED
+Statement - println(productList.size()),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.007s,PASSED
+Statement - variables = new java.util.ArrayList(),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - variables.add(input_amount1),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - variables.add(input_amount2),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - variables.add(input_amount3),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.002s,PASSED
+Statement - variables.add(input_amount4),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - variables.add(input_amount5),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - prices = new java.util.ArrayList(),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - prices.add(20000),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - prices.add(150),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.000s,PASSED
+Statement - prices.add(280),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - prices.add(12),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - prices.add(20),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - totalPrices = new java.util.ArrayList(),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:10,0.001s,PASSED
+Statement - For (def i : (1..productList.size())),Chrome 66.0.3359.139,,2018-05-08 12:18:10,2018-05-08 12:18:32,22.654s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 12:18:32,2018-05-08 12:18:34,1.222s,PASSED
+,,,,,,
+Test Cases/User Test Case to Check Selected Products,Chrome 66.0.3359.139,,2018-05-08 12:18:34,2018-05-08 12:19:37,1m - 3.010s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 12:18:34,2018-05-08 12:18:57,23.560s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 12:18:57,2018-05-08 12:19:11,13.586s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 12:19:11,2018-05-08 12:19:11,0.387s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 12:19:11,2018-05-08 12:19:11,0.280s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 12:19:11,2018-05-08 12:19:12,0.207s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 66.0.3359.139,,2018-05-08 12:19:12,2018-05-08 12:19:12,0.000s,PASSED
+waitForElementPresent,Chrome 66.0.3359.139,,2018-05-08 12:19:12,2018-05-08 12:19:13,1.635s,PASSED
+"Statement - products = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/app-root/app-product-list/div/div[2]/div""))",Chrome 66.0.3359.139,,2018-05-08 12:19:13,2018-05-08 12:19:13,0.145s,PASSED
+"Statement - productList = products.findElements(org.openqa.selenium.By.className(""farmer-card""))",Chrome 66.0.3359.139,,2018-05-08 12:19:13,2018-05-08 12:19:14,0.040s,PASSED
+Statement - println(productList.size()),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - variables = new java.util.ArrayList(),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.001s,PASSED
+Statement - variables.add(input_amount1),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - variables.add(input_amount2),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - variables.add(input_amount3),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - variables.add(input_amount4),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - variables.add(input_amount5),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - prices = new java.util.ArrayList(),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - prices.add(20000),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - prices.add(150),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - prices.add(280),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - prices.add(12),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.001s,PASSED
+Statement - prices.add(20),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - totalPrices = new java.util.ArrayList(),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:14,0.000s,PASSED
+Statement - For (def i : (1..productList.size())),Chrome 66.0.3359.139,,2018-05-08 12:19:14,2018-05-08 12:19:36,22.352s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-08 12:19:36,2018-05-08 12:19:37,0.676s,PASSED
