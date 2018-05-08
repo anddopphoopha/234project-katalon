@@ -24,13 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.55.188:8085/')
 
-WebUI.setText(findTestObject('Login/Login Fail 1/input_username'), username)
+WebUI.setText(findTestObject('Login/Incorrect Username and Password/input_username'), username)
 
-WebUI.setText(findTestObject('Login/Login Fail 1/input_password'), password)
+WebUI.setText(findTestObject('Login/Incorrect Username and Password/input_password'), password)
 
-WebUI.click(findTestObject('Login/Login Fail 1/button_Login'))
+WebUI.click(findTestObject('Login/Incorrect Username and Password/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Login/Login Fail 1/notification'), 'Username/password is incorrect')
+WebUI.verifyElementText(findTestObject('Login/Incorrect Username and Password/notification'), 'Username/password is incorrect')
 
 WebUI.verifyEqual(WebUI.getUrl(), 'http://18.188.55.188:8085/')
 
