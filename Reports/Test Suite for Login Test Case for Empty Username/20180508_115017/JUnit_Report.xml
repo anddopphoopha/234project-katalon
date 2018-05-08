@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for Login Test Case for Empty Username" time="182" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite for Login Test Case for Empty Username" tests="2" failures="0" errors="0" time="182" timestamp="2018-05-08 11:50:34" hostname="Andrew_Dpp - 10.80.101.146" id="Test Suites/Test Suite for Login Test Case for Empty Username">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Empty Username\\20180508_115017"/>
+         <property name="logFiles" value="C:\\Users\\Andrew_Dpp\\git\\234project-katalon\\Reports\\Test Suite for Login Test Case for Empty Username\\20180508_115017\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew_Dpp - 10.80.101.146"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.80.101.146"/>
+         <property name="sessionId" value="1058bbb2f6c70ffb6128a32c832f618d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Case for Empty Username" classname="Test Cases/Login Test Case for Empty Username" status="PASSED">
+         <system-out><![CDATA[2018-05-08 11:50:35 - [TEST_CASE][PASSED] - Test Cases/Login Test Case for Empty Username: Test Cases/Login Test Case for Empty Username
+
+2018-05-08 11:50:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 11:51:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 11:51:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 11:52:12 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 11:52:12 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:52:13 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:52:13 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-08 11:52:13 - [TEST_STEP][PASSED] - Statement - inputLength = username.toString().length(): null
+
+2018-05-08 11:52:13 - [TEST_STEP][PASSED] - Statement - println(inputLength): null
+
+2018-05-08 11:52:13 - [TEST_STEP][PASSED] - Statement - While (inputLength > 0): null
+
+2018-05-08 11:52:13 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:52:14 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:52:14 - [TEST_STEP][PASSED] - Statement - (inputLength--): null
+
+2018-05-08 11:52:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:52:14 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:52:14 - [TEST_STEP][PASSED] - Statement - (inputLength--): null
+
+2018-05-08 11:52:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:52:14 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:52:14 - [TEST_STEP][PASSED] - Statement - (inputLength--): null
+
+2018-05-08 11:52:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:52:15 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:52:15 - [TEST_STEP][PASSED] - Statement - (inputLength--): null
+
+2018-05-08 11:52:15 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login/Login Fail 2/input_password'
+
+2018-05-08 11:52:15 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login/Login Fail 2/input_password'
+
+2018-05-08 11:52:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 2/usernameNotification' is present
+
+2018-05-08 11:52:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login Fail 2/usernameNotification' is present
+
+2018-05-08 11:52:15 - [TEST_STEP][PASSED] - waitForElementAttributeValue: Object 'Object Repository/Login/Login Fail 2/usernameNotification' has attribute 'class' with value 'text-danger'
+
+2018-05-08 11:52:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 11:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login Fail 2/usernameNotification' has attribute 'class' with value 'text-danger'
+
+2018-05-08 11:52:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-05-08 11:52:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-05-08 11:52:15 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 11:52:16 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-05-08 11:52:16 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 11:52:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 11:52:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test Case for Empty Username" classname="Test Cases/Login Test Case for Empty Username" status="PASSED">
+         <system-out><![CDATA[2018-05-08 11:52:16 - [TEST_CASE][PASSED] - Test Cases/Login Test Case for Empty Username: Test Cases/Login Test Case for Empty Username
+
+2018-05-08 11:52:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 11:52:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 11:52:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 11:53:34 - [MESSAGE][PASSED] - Navigate to 'http://18.188.55.188:8085/' successfully
+
+2018-05-08 11:53:34 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:34 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:34 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-08 11:53:34 - [TEST_STEP][PASSED] - Statement - inputLength = username.toString().length(): null
+
+2018-05-08 11:53:34 - [TEST_STEP][PASSED] - Statement - println(inputLength): null
+
+2018-05-08 11:53:34 - [TEST_STEP][PASSED] - Statement - While (inputLength > 0): null
+
+2018-05-08 11:53:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:34 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:34 - [TEST_STEP][PASSED] - Statement - (inputLength--): null
+
+2018-05-08 11:53:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:34 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:34 - [TEST_STEP][PASSED] - Statement - (inputLength--): null
+
+2018-05-08 11:53:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:35 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:35 - [TEST_STEP][PASSED] - Statement - (inputLength--): null
+
+2018-05-08 11:53:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:35 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:35 - [TEST_STEP][PASSED] - Statement - (inputLength--): null
+
+2018-05-08 11:53:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:35 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login/Login Fail 2/input_username'
+
+2018-05-08 11:53:35 - [TEST_STEP][PASSED] - Statement - (inputLength--): null
+
+2018-05-08 11:53:35 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login/Login Fail 2/input_password'
+
+2018-05-08 11:53:35 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login/Login Fail 2/input_password'
+
+2018-05-08 11:53:35 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/Login Fail 2/usernameNotification' is present
+
+2018-05-08 11:53:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 11:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login Fail 2/usernameNotification' is present
+
+2018-05-08 11:53:35 - [TEST_STEP][PASSED] - waitForElementAttributeValue: Object 'Object Repository/Login/Login Fail 2/usernameNotification' has attribute 'class' with value 'text-danger'
+
+2018-05-08 11:53:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 11:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login Fail 2/usernameNotification' has attribute 'class' with value 'text-danger'
+
+2018-05-08 11:53:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-05-08 11:53:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login Fail 2/usernameNotification' are matched.
+
+2018-05-08 11:53:36 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 11:53:36 - [MESSAGE][PASSED] - Current window's url is: 'http://18.188.55.188:8085/'
+
+2018-05-08 11:53:36 - [MESSAGE][PASSED] - Actual object 'http://18.188.55.188:8085/' and expected object 'http://18.188.55.188:8085/' are equal
+
+2018-05-08 11:53:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 11:53:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 11:50:34 - [TEST_SUITE][PASSED] - Test Suite for Login Test Case for Empty Username: Test Cases/Login Test Case for Empty Username]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
