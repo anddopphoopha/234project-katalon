@@ -32,9 +32,21 @@ WebUI.setText(findTestObject('Login/Login Fail 3/input_password'), password)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.sendKeys(findTestObject('Login/Login Fail 3/input_password'), Keys.chord(Keys.BACK_SPACE))
+def inputLength = password.toString().length()
+
+println(inputLength)
+
+while(inputLength > 0){
+	WebUI.sendKeys(findTestObject('Login/Login Fail 3/input_password'), Keys.chord(Keys.BACK_SPACE))
+	inputLength--
+}
+
+WebUI.setText(findTestObject('Login/Login Fail 3/input_username'), username)
 
 WebUI.waitForElementPresent(findTestObject('Login/Login Fail 3/passwordNotification'), 0)
+
+WebUI.waitForElementAttributeValue(findTestObject('Login/Login Fail 3/passwordNotification')
+	, 'class' , 'text-danger', 0)
 
 WebUI.verifyElementText(findTestObject('Login/Login Fail 3/passwordNotification'), 'Password is required')
 
